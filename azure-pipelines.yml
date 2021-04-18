@@ -27,4 +27,4 @@ steps:
     azureSubscription: 'Pay-As-You-Go-1(12878f76-9141-4997-a45a-57feced15506)'
     appType: 'webApp'
     WebAppName: 'jw-form-builder'
-    packageForLinux: '$(System.DefaultWorkingDirectory)/**/dist/FormBuilder'
+    packageForLinux: '$(System.DefaultWorkingDirectory)/**/dist/FormBuilder/**'
