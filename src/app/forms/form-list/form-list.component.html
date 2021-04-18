@@ -1,0 +1,14 @@
+<h2>Forms</h2>
+<table mat-table [dataSource]="forms$" class="mat-elevation-z8">
+  <mat-text-column name="id"></mat-text-column>
+  <mat-text-column name="name"></mat-text-column>
+  <mat-text-column name="version"></mat-text-column>
+  <ng-container matColumnDef="isPublished">
+    <th mat-header-cell *matHeaderCellDef>Published</th>
+    <td mat-cell *matCellDef="let form"> {{form.isPublished}} </td>
+  </ng-container>
+  <mat-text-column name="type"></mat-text-column>
+
+  <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+  <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+</table>
