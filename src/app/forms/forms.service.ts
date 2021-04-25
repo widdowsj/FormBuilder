@@ -1,20 +1,36 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
+import { Router } from '@angular/router';
 import { Observable } from 'rxjs';
-import { startWith, tap } from 'rxjs/operators';
+import { startWith } from 'rxjs/operators';
+import { FormDetail } from './forms.entities';
 
 @Injectable({
   providedIn: 'root'
 })
 export class FormsService {
 
-  constructor(private http: HttpClient) { }
+  constructor(private http: HttpClient, private router: Router) { }
 
   getForms(): Observable<FormMetaData[]> {
     return this.http.get<FormMetaData[]>('/assets/form-list.json').pipe(
       startWith([]),
-      tap(x => console.log('data', x)),
     );
+  }
+
+  getFormDetail(id: string): Observable<FormDetail> {
+    let formName = '';
+    switch (id) {
+      case '1':
+        formName = 'karls building blocks.json';
+        break;
+      case '2':
+        formName = 'application to become an employer.json';
+        break;
+      default:
+        this.router.navigate(['/not-found'], { skipLocationChange: true });
+    }
+    return this.http.get<FormDetail>(`/assets/${formName}`)
   }
 }
 

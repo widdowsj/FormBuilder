@@ -1,7 +1,10 @@
 <h2>Forms</h2>
 <table mat-table [dataSource]="forms$" class="mat-elevation-z8">
   <mat-text-column name="id"></mat-text-column>
-  <mat-text-column name="name"></mat-text-column>
+  <ng-container matColumnDef="name">
+    <th mat-header-cell *matHeaderCellDef>Published</th>
+    <td mat-cell *matCellDef="let form"><a [routerLink]="['form', form.id]">{{form.name}}</a></td>
+  </ng-container>
   <mat-text-column name="version"></mat-text-column>
   <ng-container matColumnDef="isPublished">
     <th mat-header-cell *matHeaderCellDef>Published</th>

@@ -1,0 +1,13 @@
+<mat-vertical-stepper *ngIf="form$ | async as form">
+  <mat-step *ngFor="let page of form.Pages">
+    <ng-template matStepLabel>{{page.Description}}</ng-template>
+    Test 1
+  </mat-step>
+  <mat-step>
+    <ng-template matStepLabel>Step 2</ng-template>
+    Test 2
+  </mat-step>
+</mat-vertical-stepper>
+
+<p>Form: </p>
+<textarea readonly rows="50" cols="160">{{form$ | async | json}}</textarea>

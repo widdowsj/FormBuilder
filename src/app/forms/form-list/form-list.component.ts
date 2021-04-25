@@ -11,7 +11,7 @@ export class FormListComponent implements OnInit {
   forms$: Observable<FormMetaData[]>;
   displayedColumns = ['id', 'name', 'version', 'isPublished', 'type'];
 
-  constructor(private formsService: FormsService) {
+  constructor(formsService: FormsService) {
     this.forms$ = formsService.getForms();
   }
 
