@@ -3,7 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31129.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FormBuilder", "FormBuilder.csproj", "{DF8637ED-FB7C-42A1-8406-FDB3F4DF400E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FormBuilder", "FormBuilder\FormBuilder.csproj", "{ACF76468-53A1-4247-B54C-29EE007E11D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Converter", "Converter\Converter.csproj", "{076AB253-9AF3-47FE-B051-CD5856C0B824}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DB32FBC8-669A-4148-AC31-8EC0C8B7B2DD}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+		azure-pipelines.yml = azure-pipelines.yml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +20,19 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{DF8637ED-FB7C-42A1-8406-FDB3F4DF400E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DF8637ED-FB7C-42A1-8406-FDB3F4DF400E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DF8637ED-FB7C-42A1-8406-FDB3F4DF400E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DF8637ED-FB7C-42A1-8406-FDB3F4DF400E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACF76468-53A1-4247-B54C-29EE007E11D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACF76468-53A1-4247-B54C-29EE007E11D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACF76468-53A1-4247-B54C-29EE007E11D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACF76468-53A1-4247-B54C-29EE007E11D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{076AB253-9AF3-47FE-B051-CD5856C0B824}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{076AB253-9AF3-47FE-B051-CD5856C0B824}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{076AB253-9AF3-47FE-B051-CD5856C0B824}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{076AB253-9AF3-47FE-B051-CD5856C0B824}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {12F6C8EF-4DE0-4E7F-849B-C08706BB96D0}
+		SolutionGuid = {4A148768-F461-47B3-8152-1496A0284661}
 	EndGlobalSection
 EndGlobal
