@@ -16,7 +16,7 @@ steps:
   displayName: 'Install Node.js'
 
 - script: |
-    cwd FormBuilder
+    cd FormBuilder
     npm install -g @angular/cli
     npm install
     ng build --prod
