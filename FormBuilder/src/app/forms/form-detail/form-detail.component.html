@@ -1,11 +1,7 @@
 <mat-vertical-stepper *ngIf="form$ | async as form">
-  <mat-step *ngFor="let page of form.Pages">
-    <ng-template matStepLabel>{{page.Description}}</ng-template>
-    Test 1
-  </mat-step>
-  <mat-step>
-    <ng-template matStepLabel>Step 2</ng-template>
-    Test 2
+  <mat-step *ngFor="let page of form.pageList">
+    <ng-template matStepLabel>{{page.text}}</ng-template>
+    <app-page-detail [page]='page' [itemList]='form.itemList'></app-page-detail>
   </mat-step>
 </mat-vertical-stepper>
 

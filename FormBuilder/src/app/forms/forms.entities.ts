@@ -1,8 +1,15 @@
 export interface FormDetail {
-  Pages: Page[];
+  pageList: Page[];
+  itemList: FormItem[];
 }
 
 export interface Page {
-  Order: number;
-  Description: string;
+  pageId: string;
+  order: number;
+  text: string;
+}
+
+export interface FormItem {
+  pageId: string;
+  text: string;
 }

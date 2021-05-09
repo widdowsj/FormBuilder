@@ -19,5 +19,4 @@ export class FormDetailComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
 }
