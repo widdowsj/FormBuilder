@@ -1,0 +1,4287 @@
+{
+  "Name": "Application to become an Approved Employer for the Seasonal Worker Programme",
+  "QuestionnaireId": 578,
+  "QuestionnaireType": "SWP Application Form",
+  "IsPublished": true,
+  "Pages": [
+    {
+      "Order": 1,
+      "Description": "Entity details",
+      "QuestionList": [
+        {
+          "QuestionThreadId": "96852c8f-d4a9-4a3d-998e-848edd3b7393",
+          "Order": 1
+        },
+        {
+          "QuestionThreadId": "650b7a97-2e52-4cb4-bebc-f74bfcf30bb8",
+          "Order": 2
+        },
+        {
+          "QuestionThreadId": "b0b7168d-e1ba-417d-ae8c-3003cf2a8775",
+          "Order": 3
+        },
+        {
+          "QuestionThreadId": "1ca839a1-0865-46cb-8a89-fc23208efaac",
+          "Order": 4
+        },
+        {
+          "QuestionThreadId": "51544f97-42b1-49f1-b5c8-7f04f568e8d6",
+          "Order": 5
+        },
+        {
+          "QuestionThreadId": "24433988-54e4-458f-84e4-eaa6a35c0649",
+          "Order": 6
+        },
+        {
+          "QuestionThreadId": "5f0c9ba3-f87b-493f-a054-ee6ce5643a90",
+          "Order": 7
+        },
+        {
+          "QuestionThreadId": "887e877f-c5b7-4714-a271-e181d2e48904",
+          "Order": 8
+        }
+      ]
+    },
+    {
+      "Order": 2,
+      "Description": "Application Process",
+      "QuestionList": [
+        {
+          "QuestionThreadId": "1c920db9-7927-4c74-84b4-351d338a2b54",
+          "Order": 1
+        }
+      ]
+    },
+    {
+      "Order": 3,
+      "Description": "Entity addresses",
+      "QuestionList": [
+        {
+          "QuestionThreadId": "21649f8d-e4e3-4433-a28f-706bdf5e4da7",
+          "Order": 1
+        },
+        {
+          "QuestionThreadId": "507ed2b3-2918-435b-9bfa-4649f17b5d0c",
+          "Order": 2
+        },
+        {
+          "QuestionThreadId": "d844c893-7bc2-4bbc-a61d-5d422d5fcc0a",
+          "Order": 3
+        }
+      ]
+    },
+    {
+      "Order": 4,
+      "Description": "Contact details",
+      "QuestionList": [
+        {
+          "QuestionThreadId": "75adaa1e-308e-47e3-ac1a-81eb8388c626",
+          "Order": 1
+        },
+        {
+          "QuestionThreadId": "c797748f-1b1e-4fe2-8b9e-530eca8a61a6",
+          "Order": 2
+        }
+      ]
+    },
+    {
+      "Order": 5,
+      "Description": "Eligibility",
+      "QuestionList": [
+        {
+          "QuestionThreadId": "cbf51c68-3ee4-48c8-81a0-77a7b60e5b00",
+          "Order": 1
+        }
+      ]
+    },
+    {
+      "Order": 6,
+      "Description": "Proposed employment of seasonal workers under the SWP",
+      "QuestionList": [
+        {
+          "QuestionThreadId": "b8f87802-33c3-4793-af58-ba9b222de3ae",
+          "Order": 1
+        },
+        {
+          "QuestionThreadId": "4b9af36b-03f4-44eb-96cc-9a1cbcedbb75",
+          "Order": 2
+        },
+        {
+          "QuestionThreadId": "cba24fa9-b07c-4d4f-a92a-aace98ded4ab",
+          "Order": 3
+        },
+        {
+          "QuestionThreadId": "cf798ec8-43a9-456c-bdb8-82fef6672803",
+          "Order": 4
+        },
+        {
+          "QuestionThreadId": "4c201e39-a646-402c-8834-01e64133ecb1",
+          "Order": 5
+        },
+        {
+          "QuestionThreadId": "720d5601-610b-4d2f-9c11-e30a3252b7ca",
+          "Order": 6
+        },
+        {
+          "QuestionThreadId": "35361fda-498c-4995-a493-42c20e972d5d",
+          "Order": 7
+        },
+        {
+          "QuestionThreadId": "f4915db5-5cc6-4034-bd7d-e3f39df128e4",
+          "Order": 8
+        },
+        {
+          "QuestionThreadId": "2ec46862-4e53-4e7f-bde6-8a11c92c1a5b",
+          "Order": 9
+        },
+        {
+          "QuestionThreadId": "23f1e922-a2bd-4441-af18-91fc787820f5",
+          "Order": 10
+        },
+        {
+          "QuestionThreadId": "2da94313-89de-4e54-b0c7-3075acacabc5",
+          "Order": 11
+        }
+      ]
+    },
+    {
+      "Order": 7,
+      "Description": "Agreement to programme requirements",
+      "QuestionList": [
+        {
+          "QuestionThreadId": "11ffb1be-d82d-439d-9b7e-1193f7038feb",
+          "Order": 1
+        },
+        {
+          "QuestionThreadId": "0860910f-4d90-4924-bfe8-65dc6313c242",
+          "Order": 2
+        }
+      ]
+    },
+    {
+      "Order": 8,
+      "Description": "Compliance",
+      "QuestionList": [
+        {
+          "QuestionThreadId": "43ca8060-cb77-44f2-b7b1-c9c19f566a54",
+          "Order": 1
+        },
+        {
+          "QuestionThreadId": "6f9e8e2e-aca8-497c-a168-71bdf00b0ceb",
+          "Order": 2
+        },
+        {
+          "QuestionThreadId": "bc8b623b-e90d-4439-a548-ff23259c0142",
+          "Order": 3
+        },
+        {
+          "QuestionThreadId": "713ece35-ed56-4051-8107-f6bdca846f17",
+          "Order": 4
+        },
+        {
+          "QuestionThreadId": "0de17657-8229-4ed7-9c81-440b7ee569ef",
+          "Order": 5
+        }
+      ]
+    },
+    {
+      "Order": 9,
+      "Description": "Previous applications",
+      "QuestionList": [
+        {
+          "QuestionThreadId": "8a5f4e08-589e-4f1b-9a3a-05cdc20cc5a0",
+          "Order": 1
+        }
+      ]
+    },
+    {
+      "Order": 10,
+      "Description": "Employee details",
+      "QuestionList": [
+        {
+          "QuestionThreadId": "7a1b4076-1009-410d-8e2e-1628ea6e8064",
+          "Order": 1
+        },
+        {
+          "QuestionThreadId": "e3b9684e-b7e2-49e8-a6dd-18145f13c46d",
+          "Order": 2
+        },
+        {
+          "QuestionThreadId": "38000832-8d36-4816-8525-953cfcd42514",
+          "Order": 3
+        }
+      ]
+    },
+    {
+      "Order": 11,
+      "Description": "Conflict of interest",
+      "QuestionList": [
+        {
+          "QuestionThreadId": "dee2fdf7-b273-422e-828a-c843933cb002",
+          "Order": 1
+        }
+      ]
+    },
+    {
+      "Order": 12,
+      "Description": "Referees",
+      "QuestionList": [
+        {
+          "QuestionThreadId": "02e11bb6-d540-4e6e-88d5-48274f6c73ca",
+          "Order": 1
+        }
+      ]
+    },
+    {
+      "Order": 13,
+      "Description": "Privacy and Consent",
+      "QuestionList": [
+        {
+          "QuestionThreadId": "f4975328-778f-48a7-a79c-dbb12707350c",
+          "Order": 1
+        },
+        {
+          "QuestionThreadId": "4f533045-ff8a-4966-b90b-966d4f81acf0",
+          "Order": 2
+        }
+      ]
+    },
+    {
+      "Order": 14,
+      "Description": "Disclaimer",
+      "QuestionList": [
+        {
+          "QuestionThreadId": "0ca647bd-e7e3-4969-abb1-f941dfe2673d",
+          "Order": 1
+        }
+      ]
+    },
+    {
+      "Order": 15,
+      "Description": "Declaration",
+      "QuestionList": [
+        {
+          "QuestionThreadId": "31ca782e-42ab-4e3f-b1c4-dd2e0afc4f7f",
+          "Order": 1
+        }
+      ]
+    }
+  ],
+  "QuestionList": [
+    {
+      "InternalDescription": "question id: 13329",
+      "QuestionThreadId": "b0b7168d-e1ba-417d-ae8c-3003cf2a8775",
+      "Order": 1,
+      "QuestionType": "Text",
+      "Text": "<b>Business name, if different from Legal name</b>",
+      "RootQuestionThreadId": null,
+      "ParentQuestionThreadId": null,
+      "ParentConditionalValue": null,
+      "RelatedQuestionThreadId": null,
+      "RelatedConditionalValue": null,
+      "Attributes": [
+        {
+          "Type": "Copy to field on submit",
+          "Parameter": "Swp.Domain.Applications.Commands.CopyBusinessName"
+        }
+      ],
+      "Fields": [],
+      "Options": []
+    },
+    {
+      "InternalDescription": "question id: 13707",
+      "QuestionThreadId": "51544f97-42b1-49f1-b5c8-7f04f568e8d6",
+      "Order": 1,
+      "QuestionType": "Text",
+      "Text": "<b>For Trust please provide the Australian Company Number (ACN)</b>",
+      "RootQuestionThreadId": null,
+      "ParentQuestionThreadId": null,
+      "ParentConditionalValue": null,
+      "RelatedQuestionThreadId": null,
+      "RelatedConditionalValue": null,
+      "Attributes": [
+        {
+          "Type": "Copy to field on submit",
+          "Parameter": "Swp.Domain.Applications.Commands.CopyACN"
+        }
+      ],
+      "Fields": [
+        {
+          "Type": "Text",
+          "Text": "Application Number",
+          "Order": 1
+        },
+        {
+          "Type": "Text",
+          "Text": "Client Number",
+          "Order": 2
+        }
+      ],
+      "Options": []
+    },
+    {
+      "InternalDescription": "SWP - Address Search",
+      "QuestionThreadId": "e3f6fbd5-ea1a-455b-b57e-46aa46dee0e9",
+      "Order": 1,
+      "QuestionType": "Text",
+      "Text": "<b>Address Search</b>",
+      "RootQuestionThreadId": "d844c893-7bc2-4bbc-a61d-5d422d5fcc0a",
+      "ParentQuestionThreadId": "0d78254d-adaf-4b81-8bb2-0e37d9cbd2bc",
+      "ParentConditionalValue": null,
+      "RelatedQuestionThreadId": "0d78254d-adaf-4b81-8bb2-0e37d9cbd2bc",
+      "RelatedConditionalValue": null,
+      "Attributes": [
+        {
+          "Type": "Help Text",
+          "Parameter": "Start typing your address into the address search field to lookup your address.  If you cannot find your address, select the 'manually enter address' checkbox and enter your address details into the address fields.  Please note that the search facility cannot search for PO Boxes."
+        },
+        {
+          "Type": "Hide Optional Tag",
+          "Parameter": ""
+        }
+      ],
+      "Fields": [],
+      "Options": []
+    },
+    {
+      "InternalDescription": "SWP - Street",
+      "QuestionThreadId": "3eed15ad-606a-4b9a-a823-a5689603f7de",
+      "Order": 2,
+      "QuestionType": "Text",
+      "Text": "<b>Street</b>",
+      "RootQuestionThreadId": "d844c893-7bc2-4bbc-a61d-5d422d5fcc0a",
+      "ParentQuestionThreadId": "e3f6fbd5-ea1a-455b-b57e-46aa46dee0e9",
+      "ParentConditionalValue": null,
+      "RelatedQuestionThreadId": "216ac538-b702-4ed2-b353-664cc9a40310",
+      "RelatedConditionalValue": "2",
+      "Attributes": [
+        {
+          "Type": "Copy to field on submit",
+          "Parameter": "Swp.Domain.Applications.Commands.EmployerPostalAddressStreet"
+        },
+        {
+          "Type": "Mandatory To Submit",
+          "Parameter": ""
+        }
+      ],
+      "Fields": [],
+      "Options": []
+    },
+    {
+      "InternalDescription": "SWP - Suburb",
+      "QuestionThreadId": "b04f9c00-2c45-4f60-9051-40d78a57dc8d",
+      "Order": 3,
+      "QuestionType": "Text",
+      "Text": "<b>Suburb/City</b>",
+      "RootQuestionThreadId": "d844c893-7bc2-4bbc-a61d-5d422d5fcc0a",
+      "ParentQuestionThreadId": "e3f6fbd5-ea1a-455b-b57e-46aa46dee0e9",
+      "ParentConditionalValue": null,
+      "RelatedQuestionThreadId": "216ac538-b702-4ed2-b353-664cc9a40310",
+      "RelatedConditionalValue": "2",
+      "Attributes": [
+        {
+          "Type": "Mandatory To Submit",
+          "Parameter": ""
+        },
+        {
+          "Type": "Copy to field on submit",
+          "Parameter": "Swp.Domain.Applications.Commands.EmployerPostalAddressSuburb"
+        }
+      ],
+      "Fields": [],
+      "Options": []
+    },
+    {
+      "InternalDescription": "SWP - Postcode",
+      "QuestionThreadId": "2d49ecb3-7296-4c70-8b0e-1a06d4bc393b",
+      "Order": 5,
+      "QuestionType": "Text",
+      "Text": "<b>Postcode</b>",
+      "RootQuestionThreadId": "d844c893-7bc2-4bbc-a61d-5d422d5fcc0a",
+      "ParentQuestionThreadId": "e3f6fbd5-ea1a-455b-b57e-46aa46dee0e9",
+      "ParentConditionalValue": null,
+      "RelatedQuestionThreadId": "216ac538-b702-4ed2-b353-664cc9a40310",
+      "RelatedConditionalValue": "2",
+      "Attributes": [
+        {
+          "Type": "Copy to field on submit",
+          "Parameter": "Swp.Domain.Applications.Commands.EmployerPostalAddressPostcode"
+        },
+        {
+          "Type": "Max Length",
+          "Parameter": "5"
+        },
+        {
+          "Type": "Mandatory To Submit",
+          "Parameter": ""
+        }
+      ],
+      "Fields": [],
+      "Options": []
+    },
+    {
+      "InternalDescription": "SWP - Street",
+      "QuestionThreadId": "55dd087e-e2b2-4115-beda-17013841ec37",
+      "Order": 2,
+      "QuestionType": "Text",
+      "Text": "<b>Street</b>",
+      "RootQuestionThreadId": "507ed2b3-2918-435b-9bfa-4649f17b5d0c",
+      "ParentQuestionThreadId": "e172806e-bff7-499b-ac32-780368c38a55",
+      "ParentConditionalValue": null,
+      "RelatedQuestionThreadId": "507ed2b3-2918-435b-9bfa-4649f17b5d0c",
+      "RelatedConditionalValue": "2",
+      "Attributes": [
+        {
+          "Type": "Mandatory To Submit",
+          "Parameter": ""
+        },
+        {
+          "Type": "Copy to field on submit",
+          "Parameter": "Swp.Domain.Applications.Commands.EmployerTradingAddressStreet"
+        },
+        {
+          "Type": "Address Field",
+          "Parameter": "AddressLine1"
+        }
+      ],
+      "Fields": [],
+      "Options": []
+    },
+    {
+      "InternalDescription": "SWP - Suburb",
+      "QuestionThreadId": "bb00c4b6-44f3-44e1-b3dd-d61d732064d3",
+      "Order": 3,
+      "QuestionType": "Text",
+      "Text": "<b>Suburb/City</b>",
+      "RootQuestionThreadId": "507ed2b3-2918-435b-9bfa-4649f17b5d0c",
+      "ParentQuestionThreadId": "e172806e-bff7-499b-ac32-780368c38a55",
+      "ParentConditionalValue": null,
+      "RelatedQuestionThreadId": "507ed2b3-2918-435b-9bfa-4649f17b5d0c",
+      "RelatedConditionalValue": "2",
+      "Attributes": [
+        {
+          "Type": "Address Field",
+          "Parameter": "Locality"
+        },
+        {
+          "Type": "Copy to field on submit",
+          "Parameter": "Swp.Domain.Applications.Commands.EmployerTradingAddressSuburb"
+        },
+        {
+          "Type": "Mandatory To Submit",
+          "Parameter": ""
+        }
+      ],
+      "Fields": [],
+      "Options": []
+    },
+    {
+      "InternalDescription": "SWP - Postcode",
+      "QuestionThreadId": "6089528e-a697-4d7e-801f-9f1bfe6cf1f4",
+      "Order": 5,
+      "QuestionType": "Text",
+      "Text": "<b>Postcode</b>",
+      "RootQuestionThreadId": "507ed2b3-2918-435b-9bfa-4649f17b5d0c",
+      "ParentQuestionThreadId": "e172806e-bff7-499b-ac32-780368c38a55",
+      "ParentConditionalValue": null,
+      "RelatedQuestionThreadId": "507ed2b3-2918-435b-9bfa-4649f17b5d0c",
+      "RelatedConditionalValue": "2",
+      "Attributes": [
+        {
+          "Type": "Copy to field on submit",
+          "Parameter": "Swp.Domain.Applications.Commands.EmployerTradingAddressPostcode"
+        },
+        {
+          "Type": "Mandatory To Submit",
+          "Parameter": ""
+        },
+        {
+          "Type": "Max Length",
+          "Parameter": "5"
+        },
+        {
+          "Type": "Address Field",
+          "Parameter": "Postcode"
+        }
+      ],
+      "Fields": [],
+      "Options": []
+    },
+    {
+      "InternalDescription": "SWP - Street",
+      "QuestionThreadId": "7dfa49e0-dd11-4fce-99d2-40d32db15820",
+      "Order": 1,
+      "QuestionType": "Text",
+      "Text": "<b>Street</b>",
+      "RootQuestionThreadId": "21649f8d-e4e3-4433-a28f-706bdf5e4da7",
+      "ParentQuestionThreadId": "53c7713c-ed91-476b-a6ac-da9542342ea5",
+      "ParentConditionalValue": null,
+      "RelatedQuestionThreadId": "53c7713c-ed91-476b-a6ac-da9542342ea5",
+      "RelatedConditionalValue": null,
+      "Attributes": [
+        {
+          "Type": "Address Field",
+          "Parameter": "AddressLine1"
+        },
+        {
+          "Type": "Copy to field on submit",
+          "Parameter": "Swp.Domain.Applications.Commands.EmployerRegisteredAddressStreet"
+        },
+        {
+          "Type": "Mandatory To Submit",
+          "Parameter": ""
+        }
+      ],
+      "Fields": [],
+      "Options": []
+    },
+    {
+      "InternalDescription": "SWP - Suburb/City",
+      "QuestionThreadId": "f6cde243-99ee-4ebf-9777-0dff65c4f7d2",
+      "Order": 2,
+      "QuestionType": "Text",
+      "Text": "<b>Suburb/City</b>",
+      "RootQuestionThreadId": "21649f8d-e4e3-4433-a28f-706bdf5e4da7",
+      "ParentQuestionThreadId": "53c7713c-ed91-476b-a6ac-da9542342ea5",
+      "ParentConditionalValue": null,
+      "RelatedQuestionThreadId": "53c7713c-ed91-476b-a6ac-da9542342ea5",
+      "RelatedConditionalValue": null,
+      "Attributes": [
+        {
+          "Type": "Mandatory To Submit",
+          "Parameter": ""
+        },
+        {
+          "Type": "Copy to field on submit",
+          "Parameter": "Swp.Domain.Applications.Commands.EmployerRegisteredAddressSuburb"
+        },
+        {
+          "Type": "Address Field",
+          "Parameter": "Locality"
+        }
+      ],
+      "Fields": [],
+      "Options": []
+    },
+    {
+      "InternalDescription": "SWP - Postcode",
+      "QuestionThreadId": "64a5395d-5aa1-4945-b29b-9b8960bcaae0",
+      "Order": 4,
+      "QuestionType": "Text",
+      "Text": "<b>Postcode</b>",
+      "RootQuestionThreadId": "21649f8d-e4e3-4433-a28f-706bdf5e4da7",
+      "ParentQuestionThreadId": "53c7713c-ed91-476b-a6ac-da9542342ea5",
+      "ParentConditionalValue": null,
+      "RelatedQuestionThreadId": "53c7713c-ed91-476b-a6ac-da9542342ea5",
+      "RelatedConditionalValue": null,
+      "Attributes": [
+        {
+          "Type": "Address Field",
+          "Parameter": "Postcode"
+        },
+        {
+          "Type": "Max Length",
+          "Parameter": "5"
+        },
+        {
+          "Type": "Copy to field on submit",
+          "Parameter": "Swp.Domain.Applications.Commands.EmployerRegisteredAddressPostcode"
+        },
+        {
+          "Type": "Mandatory To Submit",
+          "Parameter": ""
+        }
+      ],
+      "Fields": [],
+      "Options": []
+    },
+    {
+      "InternalDescription": "Email",
+      "QuestionThreadId": "d639383f-17ff-4ac0-a4a2-cca295a2055c",
+      "Order": 6,
+      "QuestionType": "Text",
+      "Text": "<b>Email</b>",
+      "RootQuestionThreadId": "31ca782e-42ab-4e3f-b1c4-dd2e0afc4f7f",
+      "ParentQuestionThreadId": "0cc997cc-52d5-47b5-a9cd-5ac7ee5f7b68",
+      "ParentConditionalValue": null,
+      "RelatedQuestionThreadId": "0cc997cc-52d5-47b5-a9cd-5ac7ee5f7b68",
+      "RelatedConditionalValue": null,
+      "Attributes": [
+        {
+          "Type": "Mandatory To Submit",
+          "Parameter": ""
+        }
+      ],
+      "Fields": [],
+      "Options": []
+    },
+    {
+      "InternalDescription": "Contact number",
+      "QuestionThreadId": "8705755e-cad9-41f4-b174-53645c568380",
+      "Order": 5,
+      "QuestionType": "Text",
+      "Text": "<b>Contact number</b>",
+      "RootQuestionThreadId": "31ca782e-42ab-4e3f-b1c4-dd2e0afc4f7f",
+      "ParentQuestionThreadId": "0cc997cc-52d5-47b5-a9cd-5ac7ee5f7b68",
+      "ParentConditionalValue": null,
+      "RelatedQuestionThreadId": "0cc997cc-52d5-47b5-a9cd-5ac7ee5f7b68",
+      "RelatedConditionalValue": null,
+      "Attributes": [
+        {
+          "Type": "Mandatory To Submit",
+          "Parameter": ""
+        }
+      ],
+      "Fields": [],
+      "Options": []
+    },
+    {
+      "InternalDescription": "On behalf of (insert name of Entity)",
+      "QuestionThreadId": "e54d1391-2fe8-4a8b-a45f-e1dcb26adb80",
+      "Order": 3,
+      "QuestionType": "Text",
+      "Text": "<b>On behalf of (insert name of Entity)</b>",
+      "RootQuestionThreadId": "31ca782e-42ab-4e3f-b1c4-dd2e0afc4f7f",
+      "ParentQuestionThreadId": "0cc997cc-52d5-47b5-a9cd-5ac7ee5f7b68",
+      "ParentConditionalValue": null,
+      "RelatedQuestionThreadId": "0cc997cc-52d5-47b5-a9cd-5ac7ee5f7b68",
+      "RelatedConditionalValue": null,
+      "Attributes": [
+        {
+          "Type": "Mandatory To Submit",
+          "Parameter": ""
+        }
+      ],
+      "Fields": [],
+      "Options": []
+    },
+    {
+      "InternalDescription": "Position",
+      "QuestionThreadId": "711714c8-fe42-47e6-9e53-15dbb54545ea",
+      "Order": 2,
+      "QuestionType": "Text",
+      "Text": "<b>Position</b>",
+      "RootQuestionThreadId": "31ca782e-42ab-4e3f-b1c4-dd2e0afc4f7f",
+      "ParentQuestionThreadId": "0cc997cc-52d5-47b5-a9cd-5ac7ee5f7b68",
+      "ParentConditionalValue": null,
+      "RelatedQuestionThreadId": "0cc997cc-52d5-47b5-a9cd-5ac7ee5f7b68",
+      "RelatedConditionalValue": null,
+      "Attributes": [
+        {
+          "Type": "Mandatory To Submit",
+          "Parameter": ""
+        }
+      ],
+      "Fields": [],
+      "Options": []
+    },
+    {
+      "InternalDescription": "Full Name",
+      "QuestionThreadId": "d55fd025-2aae-4b75-8d81-12b13725ad92",
+      "Order": 1,
+      "QuestionType": "Text",
+      "Text": "<b>Full Name</b>",
+      "RootQuestionThreadId": "31ca782e-42ab-4e3f-b1c4-dd2e0afc4f7f",
+      "ParentQuestionThreadId": "0cc997cc-52d5-47b5-a9cd-5ac7ee5f7b68",
+      "ParentConditionalValue": null,
+      "RelatedQuestionThreadId": "0cc997cc-52d5-47b5-a9cd-5ac7ee5f7b68",
+      "RelatedConditionalValue": null,
+      "Attributes": [
+        {
+          "Type": "Mandatory To Submit",
+          "Parameter": ""
+        }
+      ],
+      "Fields": [],
+      "Options": []
+    },
+    {
+      "InternalDescription": "question id: 12275",
+      "QuestionThreadId": "aa2fd0c8-ecf5-498e-9889-825d80405d90",
+      "Order": 1,
+      "QuestionType": "Text",
+      "Text": "<b>Please enter the correct Legal Name</b>",
+      "RootQuestionThreadId": "96852c8f-d4a9-4a3d-998e-848edd3b7393",
+      "ParentQuestionThreadId": "dbf8446c-a6c2-4dad-9108-259069d15da4",
+      "ParentConditionalValue": "2",
+      "RelatedQuestionThreadId": "dbf8446c-a6c2-4dad-9108-259069d15da4",
+      "RelatedConditionalValue": "2",
+      "Attributes": [
+        {
+          "Type": "Mandatory To Submit",
+          "Parameter": ""
+        },
+        {
+          "Type": "Copy to field on submit",
+          "Parameter": "Swp.Domain.Applications.Commands.OverrideLegalNameOfEntity"
+        }
+      ],
+      "Fields": [],
+      "Options": []
+    },
+    {
+      "InternalDescription": "question id: 13520",
+      "QuestionThreadId": "720d5601-610b-4d2f-9c11-e30a3252b7ca",
+      "Order": 1,
+      "QuestionType": "Multiline Text",
+      "Text": "<b>Describe the range of proposed duties the seasonal workers would perform.</b>",
+      "RootQuestionThreadId": null,
+      "ParentQuestionThreadId": null,
+      "ParentConditionalValue": null,
+      "RelatedQuestionThreadId": null,
+      "RelatedConditionalValue": null,
+      "Attributes": [
+        {
+          "Type": "Rich Text Editor",
+          "Parameter": ""
+        },
+        {
+          "Type": "Mandatory To Submit",
+          "Parameter": ""
+        }
+      ],
+      "Fields": [],
+      "Options": []
+    },
+    {
+      "InternalDescription": "question id: 13709",
+      "QuestionThreadId": "2ec46862-4e53-4e7f-bde6-8a11c92c1a5b",
+      "Order": 1,
+      "QuestionType": "Multiline Text",
+      "Text": "<b>What welfare and wellbeing arrangements will you have in place to assist seasonal workers and ensure you meet the requirements of the Program?</b>",
+      "RootQuestionThreadId": null,
+      "ParentQuestionThreadId": null,
+      "ParentConditionalValue": null,
+      "RelatedQuestionThreadId": null,
+      "RelatedConditionalValue": null,
+      "Attributes": [
+        {
+          "Type": "Rich Text Editor",
+          "Parameter": ""
+        },
+        {
+          "Type": "Mandatory To Submit",
+          "Parameter": ""
+        },
+        {
+          "Type": "Help Text",
+          "Parameter": "As the employer of seasonal workers, Approved Employers are responsible for monitoring the seasonal workers’ wellbeing and welfare. This includes things such as work health and safety, access to health and medical assistance, assistance with financial matters (eg: opening bank accounts, payment of superannuation), community engagement, sporting and recreational, and transport and safe driving.  Please outline the strategies you will use to ensure the wellbeing and welfare of seasonal workers."
+        }
+      ],
+      "Fields": [],
+      "Options": []
+    },
+    {
+      "InternalDescription": "question id: 13710",
+      "QuestionThreadId": "23f1e922-a2bd-4441-af18-91fc787820f5",
+      "Order": 1,
+      "QuestionType": "Multiline Text",
+      "Text": "<b>What accommodation arrangements will you have in place for Seasonal Workers?</b>",
+      "RootQuestionThreadId": null,
+      "ParentQuestionThreadId": null,
+      "ParentConditionalValue": null,
+      "RelatedQuestionThreadId": null,
+      "RelatedConditionalValue": null,
+      "Attributes": [
+        {
+          "Type": "Mandatory To Submit",
+          "Parameter": ""
+        },
+        {
+          "Type": "Help Text",
+          "Parameter": "Seasonal Worker accommodation is to be provided by Approved Employers unless the Seasonal Worker elects to arrange their own accommodation. Please outline what accommodation (including the type (eg: house, caravan park etc) you will have available for seasonal workers."
+        },
+        {
+          "Type": "Rich Text Editor",
+          "Parameter": ""
+        }
+      ],
+      "Fields": [],
+      "Options": []
+    },
+    {
+      "InternalDescription": "SWP - what employees are paid under",
+      "QuestionThreadId": "4c201e39-a646-402c-8834-01e64133ecb1",
+      "Order": 1,
+      "QuestionType": "Multiline Text",
+      "Text": "<b>Under what Fair Work Instrument does the Entity propose to pay seasonal workers?</b><br><br>\r\n<i>Please outline whether the Entity has an Enterprise Agreement, or proposes to pay seasonal workers under another applicable Fair Work Instrument, such as the Horticulture Award.</i>",
+      "RootQuestionThreadId": null,
+      "ParentQuestionThreadId": null,
+      "ParentConditionalValue": null,
+      "RelatedQuestionThreadId": null,
+      "RelatedConditionalValue": null,
+      "Attributes": [
+        {
+          "Type": "Rich Text Editor",
+          "Parameter": ""
+        },
+        {
+          "Type": "Mandatory To Submit",
+          "Parameter": ""
+        }
+      ],
+      "Fields": [],
+      "Options": []
+    },
+    {
+      "InternalDescription": "question id: 13334",
+      "QuestionThreadId": "69fe5fec-e210-48b5-91ab-497dfde256e0",
+      "Order": 1,
+      "QuestionType": "Multiline Text",
+      "Text": "Please provide the name of the Approved Employer(s), how many times you hosted seasonal workers, the length of time and relevant dates",
+      "RootQuestionThreadId": "2da94313-89de-4e54-b0c7-3075acacabc5",
+      "ParentQuestionThreadId": "2da94313-89de-4e54-b0c7-3075acacabc5",
+      "ParentConditionalValue": "1",
+      "RelatedQuestionThreadId": "2da94313-89de-4e54-b0c7-3075acacabc5",
+      "RelatedConditionalValue": "1",
+      "Attributes": [
+        {
+          "Type": "Rich Text Editor",
+          "Parameter": ""
+        },
+        {
+          "Type": "Mandatory To Submit",
+          "Parameter": ""
+        }
+      ],
+      "Fields": [],
+      "Options": []
+    },
+    {
+      "InternalDescription": "SWP - details of government investigation",
+      "QuestionThreadId": "02278c51-2475-4c99-810e-46090011526e",
+      "Order": 1,
+      "QuestionType": "Multiline Text",
+      "Text": "<b>Please provide details</b>",
+      "RootQuestionThreadId": "bc8b623b-e90d-4439-a548-ff23259c0142",
+      "ParentQuestionThreadId": "bc8b623b-e90d-4439-a548-ff23259c0142",
+      "ParentConditionalValue": "1",
+      "RelatedQuestionThreadId": "bc8b623b-e90d-4439-a548-ff23259c0142",
+      "RelatedConditionalValue": "1",
+      "Attributes": [
+        {
+          "Type": "Rich Text Editor",
+          "Parameter": ""
+        },
+        {
+          "Type": "Mandatory To Submit",
+          "Parameter": ""
+        }
+      ],
+      "Fields": [],
+      "Options": []
+    },
+    {
+      "InternalDescription": "SWP - provide details of other entities",
+      "QuestionThreadId": "60090b9a-6557-4a37-8881-1da3646a9688",
+      "Order": 1,
+      "QuestionType": "Multiline Text",
+      "Text": "<b>Please provide details of those other Entities</b>",
+      "RootQuestionThreadId": "713ece35-ed56-4051-8107-f6bdca846f17",
+      "ParentQuestionThreadId": "713ece35-ed56-4051-8107-f6bdca846f17",
+      "ParentConditionalValue": "1",
+      "RelatedQuestionThreadId": "713ece35-ed56-4051-8107-f6bdca846f17",
+      "RelatedConditionalValue": "1",
+      "Attributes": [
+        {
+          "Type": "Mandatory To Submit",
+          "Parameter": ""
+        },
+        {
+          "Type": "Rich Text Editor",
+          "Parameter": ""
+        }
+      ],
+      "Fields": [
+        {
+          "Type": "Text",
+          "Text": "Entity Name",
+          "Order": 1
+        },
+        {
+          "Type": "Text",
+          "Text": "ABN",
+          "Order": 2
+        },
+        {
+          "Type": "Text",
+          "Text": "ACN",
+          "Order": 3
+        }
+      ],
+      "Options": []
+    },
+    {
+      "InternalDescription": "SWP - please provide details",
+      "QuestionThreadId": "1d8000b4-a2fe-43f4-b8db-5e3983bb4be1",
+      "Order": 1,
+      "QuestionType": "Multiline Text",
+      "Text": "<b>Please provide details</b>",
+      "RootQuestionThreadId": "0de17657-8229-4ed7-9c81-440b7ee569ef",
+      "ParentQuestionThreadId": "0de17657-8229-4ed7-9c81-440b7ee569ef",
+      "ParentConditionalValue": "1",
+      "RelatedQuestionThreadId": "0de17657-8229-4ed7-9c81-440b7ee569ef",
+      "RelatedConditionalValue": "1",
+      "Attributes": [
+        {
+          "Type": "Rich Text Editor",
+          "Parameter": ""
+        },
+        {
+          "Type": "Mandatory To Submit",
+          "Parameter": ""
+        }
+      ],
+      "Fields": [],
+      "Options": []
+    },
+    {
+      "InternalDescription": "SWP - please provide details",
+      "QuestionThreadId": "a41bc5cd-6a6c-4aba-8905-e9179b2b7725",
+      "Order": 1,
+      "QuestionType": "Multiline Text",
+      "Text": "<b>Please provide details</b>",
+      "RootQuestionThreadId": "6f9e8e2e-aca8-497c-a168-71bdf00b0ceb",
+      "ParentQuestionThreadId": "6f9e8e2e-aca8-497c-a168-71bdf00b0ceb",
+      "ParentConditionalValue": "1",
+      "RelatedQuestionThreadId": "6f9e8e2e-aca8-497c-a168-71bdf00b0ceb",
+      "RelatedConditionalValue": "1",
+      "Attributes": [
+        {
+          "Type": "Rich Text Editor",
+          "Parameter": ""
+        },
+        {
+          "Type": "Mandatory To Submit",
+          "Parameter": ""
+        }
+      ],
+      "Fields": [],
+      "Options": []
+    },
+    {
+      "InternalDescription": "SWP - Will all seasonal workers be employed in only Western Australia, Northern Territory, Tropical North Queensland or Kangaroo Island? ",
+      "QuestionThreadId": "2bcdedb8-f9eb-44d3-acd0-1d8c1009925f",
+      "Order": 1,
+      "QuestionType": "Multiline Text",
+      "Text": "<b>For Accommodation sector, please provide locations.</b><br><br>\r\n<i>NB: Only available in Western Australia, Northern Territory, Tropical North Queensland or Kangaroo Island.</i> ",
+      "RootQuestionThreadId": "4b9af36b-03f4-44eb-96cc-9a1cbcedbb75",
+      "ParentQuestionThreadId": "4b9af36b-03f4-44eb-96cc-9a1cbcedbb75",
+      "ParentConditionalValue": "2",
+      "RelatedQuestionThreadId": "4b9af36b-03f4-44eb-96cc-9a1cbcedbb75",
+      "RelatedConditionalValue": "2",
+      "Attributes": [
+        {
+          "Type": "Mandatory To Submit",
+          "Parameter": ""
+        }
+      ],
+      "Fields": [],
+      "Options": []
+    },
+    {
+      "InternalDescription": "question id: 13380",
+      "QuestionThreadId": "61754959-dfee-4725-add5-033a3f49efb4",
+      "Order": 2,
+      "QuestionType": "Multiline Text",
+      "Text": "<br><b>Please provide details</b>",
+      "RootQuestionThreadId": "dee2fdf7-b273-422e-828a-c843933cb002",
+      "ParentQuestionThreadId": "eb9d9bfc-6b18-4efb-a037-9f48fdce06da",
+      "ParentConditionalValue": "1",
+      "RelatedQuestionThreadId": "eb9d9bfc-6b18-4efb-a037-9f48fdce06da",
+      "RelatedConditionalValue": "1",
+      "Attributes": [
+        {
+          "Type": "Rich Text Editor",
+          "Parameter": ""
+        },
+        {
+          "Type": "Mandatory To Submit",
+          "Parameter": ""
+        }
+      ],
+      "Fields": [],
+      "Options": []
+    },
+    {
+      "InternalDescription": "SWP - policies and procedures desc",
+      "QuestionThreadId": "493df6c3-79af-4605-8cd5-b6fbab8306b9",
+      "Order": 1,
+      "QuestionType": "Multiline Text",
+      "Text": "Please describe your policies or procedures",
+      "RootQuestionThreadId": "f4915db5-5cc6-4034-bd7d-e3f39df128e4",
+      "ParentQuestionThreadId": "f4915db5-5cc6-4034-bd7d-e3f39df128e4",
+      "ParentConditionalValue": null,
+      "RelatedQuestionThreadId": "f4915db5-5cc6-4034-bd7d-e3f39df128e4",
+      "RelatedConditionalValue": null,
+      "Attributes": [
+        {
+          "Type": "Rich Text Editor",
+          "Parameter": ""
+        }
+      ],
+      "Fields": [],
+      "Options": []
+    },
+    {
+      "InternalDescription": "Address",
+      "QuestionThreadId": "da676191-3a6b-4243-9b36-c3c4314e635b",
+      "Order": 4,
+      "QuestionType": "Multiline Text",
+      "Text": "<b>Address</b>",
+      "RootQuestionThreadId": "31ca782e-42ab-4e3f-b1c4-dd2e0afc4f7f",
+      "ParentQuestionThreadId": "0cc997cc-52d5-47b5-a9cd-5ac7ee5f7b68",
+      "ParentConditionalValue": null,
+      "RelatedQuestionThreadId": "0cc997cc-52d5-47b5-a9cd-5ac7ee5f7b68",
+      "RelatedConditionalValue": null,
+      "Attributes": [
+        {
+          "Type": "Mandatory To Submit",
+          "Parameter": ""
+        }
+      ],
+      "Fields": [],
+      "Options": []
+    },
+    {
+      "InternalDescription": "question id: 13720",
+      "QuestionThreadId": "b8f87802-33c3-4793-af58-ba9b222de3ae",
+      "Order": 1,
+      "QuestionType": "Single Select",
+      "Text": "<b>What Approved Employer type is the Entity applying to become?</b>",
+      "RootQuestionThreadId": null,
+      "ParentQuestionThreadId": null,
+      "ParentConditionalValue": null,
+      "RelatedQuestionThreadId": null,
+      "RelatedConditionalValue": null,
+      "Attributes": [
+        {
+          "Type": "Dropdown",
+          "Parameter": ""
+        },
+        {
+          "Type": "Help Text",
+          "Parameter": "<i><b>Direct Employer</b></i><br><br>\r\nA direct employer will employ workers to perform work in their own business.\r\n<br><br>\r\n<i><b>Contractor</b></i>\r\n<br><br>\r\nA contractor will negotiate with eligible businesses for the provision of a service and will enter into agreements with eligible businesses that specify the work to be undertaken and a piece or paddock rate for the work. The business pays the contractor a fee for the service. \r\n<br><br>\r\n<i><b>Labour Hire Company</b></i>\r\n<br><br>\r\nA labour hire company will negotiate with eligible businesses for the provision of labour and will enter into agreements with eligible businesses that specify the number of workers to be provided, the type of work to be undertaken and on-hire rates. The business pays the labour hire company a fee for providing on-hire employees to work for them and ‘hosts’ the seasonal workers on their property."
+        },
+        {
+          "Type": "Mandatory To Submit",
+          "Parameter": ""
+        },
+        {
+          "Type": "ABR Field",
+          "Parameter": "EmploymentArrangement"
+        }
+      ],
+      "Fields": [],
+      "Options": [
+        {
+          "Value": "1",
+          "Text": "Contractor",
+          "Order": 1
+        },
+        {
+          "Value": "2",
+          "Text": "Small Grower",
+          "Order": 2
+        },
+        {
+          "Value": "3",
+          "Text": "Trust",
+          "Order": 3
+        },
+        {
+          "Value": "4",
+          "Text": "Labour Hire Company",
+          "Order": 4
+        },
+        {
+          "Value": "5",
+          "Text": "Large Grower",
+          "Order": 5
+        }
+      ]
+    },
+    {
+      "InternalDescription": "question id: 13333",
+      "QuestionThreadId": "2da94313-89de-4e54-b0c7-3075acacabc5",
+      "Order": 1,
+      "QuestionType": "Single Select",
+      "Text": "<b>Have you employed workers through the SWP previously using a labour hire company or contractor that is an Approved Employer?</b>",
+      "RootQuestionThreadId": null,
+      "ParentQuestionThreadId": null,
+      "ParentConditionalValue": null,
+      "RelatedQuestionThreadId": null,
+      "RelatedConditionalValue": null,
+      "Attributes": [
+        {
+          "Type": "Dropdown",
+          "Parameter": ""
+        },
+        {
+          "Type": "Mandatory To Submit",
+          "Parameter": ""
+        }
+      ],
+      "Fields": [],
+      "Options": [
+        {
+          "Value": "1",
+          "Text": "Yes",
+          "Order": 1
+        },
+        {
+          "Value": "2",
+          "Text": "No",
+          "Order": 2
+        }
+      ]
+    },
+    {
+      "InternalDescription": "question id: 13335",
+      "QuestionThreadId": "8a5f4e08-589e-4f1b-9a3a-05cdc20cc5a0",
+      "Order": 1,
+      "QuestionType": "Single Select",
+      "Text": "<b>Has the Entity or any of its relevant persons previously submitted an application to become an Approved Employer under the Seasonal Worker Programme?</b>",
+      "RootQuestionThreadId": null,
+      "ParentQuestionThreadId": null,
+      "ParentConditionalValue": null,
+      "RelatedQuestionThreadId": null,
+      "RelatedConditionalValue": null,
+      "Attributes": [
+        {
+          "Type": "Dropdown",
+          "Parameter": ""
+        },
+        {
+          "Type": "Mandatory To Submit",
+          "Parameter": ""
+        },
+        {
+          "Type": "Help Text",
+          "Parameter": "Please note previous applications include applications that were closed by the department or withdrawn by the Entity.<br><br>Relevant persons for the purpose of this application include executive and non-executive directors, partners and senior managers."
+        }
+      ],
+      "Fields": [],
+      "Options": [
+        {
+          "Value": "1",
+          "Text": "Yes",
+          "Order": 1
+        },
+        {
+          "Value": "2",
+          "Text": "No",
+          "Order": 2
+        }
+      ]
+    },
+    {
+      "InternalDescription": "question id: 13525",
+      "QuestionThreadId": "c797748f-1b1e-4fe2-8b9e-530eca8a61a6",
+      "Order": 1,
+      "QuestionType": "Single Select",
+      "Text": "<b>Does the Entity wish to authorise the department to contact any other third parties, and for those third parties to provide information about the Entity to the department? </b><i>For example an accountant or lawyer.</i>",
+      "RootQuestionThreadId": null,
+      "ParentQuestionThreadId": null,
+      "ParentConditionalValue": null,
+      "RelatedQuestionThreadId": null,
+      "RelatedConditionalValue": null,
+      "Attributes": [
+        {
+          "Type": "Dropdown",
+          "Parameter": ""
+        },
+        {
+          "Type": "Mandatory To Submit",
+          "Parameter": ""
+        }
+      ],
+      "Fields": [],
+      "Options": [
+        {
+          "Value": "1",
+          "Text": "Yes",
+          "Order": 1
+        },
+        {
+          "Value": "2",
+          "Text": "No",
+          "Order": 2
+        }
+      ]
+    },
+    {
+      "InternalDescription": "SWP - government investigation of relevant person",
+      "QuestionThreadId": "bc8b623b-e90d-4439-a548-ff23259c0142",
+      "Order": 1,
+      "QuestionType": "Single Select",
+      "Text": "<b>Have the Entity’s relevant persons owned, worked in, managed or similarly been associated with any other entity (e.g. a company, partnership or trust) which has been subject to a Government investigation including compliance with workplace relations, work health and safety, immigration, taxation or criminal laws as a result of business dealings, both within and outside of Australia?</b>",
+      "RootQuestionThreadId": null,
+      "ParentQuestionThreadId": null,
+      "ParentConditionalValue": null,
+      "RelatedQuestionThreadId": null,
+      "RelatedConditionalValue": null,
+      "Attributes": [
+        {
+          "Type": "Mandatory To Submit",
+          "Parameter": ""
+        },
+        {
+          "Type": "Dropdown",
+          "Parameter": ""
+        }
+      ],
+      "Fields": [],
+      "Options": [
+        {
+          "Value": "1",
+          "Text": "Yes",
+          "Order": 1
+        },
+        {
+          "Value": "2",
+          "Text": "No",
+          "Order": 2
+        }
+      ]
+    },
+    {
+      "InternalDescription": "SWP - relationship with other entities",
+      "QuestionThreadId": "713ece35-ed56-4051-8107-f6bdca846f17",
+      "Order": 1,
+      "QuestionType": "Single Select",
+      "Text": "<b>Do any of the relevant persons of the Entity hold, or previously held within the last 5 years, the position of director for another Entity?</b>",
+      "RootQuestionThreadId": null,
+      "ParentQuestionThreadId": null,
+      "ParentConditionalValue": null,
+      "RelatedQuestionThreadId": null,
+      "RelatedConditionalValue": null,
+      "Attributes": [
+        {
+          "Type": "Dropdown",
+          "Parameter": ""
+        },
+        {
+          "Type": "Mandatory To Submit",
+          "Parameter": ""
+        }
+      ],
+      "Fields": [],
+      "Options": [
+        {
+          "Value": "1",
+          "Text": "Yes",
+          "Order": 1
+        },
+        {
+          "Value": "2",
+          "Text": "No",
+          "Order": 2
+        }
+      ]
+    },
+    {
+      "InternalDescription": "SWP - Postal Address",
+      "QuestionThreadId": "d844c893-7bc2-4bbc-a61d-5d422d5fcc0a",
+      "Order": 1,
+      "QuestionType": "Single Select",
+      "Text": "<b>Is the Entity's postal address the same as the registered address?</b>",
+      "RootQuestionThreadId": null,
+      "ParentQuestionThreadId": null,
+      "ParentConditionalValue": null,
+      "RelatedQuestionThreadId": null,
+      "RelatedConditionalValue": null,
+      "Attributes": [
+        {
+          "Type": "Copy to field on submit",
+          "Parameter": "Swp.Domain.Applications.Commands.PostalAddressSameAsRegistered"
+        },
+        {
+          "Type": "Dropdown",
+          "Parameter": ""
+        },
+        {
+          "Type": "Mandatory To Submit",
+          "Parameter": ""
+        }
+      ],
+      "Fields": [],
+      "Options": [
+        {
+          "Value": "1",
+          "Text": "Yes",
+          "Order": 1
+        },
+        {
+          "Value": "2",
+          "Text": "No",
+          "Order": 2
+        }
+      ]
+    },
+    {
+      "InternalDescription": "SWP - Relationship with other approved employer",
+      "QuestionThreadId": "0de17657-8229-4ed7-9c81-440b7ee569ef",
+      "Order": 1,
+      "QuestionType": "Single Select",
+      "Text": "<b>Does the Entity have a relationship with any existing Approved Employer?</b>",
+      "RootQuestionThreadId": null,
+      "ParentQuestionThreadId": null,
+      "ParentConditionalValue": null,
+      "RelatedQuestionThreadId": null,
+      "RelatedConditionalValue": null,
+      "Attributes": [
+        {
+          "Type": "Dropdown",
+          "Parameter": ""
+        },
+        {
+          "Type": "Mandatory To Submit",
+          "Parameter": ""
+        },
+        {
+          "Type": "Help Text",
+          "Parameter": "Related Entity or been a previous Host organisation for an Approved Employer."
+        }
+      ],
+      "Fields": [],
+      "Options": [
+        {
+          "Value": "1",
+          "Text": "Yes",
+          "Order": 1
+        },
+        {
+          "Value": "2",
+          "Text": "No",
+          "Order": 2
+        }
+      ]
+    },
+    {
+      "InternalDescription": "SWP - is the business currenty being investigated",
+      "QuestionThreadId": "6f9e8e2e-aca8-497c-a168-71bdf00b0ceb",
+      "Order": 1,
+      "QuestionType": "Single Select",
+      "Text": "<b>Have the Entity and/or the Entity’s relevant persons and/or related entities been subject to a Government investigation or inquiries from government authorities including compliance with workplace relations, work health and safety, immigration, taxation or criminal laws as a result of business dealings, both within or outside of Australia?</b>",
+      "RootQuestionThreadId": null,
+      "ParentQuestionThreadId": null,
+      "ParentConditionalValue": null,
+      "RelatedQuestionThreadId": null,
+      "RelatedConditionalValue": null,
+      "Attributes": [
+        {
+          "Type": "Validate On Submit",
+          "Parameter": "Swp.Domain.Questionnaires.Commands.InvestigatedByGovtAgencyValidator"
+        },
+        {
+          "Type": "Dropdown",
+          "Parameter": ""
+        },
+        {
+          "Type": "Mandatory To Submit",
+          "Parameter": ""
+        }
+      ],
+      "Fields": [],
+      "Options": [
+        {
+          "Value": "1",
+          "Text": "Yes",
+          "Order": 1
+        },
+        {
+          "Value": "2",
+          "Text": "No",
+          "Order": 2
+        }
+      ]
+    },
+    {
+      "InternalDescription": "SWP - Trading Address",
+      "QuestionThreadId": "507ed2b3-2918-435b-9bfa-4649f17b5d0c",
+      "Order": 1,
+      "QuestionType": "Single Select",
+      "Text": "<b>Is the trading address the same as the registered address?</b>",
+      "RootQuestionThreadId": null,
+      "ParentQuestionThreadId": null,
+      "ParentConditionalValue": null,
+      "RelatedQuestionThreadId": null,
+      "RelatedConditionalValue": null,
+      "Attributes": [
+        {
+          "Type": "Dropdown",
+          "Parameter": ""
+        },
+        {
+          "Type": "Mandatory To Submit",
+          "Parameter": ""
+        },
+        {
+          "Type": "Copy to field on submit",
+          "Parameter": "Swp.Domain.Applications.Commands.TradingAddressSameAsRegistered"
+        }
+      ],
+      "Fields": [],
+      "Options": [
+        {
+          "Value": "1",
+          "Text": "Yes",
+          "Order": 1
+        },
+        {
+          "Value": "2",
+          "Text": "No",
+          "Order": 2
+        }
+      ]
+    },
+    {
+      "InternalDescription": "SWP - same as trading address",
+      "QuestionThreadId": "216ac538-b702-4ed2-b353-664cc9a40310",
+      "Order": 1,
+      "QuestionType": "Single Select",
+      "Text": "<b>Is the Entity's postal address the same as the trading address?</b>",
+      "RootQuestionThreadId": "d844c893-7bc2-4bbc-a61d-5d422d5fcc0a",
+      "ParentQuestionThreadId": "d844c893-7bc2-4bbc-a61d-5d422d5fcc0a",
+      "ParentConditionalValue": "2",
+      "RelatedQuestionThreadId": "d844c893-7bc2-4bbc-a61d-5d422d5fcc0a",
+      "RelatedConditionalValue": "2",
+      "Attributes": [
+        {
+          "Type": "Mandatory To Submit",
+          "Parameter": ""
+        },
+        {
+          "Type": "Copy to field on submit",
+          "Parameter": "Swp.Domain.Applications.Commands.PostalAddressSameAsTrading"
+        },
+        {
+          "Type": "Dropdown",
+          "Parameter": ""
+        }
+      ],
+      "Fields": [],
+      "Options": [
+        {
+          "Value": "1",
+          "Text": "Yes",
+          "Order": 1
+        },
+        {
+          "Value": "2",
+          "Text": "No",
+          "Order": 2
+        }
+      ]
+    },
+    {
+      "InternalDescription": "SWP - State",
+      "QuestionThreadId": "35ee8d9c-3394-4e29-bf76-eedc51b423a5",
+      "Order": 4,
+      "QuestionType": "Single Select",
+      "Text": "<b>State</b>",
+      "RootQuestionThreadId": "d844c893-7bc2-4bbc-a61d-5d422d5fcc0a",
+      "ParentQuestionThreadId": "e3f6fbd5-ea1a-455b-b57e-46aa46dee0e9",
+      "ParentConditionalValue": null,
+      "RelatedQuestionThreadId": "216ac538-b702-4ed2-b353-664cc9a40310",
+      "RelatedConditionalValue": "2",
+      "Attributes": [
+        {
+          "Type": "Dropdown",
+          "Parameter": ""
+        },
+        {
+          "Type": "Mandatory To Submit",
+          "Parameter": ""
+        },
+        {
+          "Type": "Copy to field on submit",
+          "Parameter": "Swp.Domain.Applications.Commands.EmployerPostalAddressState"
+        }
+      ],
+      "Fields": [],
+      "Options": [
+        {
+          "Value": "1",
+          "Text": "ACT",
+          "Order": 1
+        },
+        {
+          "Value": "2",
+          "Text": "NSW",
+          "Order": 2
+        },
+        {
+          "Value": "3",
+          "Text": "QLD",
+          "Order": 3
+        },
+        {
+          "Value": "4",
+          "Text": "SA",
+          "Order": 4
+        },
+        {
+          "Value": "5",
+          "Text": "TAS",
+          "Order": 5
+        },
+        {
+          "Value": "6",
+          "Text": "VIC",
+          "Order": 6
+        },
+        {
+          "Value": "7",
+          "Text": "WA",
+          "Order": 7
+        },
+        {
+          "Value": "8",
+          "Text": "NT",
+          "Order": 8
+        }
+      ]
+    },
+    {
+      "InternalDescription": "SWP - State",
+      "QuestionThreadId": "25131a05-4d1a-4877-a612-1de82814ae8f",
+      "Order": 4,
+      "QuestionType": "Single Select",
+      "Text": "<b>State</b>",
+      "RootQuestionThreadId": "507ed2b3-2918-435b-9bfa-4649f17b5d0c",
+      "ParentQuestionThreadId": "e172806e-bff7-499b-ac32-780368c38a55",
+      "ParentConditionalValue": null,
+      "RelatedQuestionThreadId": "507ed2b3-2918-435b-9bfa-4649f17b5d0c",
+      "RelatedConditionalValue": "2",
+      "Attributes": [
+        {
+          "Type": "Dropdown",
+          "Parameter": ""
+        },
+        {
+          "Type": "Mandatory To Submit",
+          "Parameter": ""
+        },
+        {
+          "Type": "Address Field",
+          "Parameter": "State"
+        },
+        {
+          "Type": "Copy to field on submit",
+          "Parameter": "Swp.Domain.Applications.Commands.EmployerTradingAddressState"
+        }
+      ],
+      "Fields": [],
+      "Options": [
+        {
+          "Value": "1",
+          "Text": "ACT",
+          "Order": 1
+        },
+        {
+          "Value": "2",
+          "Text": "NSW",
+          "Order": 2
+        },
+        {
+          "Value": "3",
+          "Text": "QLD",
+          "Order": 3
+        },
+        {
+          "Value": "4",
+          "Text": "SA",
+          "Order": 4
+        },
+        {
+          "Value": "5",
+          "Text": "TAS",
+          "Order": 5
+        },
+        {
+          "Value": "6",
+          "Text": "VIC",
+          "Order": 6
+        },
+        {
+          "Value": "7",
+          "Text": "WA",
+          "Order": 7
+        },
+        {
+          "Value": "8",
+          "Text": "NT",
+          "Order": 8
+        }
+      ]
+    },
+    {
+      "InternalDescription": "question id: 13379",
+      "QuestionThreadId": "eb9d9bfc-6b18-4efb-a037-9f48fdce06da",
+      "Order": 1,
+      "QuestionType": "Single Select",
+      "Text": "<br><i>Should you require assistance in answering this question please call us for more information on (02) 6240 5234.</i>",
+      "RootQuestionThreadId": "dee2fdf7-b273-422e-828a-c843933cb002",
+      "ParentQuestionThreadId": "dee2fdf7-b273-422e-828a-c843933cb002",
+      "ParentConditionalValue": null,
+      "RelatedQuestionThreadId": "dee2fdf7-b273-422e-828a-c843933cb002",
+      "RelatedConditionalValue": null,
+      "Attributes": [
+        {
+          "Type": "Dropdown",
+          "Parameter": ""
+        },
+        {
+          "Type": "Mandatory To Submit",
+          "Parameter": ""
+        }
+      ],
+      "Fields": [],
+      "Options": [
+        {
+          "Value": "1",
+          "Text": "Yes",
+          "Order": 1
+        },
+        {
+          "Value": "2",
+          "Text": "No",
+          "Order": 2
+        }
+      ]
+    },
+    {
+      "InternalDescription": "SWP - State",
+      "QuestionThreadId": "1d2fed47-6ed4-47f4-8310-c823ce480cbd",
+      "Order": 3,
+      "QuestionType": "Single Select",
+      "Text": "<b>State</b>",
+      "RootQuestionThreadId": "21649f8d-e4e3-4433-a28f-706bdf5e4da7",
+      "ParentQuestionThreadId": "53c7713c-ed91-476b-a6ac-da9542342ea5",
+      "ParentConditionalValue": null,
+      "RelatedQuestionThreadId": "53c7713c-ed91-476b-a6ac-da9542342ea5",
+      "RelatedConditionalValue": null,
+      "Attributes": [
+        {
+          "Type": "Copy to field on submit",
+          "Parameter": "Swp.Domain.Applications.Commands.EmployerRegisteredAddressState"
+        },
+        {
+          "Type": "Address Field",
+          "Parameter": "State"
+        },
+        {
+          "Type": "Mandatory To Submit",
+          "Parameter": ""
+        },
+        {
+          "Type": "Dropdown",
+          "Parameter": ""
+        }
+      ],
+      "Fields": [],
+      "Options": [
+        {
+          "Value": "1",
+          "Text": "ACT",
+          "Order": 1
+        },
+        {
+          "Value": "2",
+          "Text": "NSW",
+          "Order": 2
+        },
+        {
+          "Value": "3",
+          "Text": "QLD",
+          "Order": 3
+        },
+        {
+          "Value": "4",
+          "Text": "SA",
+          "Order": 4
+        },
+        {
+          "Value": "5",
+          "Text": "TAS",
+          "Order": 5
+        },
+        {
+          "Value": "6",
+          "Text": "VIC",
+          "Order": 6
+        },
+        {
+          "Value": "7",
+          "Text": "WA",
+          "Order": 7
+        },
+        {
+          "Value": "8",
+          "Text": "NT",
+          "Order": 8
+        }
+      ]
+    },
+    {
+      "InternalDescription": "question id: 13414",
+      "QuestionThreadId": "a3bbc64a-854e-4a6f-8746-1a25a5d0b44b",
+      "Order": 1,
+      "QuestionType": "Single Select",
+      "Text": "<b>Is the Entity type as shown in the Australian Business Register correct?</b>",
+      "RootQuestionThreadId": "5f0c9ba3-f87b-493f-a054-ee6ce5643a90",
+      "ParentQuestionThreadId": "5f0c9ba3-f87b-493f-a054-ee6ce5643a90",
+      "ParentConditionalValue": null,
+      "RelatedQuestionThreadId": "5f0c9ba3-f87b-493f-a054-ee6ce5643a90",
+      "RelatedConditionalValue": null,
+      "Attributes": [
+        {
+          "Type": "Dropdown",
+          "Parameter": ""
+        },
+        {
+          "Type": "Mandatory To Submit",
+          "Parameter": ""
+        }
+      ],
+      "Fields": [],
+      "Options": [
+        {
+          "Value": "1",
+          "Text": "Yes",
+          "Order": 1
+        },
+        {
+          "Value": "2",
+          "Text": "No",
+          "Order": 2
+        }
+      ]
+    },
+    {
+      "InternalDescription": "question id: 13415",
+      "QuestionThreadId": "51a3a352-c65a-4907-a13f-817d6bfb0e5a",
+      "Order": 1,
+      "QuestionType": "Single Select",
+      "Text": "<b>Please select the correct entity type</b>",
+      "RootQuestionThreadId": "5f0c9ba3-f87b-493f-a054-ee6ce5643a90",
+      "ParentQuestionThreadId": "a3bbc64a-854e-4a6f-8746-1a25a5d0b44b",
+      "ParentConditionalValue": "2",
+      "RelatedQuestionThreadId": "a3bbc64a-854e-4a6f-8746-1a25a5d0b44b",
+      "RelatedConditionalValue": "2",
+      "Attributes": [
+        {
+          "Type": "Copy to field on submit",
+          "Parameter": "Swp.Domain.Applications.Commands.OverrideLookupEntityType"
+        },
+        {
+          "Type": "Dropdown",
+          "Parameter": ""
+        },
+        {
+          "Type": "Mandatory To Submit",
+          "Parameter": ""
+        }
+      ],
+      "Fields": [],
+      "Options": [
+        {
+          "Value": "1",
+          "Text": "Approved Deposit Fund",
+          "Order": 1
+        },
+        {
+          "Value": "2",
+          "Text": "APRA Regulated Fund (Fund Type Unknown)",
+          "Order": 2
+        },
+        {
+          "Value": "3",
+          "Text": "Commonwealth Government Public Company",
+          "Order": 3
+        },
+        {
+          "Value": "4",
+          "Text": "Commonwealth Government Co-operative",
+          "Order": 4
+        },
+        {
+          "Value": "5",
+          "Text": "Commonwealth Government Limited Partnership",
+          "Order": 5
+        },
+        {
+          "Value": "6",
+          "Text": "Commonwealth Government Other Unincorporated Entity",
+          "Order": 6
+        },
+        {
+          "Value": "7",
+          "Text": "Commonwealth Government Other Incorporated Entity",
+          "Order": 7
+        },
+        {
+          "Value": "8",
+          "Text": "Commonwealth Government Pooled Development Fund",
+          "Order": 8
+        },
+        {
+          "Value": "9",
+          "Text": "Commonwealth Government Private Company",
+          "Order": 9
+        },
+        {
+          "Value": "10",
+          "Text": "Commonwealth Government Strata Title",
+          "Order": 10
+        },
+        {
+          "Value": "11",
+          "Text": "Commonwealth Government Public Trading Trust",
+          "Order": 11
+        },
+        {
+          "Value": "12",
+          "Text": "Commonwealth Government Corporate Unit Trust",
+          "Order": 12
+        },
+        {
+          "Value": "13",
+          "Text": "Commonwealth Government Statutory Authority",
+          "Order": 13
+        },
+        {
+          "Value": "14",
+          "Text": "Commonwealth Government Company",
+          "Order": 14
+        },
+        {
+          "Value": "15",
+          "Text": "Commonwealth Government Entity",
+          "Order": 15
+        },
+        {
+          "Value": "16",
+          "Text": "Commonwealth Government Partnership",
+          "Order": 16
+        },
+        {
+          "Value": "17",
+          "Text": "Commonwealth Government Super Fund",
+          "Order": 17
+        },
+        {
+          "Value": "18",
+          "Text": "Commonwealth Government Trust",
+          "Order": 18
+        },
+        {
+          "Value": "19",
+          "Text": "Cash Management Trust",
+          "Order": 19
+        },
+        {
+          "Value": "20",
+          "Text": "Co-operative",
+          "Order": 20
+        },
+        {
+          "Value": "21",
+          "Text": "Commonwealth Government APRA Regulated Public Sector Fund",
+          "Order": 21
+        },
+        {
+          "Value": "22",
+          "Text": "Commonwealth Government APRA Regulated Public Sector Scheme",
+          "Order": 22
+        },
+        {
+          "Value": "23",
+          "Text": "Commonwealth Government Non-Regulated Super Fund",
+          "Order": 23
+        },
+        {
+          "Value": "24",
+          "Text": "Commonwealth Government Cash Management Trust",
+          "Order": 24
+        },
+        {
+          "Value": "25",
+          "Text": "Commonwealth Government Discretionary Services Management Trust",
+          "Order": 25
+        },
+        {
+          "Value": "26",
+          "Text": "Commonwealth Government Fixed Trust",
+          "Order": 26
+        },
+        {
+          "Value": "27",
+          "Text": "Commonwealth Government Hybrid Trust",
+          "Order": 27
+        },
+        {
+          "Value": "28",
+          "Text": "Commonwealth Government Discretionary Investment Trust",
+          "Order": 28
+        },
+        {
+          "Value": "29",
+          "Text": "Commonwealth Government Listed Public Unit Trust",
+          "Order": 29
+        },
+        {
+          "Value": "30",
+          "Text": "Commonwealth Government Unlisted Public Unit Trust",
+          "Order": 30
+        },
+        {
+          "Value": "31",
+          "Text": "Commonwealth Government Discretionary Trading Trust",
+          "Order": 31
+        },
+        {
+          "Value": "32",
+          "Text": "Commonwealth Government Fixed Unit Trust",
+          "Order": 32
+        },
+        {
+          "Value": "33",
+          "Text": "Corporate Unit Trust",
+          "Order": 33
+        },
+        {
+          "Value": "34",
+          "Text": "Deceased Estate",
+          "Order": 34
+        },
+        {
+          "Value": "35",
+          "Text": "Diplomatic/Consulate Body or High Commissioner",
+          "Order": 35
+        },
+        {
+          "Value": "36",
+          "Text": "Discretionary Investment Trust",
+          "Order": 36
+        },
+        {
+          "Value": "37",
+          "Text": "Discretionary Services Management Trust",
+          "Order": 37
+        },
+        {
+          "Value": "38",
+          "Text": "Discretionary Trading Trust",
+          "Order": 38
+        },
+        {
+          "Value": "39",
+          "Text": "First Home Saver Accounts Trust",
+          "Order": 39
+        },
+        {
+          "Value": "40",
+          "Text": "Family Partnership",
+          "Order": 40
+        },
+        {
+          "Value": "41",
+          "Text": "Fixed Unit Trust",
+          "Order": 41
+        },
+        {
+          "Value": "42",
+          "Text": "Fixed Trust",
+          "Order": 42
+        },
+        {
+          "Value": "43",
+          "Text": "Hybrid Trust",
+          "Order": 43
+        },
+        {
+          "Value": "44",
+          "Text": "Individual/Sole Trader",
+          "Order": 44
+        },
+        {
+          "Value": "45",
+          "Text": "Local Government Public Company",
+          "Order": 45
+        },
+        {
+          "Value": "46",
+          "Text": "Local Government Co-operative",
+          "Order": 46
+        },
+        {
+          "Value": "47",
+          "Text": "Local Government Limited Partnership",
+          "Order": 47
+        },
+        {
+          "Value": "48",
+          "Text": "Local Government Other Unincorporated Entity",
+          "Order": 48
+        },
+        {
+          "Value": "49",
+          "Text": "Local Government Other Incorporated Entity",
+          "Order": 49
+        },
+        {
+          "Value": "50",
+          "Text": "Local Government Pooled Development Fund",
+          "Order": 50
+        },
+        {
+          "Value": "51",
+          "Text": "Local Government Private Company",
+          "Order": 51
+        },
+        {
+          "Value": "52",
+          "Text": "Local Government Strata Title",
+          "Order": 52
+        },
+        {
+          "Value": "53",
+          "Text": "Local Government Public Trading Trust",
+          "Order": 53
+        },
+        {
+          "Value": "54",
+          "Text": "Local Government Corporate Unit Trust",
+          "Order": 54
+        },
+        {
+          "Value": "55",
+          "Text": "Local Government Statutory Authority",
+          "Order": 55
+        },
+        {
+          "Value": "56",
+          "Text": "Local Government Company",
+          "Order": 56
+        },
+        {
+          "Value": "57",
+          "Text": "Local Government Entity",
+          "Order": 57
+        },
+        {
+          "Value": "58",
+          "Text": "Local Government Partnership",
+          "Order": 58
+        },
+        {
+          "Value": "59",
+          "Text": "Local Government Trust",
+          "Order": 59
+        },
+        {
+          "Value": "60",
+          "Text": "Limited Partnership",
+          "Order": 60
+        },
+        {
+          "Value": "61",
+          "Text": "Local Government APRA Regulated Public Sector Fund",
+          "Order": 61
+        },
+        {
+          "Value": "62",
+          "Text": "Local Government APRA Regulated Public Sector Scheme",
+          "Order": 62
+        },
+        {
+          "Value": "63",
+          "Text": "Local Government Non-Regulated Super Fund",
+          "Order": 63
+        },
+        {
+          "Value": "64",
+          "Text": "Local Government Cash Management Trust",
+          "Order": 64
+        },
+        {
+          "Value": "65",
+          "Text": "Local Government Discretionary Services Management Trust",
+          "Order": 65
+        },
+        {
+          "Value": "66",
+          "Text": "Local Government Fixed Trust",
+          "Order": 66
+        },
+        {
+          "Value": "67",
+          "Text": "Local Government Hybrid Trust",
+          "Order": 67
+        },
+        {
+          "Value": "68",
+          "Text": "Local Government Discretionary Investment Trust",
+          "Order": 68
+        },
+        {
+          "Value": "69",
+          "Text": "Local Government Listed Public Unit Trust",
+          "Order": 69
+        },
+        {
+          "Value": "70",
+          "Text": "Local Government Unlisted Public Unit Trust",
+          "Order": 70
+        },
+        {
+          "Value": "71",
+          "Text": "Local Government Discretionary Trading Trust",
+          "Order": 71
+        },
+        {
+          "Value": "72",
+          "Text": "Local Government Fixed Unit Trust",
+          "Order": 72
+        },
+        {
+          "Value": "73",
+          "Text": "APRA Regulated Non-Public Offer Fund",
+          "Order": 73
+        },
+        {
+          "Value": "74",
+          "Text": "Non-Regulated Superannuation Fund",
+          "Order": 74
+        },
+        {
+          "Value": "75",
+          "Text": "Other Incorporated Entity",
+          "Order": 75
+        },
+        {
+          "Value": "76",
+          "Text": "Pooled Development Fund",
+          "Order": 76
+        },
+        {
+          "Value": "77",
+          "Text": "APRA Regulated Public Offer Fund",
+          "Order": 77
+        },
+        {
+          "Value": "78",
+          "Text": "Unlisted Public Unit Trust",
+          "Order": 78
+        },
+        {
+          "Value": "79",
+          "Text": "Australian Private Company",
+          "Order": 79
+        },
+        {
+          "Value": "80",
+          "Text": "Pooled Superannuation Trust",
+          "Order": 80
+        },
+        {
+          "Value": "81",
+          "Text": "Other Partnership",
+          "Order": 81
+        },
+        {
+          "Value": "82",
+          "Text": "Public Trading trust",
+          "Order": 82
+        },
+        {
+          "Value": "83",
+          "Text": "Australian Public Company",
+          "Order": 83
+        },
+        {
+          "Value": "84",
+          "Text": "Listed Public Unit Trust",
+          "Order": 84
+        },
+        {
+          "Value": "85",
+          "Text": "Small APRA Regulated Fund",
+          "Order": 85
+        },
+        {
+          "Value": "86",
+          "Text": "State Government Public Company",
+          "Order": 86
+        },
+        {
+          "Value": "87",
+          "Text": "State Government Co-operative",
+          "Order": 87
+        },
+        {
+          "Value": "88",
+          "Text": "State Government Limited Partnership",
+          "Order": 88
+        },
+        {
+          "Value": "89",
+          "Text": "State Government Other Unincorporated Entity",
+          "Order": 89
+        },
+        {
+          "Value": "90",
+          "Text": "State Government Other Incorporated Entity",
+          "Order": 90
+        },
+        {
+          "Value": "91",
+          "Text": "State Government Pooled Development Fund",
+          "Order": 91
+        },
+        {
+          "Value": "92",
+          "Text": "State Government Private Company",
+          "Order": 92
+        },
+        {
+          "Value": "93",
+          "Text": "State Government Strata Title",
+          "Order": 93
+        },
+        {
+          "Value": "94",
+          "Text": "State Government Public Trading Trust",
+          "Order": 94
+        },
+        {
+          "Value": "95",
+          "Text": "State Government Corporate Unit Trust",
+          "Order": 95
+        },
+        {
+          "Value": "96",
+          "Text": "State Government Statutory Authority",
+          "Order": 96
+        },
+        {
+          "Value": "97",
+          "Text": "State Government Company",
+          "Order": 97
+        },
+        {
+          "Value": "98",
+          "Text": "State Government Entity",
+          "Order": 98
+        },
+        {
+          "Value": "99",
+          "Text": "State Government Partnership",
+          "Order": 99
+        },
+        {
+          "Value": "100",
+          "Text": "State Government Trust",
+          "Order": 100
+        },
+        {
+          "Value": "101",
+          "Text": "ATO Regulated Self-Managed Superannuation Fund",
+          "Order": 101
+        },
+        {
+          "Value": "102",
+          "Text": "State Government APRA Regulated Public Sector Fund",
+          "Order": 102
+        },
+        {
+          "Value": "103",
+          "Text": "State Government APRA Regulated Public Sector Scheme",
+          "Order": 103
+        },
+        {
+          "Value": "104",
+          "Text": "State Government Non-Regulated Super Fund",
+          "Order": 104
+        },
+        {
+          "Value": "105",
+          "Text": "State Government Cash Management Trust",
+          "Order": 105
+        },
+        {
+          "Value": "106",
+          "Text": "State Government Discretionary Services Management Trust",
+          "Order": 106
+        },
+        {
+          "Value": "107",
+          "Text": "State Government Fixed Trust",
+          "Order": 107
+        },
+        {
+          "Value": "108",
+          "Text": "State Government Hybrid Trust",
+          "Order": 108
+        },
+        {
+          "Value": "109",
+          "Text": "State Government Discretionary Investment Trust",
+          "Order": 109
+        },
+        {
+          "Value": "110",
+          "Text": "State Government Listed Public Unit Trust",
+          "Order": 110
+        },
+        {
+          "Value": "111",
+          "Text": "State Government Unlisted Public Unit Trust",
+          "Order": 111
+        },
+        {
+          "Value": "112",
+          "Text": "Strata-title",
+          "Order": 112
+        },
+        {
+          "Value": "113",
+          "Text": "State Government Discretionary Trading Trust",
+          "Order": 113
+        },
+        {
+          "Value": "114",
+          "Text": "State Government Fixed Unit Trust",
+          "Order": 114
+        },
+        {
+          "Value": "115",
+          "Text": "Super Fund",
+          "Order": 115
+        },
+        {
+          "Value": "116",
+          "Text": "Territory Government Public Company",
+          "Order": 116
+        },
+        {
+          "Value": "117",
+          "Text": "Territory Government Co-operative",
+          "Order": 117
+        },
+        {
+          "Value": "118",
+          "Text": "Territory Government Limited Partnership",
+          "Order": 118
+        },
+        {
+          "Value": "119",
+          "Text": "Territory Government Other Unincorporated Entity",
+          "Order": 119
+        },
+        {
+          "Value": "120",
+          "Text": "Territory Government Other Incorporated Entity",
+          "Order": 120
+        },
+        {
+          "Value": "121",
+          "Text": "Territory Government Pooled Development Fund",
+          "Order": 121
+        },
+        {
+          "Value": "122",
+          "Text": "Territory Government Private Company",
+          "Order": 122
+        },
+        {
+          "Value": "123",
+          "Text": "Territory Government Strata Title",
+          "Order": 123
+        },
+        {
+          "Value": "124",
+          "Text": "Territory Government Public Trading Trust",
+          "Order": 124
+        },
+        {
+          "Value": "125",
+          "Text": "Territory Government Corporate Unit Trust",
+          "Order": 125
+        },
+        {
+          "Value": "126",
+          "Text": "Territory Government Statutory Authority",
+          "Order": 126
+        },
+        {
+          "Value": "127",
+          "Text": "Territory Government Entity",
+          "Order": 127
+        },
+        {
+          "Value": "128",
+          "Text": "Territory Government Partnership",
+          "Order": 128
+        },
+        {
+          "Value": "129",
+          "Text": "Territory Government Trust",
+          "Order": 129
+        },
+        {
+          "Value": "130",
+          "Text": "Other trust",
+          "Order": 130
+        },
+        {
+          "Value": "131",
+          "Text": "Territory Government APRA Regulated Public Sector Fund",
+          "Order": 131
+        },
+        {
+          "Value": "132",
+          "Text": "Territory Government APRA Regulated Public Sector Scheme",
+          "Order": 132
+        },
+        {
+          "Value": "133",
+          "Text": "Territory Government Non-Regulated Super Fund",
+          "Order": 133
+        },
+        {
+          "Value": "134",
+          "Text": "Territory Government Cash Management Trust",
+          "Order": 134
+        },
+        {
+          "Value": "135",
+          "Text": "Territory Government Discretionary Services Management Trust",
+          "Order": 135
+        },
+        {
+          "Value": "136",
+          "Text": "Territory Government Fixed Trust",
+          "Order": 136
+        },
+        {
+          "Value": "137",
+          "Text": "Territory Government Hybrid Trust",
+          "Order": 137
+        },
+        {
+          "Value": "138",
+          "Text": "Territory Government Discretionary Investment Trust",
+          "Order": 138
+        },
+        {
+          "Value": "139",
+          "Text": "Territory Government Listed Public Unit Trust",
+          "Order": 139
+        },
+        {
+          "Value": "140",
+          "Text": "Territory Government Unlisted Public Unit Trust",
+          "Order": 140
+        },
+        {
+          "Value": "141",
+          "Text": "Territory Government Discretionary Trading Trust",
+          "Order": 141
+        },
+        {
+          "Value": "142",
+          "Text": "Territory Government Fixed Unit Trust",
+          "Order": 142
+        },
+        {
+          "Value": "143",
+          "Text": "Other Unincorporated Entity",
+          "Order": 143
+        }
+      ]
+    },
+    {
+      "InternalDescription": "question id: 12274",
+      "QuestionThreadId": "dbf8446c-a6c2-4dad-9108-259069d15da4",
+      "Order": 1,
+      "QuestionType": "Single Select",
+      "Text": "<b>Is the legal name as shown in the Australian Business Register correct?</b>",
+      "RootQuestionThreadId": "96852c8f-d4a9-4a3d-998e-848edd3b7393",
+      "ParentQuestionThreadId": "96852c8f-d4a9-4a3d-998e-848edd3b7393",
+      "ParentConditionalValue": null,
+      "RelatedQuestionThreadId": "96852c8f-d4a9-4a3d-998e-848edd3b7393",
+      "RelatedConditionalValue": null,
+      "Attributes": [
+        {
+          "Type": "Dropdown",
+          "Parameter": ""
+        },
+        {
+          "Type": "Mandatory To Submit",
+          "Parameter": ""
+        }
+      ],
+      "Fields": [],
+      "Options": [
+        {
+          "Value": "1",
+          "Text": "Yes",
+          "Order": 1
+        },
+        {
+          "Value": "2",
+          "Text": "No",
+          "Order": 2
+        }
+      ]
+    },
+    {
+      "InternalDescription": "question id: 13365",
+      "QuestionThreadId": "cba24fa9-b07c-4d4f-a92a-aace98ded4ab",
+      "Order": 1,
+      "QuestionType": "Multiselect",
+      "Text": "<b>In which state(s) do you propose to recruit seasonal workers?",
+      "RootQuestionThreadId": null,
+      "ParentQuestionThreadId": null,
+      "ParentConditionalValue": null,
+      "RelatedQuestionThreadId": null,
+      "RelatedConditionalValue": null,
+      "Attributes": [
+        {
+          "Type": "Mandatory To Submit",
+          "Parameter": ""
+        },
+        {
+          "Type": "Help Text",
+          "Parameter": "<b>select an state</b>"
+        }
+      ],
+      "Fields": [],
+      "Options": [
+        {
+          "Value": "1",
+          "Text": "ACT",
+          "Order": 1
+        },
+        {
+          "Value": "2",
+          "Text": "NSW",
+          "Order": 2
+        },
+        {
+          "Value": "3",
+          "Text": "NT",
+          "Order": 3
+        },
+        {
+          "Value": "4",
+          "Text": "QLD",
+          "Order": 4
+        },
+        {
+          "Value": "5",
+          "Text": "SA",
+          "Order": 5
+        },
+        {
+          "Value": "6",
+          "Text": "TAS",
+          "Order": 6
+        },
+        {
+          "Value": "7",
+          "Text": "VIC",
+          "Order": 7
+        },
+        {
+          "Value": "8",
+          "Text": "WA",
+          "Order": 8
+        }
+      ]
+    },
+    {
+      "InternalDescription": "SWP - How skilled is the work",
+      "QuestionThreadId": "cf798ec8-43a9-456c-bdb8-82fef6672803",
+      "Order": 1,
+      "QuestionType": "Multiselect",
+      "Text": "<b>How skilled is the work seasonal workers would do?</b><br><br>\r\n<i>Please note skilled work is not eligible under SWP.</i>\r\n",
+      "RootQuestionThreadId": null,
+      "ParentQuestionThreadId": null,
+      "ParentConditionalValue": null,
+      "RelatedQuestionThreadId": null,
+      "RelatedConditionalValue": null,
+      "Attributes": [
+        {
+          "Type": "Mandatory To Submit",
+          "Parameter": ""
+        },
+        {
+          "Type": "Help Text",
+          "Parameter": "<i><b>Low skilled</b></i><br><br>\r\nJobs listed in the <a href=\"https://docs.jobs.gov.au/documents/factsheet-agriculture-horticulture-industry-and-seasonal-worker-programme\">Australian and New Zealand Standard Classification of Occupations (ANZSCO)</a> that are Skill Level 5. Skill Level 5 jobs need no formal training, or need skills commensurate with a Certificate I qualification or secondary school education.\r\n<br><br>\r\n<i><b>Semi-skilled</b></i>\r\n<br><br>\r\nJobs listed in the <a href=\"https://docs.jobs.gov.au/documents/factsheet-agriculture-horticulture-industry-and-seasonal-worker-programme\">Australian and New Zealand Standard Classification of Occupations (ANZSCO)</a> that are Skill Level 4. Skill Level 4 jobs usually require skills commensurate with a Certificate II or III qualification. \r\n<br><br>\r\n<i><b>Skilled</b></i>\r\n<br><br>\r\nJobs listed in the <a href=\"https://docs.jobs.gov.au/documents/factsheet-agriculture-horticulture-industry-and-seasonal-worker-programme\">Australian and New Zealand Standard Classification of Occupations (ANZSCO)</a>  that are Skill Level 3, 2 or 1.\r\n<br><br>\r\nSkill Level 3 jobs usually require skills commensurate with a Certificate IV qualification (or CertificateIII with at least two years of on-the-job training). \r\n<br><br>\r\nSkill Level 2 jobs usually require skills commensurate with an Associate Degree, Advanced Diploma or Diploma. \r\n<br><br>\r\nSkill Level 1 jobs usually require skills commensurate with a bachelor degree or higher qualification.\r\n"
+        }
+      ],
+      "Fields": [],
+      "Options": [
+        {
+          "Value": "1",
+          "Text": "Unskilled",
+          "Order": 1
+        },
+        {
+          "Value": "2",
+          "Text": "Low skilled",
+          "Order": 2
+        },
+        {
+          "Value": "3",
+          "Text": "Semi-skilled",
+          "Order": 3
+        }
+      ]
+    },
+    {
+      "InternalDescription": "SWP - In which sector will seasonal workers under the SWP be employed? ",
+      "QuestionThreadId": "4b9af36b-03f4-44eb-96cc-9a1cbcedbb75",
+      "Order": 1,
+      "QuestionType": "Multiselect",
+      "Text": "<b>In which of the eligible sectors will seasonal workers be employed?</b>",
+      "RootQuestionThreadId": null,
+      "ParentQuestionThreadId": null,
+      "ParentConditionalValue": null,
+      "RelatedQuestionThreadId": null,
+      "RelatedConditionalValue": null,
+      "Attributes": [
+        {
+          "Type": "Validate On Submit",
+          "Parameter": "Swp.Domain.Questionnaires.Commands.ApplicationEmploymentSectorValidator"
+        },
+        {
+          "Type": "Help Text",
+          "Parameter": "<i><b>Agriculture sector</b></i><br><br>\r\nSeasonal workers can undertake a range of low and unskilled work in the agriculture sector, including: <br>\r\n<ul>\r\n<li>horticulture (for more information see our <a href=\"https://docs.jobs.gov.au/documents/factsheet-agriculture-horticulture-industry-and-seasonal-worker-programme\" target=\"_blank\">fact sheet</a>)</li>\r\n<li>viticulture (picking, pruning and general maintenance of wine grapes – does not include the production or bottling of wine products)\r\n<li>cotton (for more information see our <a href=https://docs.jobs.gov.au/documents/factsheet-agriculture-cotton-industry-and-seasonal-worker-programme-0 target=\"_blank\">fact sheet</a>)</li>\r\n<li>cane (for more information see our <a href=https://docs.jobs.gov.au/documents/factsheet-agriculture-cane-industry-and-seasonal-worker-programme target=\"_blank\">fact sheet</a>)</li>\r\n<li>aquaculture (for more information see our <a href=https://docs.jobs.gov.au/documents/factsheet-agriculture-aquaculture-industry-and-seasonal-worker-programme target=\"_blank\">fact sheet</a>)</li>\r\n<li>livestock (any animal used in primary production, including cattle, sheep, pigs, poultry, bees, deer, emus, goats, ostrich and alpaca) (for more information see our <a href=https://docs.jobs.gov.au/documents/factsheet-agriculture-industry-and-seasonal-worker-programme target=\"_blank\">fact sheet</a>)</li>\r\n<li>broadacre crops (for more information see our <a href=https://docs.jobs.gov.au/documents/factsheet-agriculture-industry-and-seasonal-worker-programme target=\"_blank\">fact sheet</a>)</li>\r\n</ul>\r\n<br><br>\r\n<i><b>Accommodation sector</b></i>\r\n<br><br>\r\nEmployers in the accommodation sector in Western Australia, the Northern Territory, Tropical North Queensland and Kangaroo Island can access the Seasonal Worker Programme. \r\n<br><br>\r\nSeasonal workers can undertake a range of work in the accommodation sector, including: <br>\r\n<ul>\r\n<li>Bar attendants</li>\r\n<li>Baristas</li>\r\n<li>Food and beverage attendants/waiters</li>\r\n<li>Café workers</li>\r\n<li>Garden labourers</li>\r\n<li>Housekeepers</li>\r\n<li>Kitchen hands</li>\r\n<li>Public area cleaners.</li>\r\n<br>\r\nFor more information see our <a href=\"https://docs.jobs.gov.au/documents/factsheet-accommodation-industry-and-seasonal-worker-programme\" target=\"_blank\">fact sheet</a>.\r\n"
+        },
+        {
+          "Type": "Mandatory To Submit",
+          "Parameter": ""
+        }
+      ],
+      "Fields": [],
+      "Options": [
+        {
+          "Value": "1",
+          "Text": "Agriculture",
+          "Order": 1
+        },
+        {
+          "Value": "2",
+          "Text": "Accommodation",
+          "Order": 2
+        },
+        {
+          "Value": "3",
+          "Text": "Horticulture",
+          "Order": 3
+        },
+        {
+          "Value": "4",
+          "Text": "Aquaculture",
+          "Order": 4
+        },
+        {
+          "Value": "5",
+          "Text": "Viticulture",
+          "Order": 5
+        },
+        {
+          "Value": "6",
+          "Text": "Cane and Cotton",
+          "Order": 6
+        }
+      ]
+    },
+    {
+      "InternalDescription": "question id: 13563",
+      "QuestionThreadId": "c6998e0c-81ee-4dcc-9f18-674ceea63875",
+      "Order": 1,
+      "QuestionType": "Multiselect",
+      "Text": "<b>I have read and understood this disclaimer.</b>",
+      "RootQuestionThreadId": "0ca647bd-e7e3-4969-abb1-f941dfe2673d",
+      "ParentQuestionThreadId": "0ca647bd-e7e3-4969-abb1-f941dfe2673d",
+      "ParentConditionalValue": null,
+      "RelatedQuestionThreadId": "0ca647bd-e7e3-4969-abb1-f941dfe2673d",
+      "RelatedConditionalValue": null,
+      "Attributes": [
+        {
+          "Type": "Mandatory To Submit",
+          "Parameter": ""
+        }
+      ],
+      "Fields": [],
+      "Options": [
+        {
+          "Value": "1",
+          "Text": "Yes",
+          "Order": 1
+        }
+      ]
+    },
+    {
+      "InternalDescription": "question id: 13746",
+      "QuestionThreadId": "df0f7216-af2d-407e-b0b6-3cd17cbec7b0",
+      "Order": 1,
+      "QuestionType": "Multiselect",
+      "Text": "<b>I have read and understood the privacy statement and the department's Privacy Policy</b>",
+      "RootQuestionThreadId": "f4975328-778f-48a7-a79c-dbb12707350c",
+      "ParentQuestionThreadId": "f4975328-778f-48a7-a79c-dbb12707350c",
+      "ParentConditionalValue": null,
+      "RelatedQuestionThreadId": "f4975328-778f-48a7-a79c-dbb12707350c",
+      "RelatedConditionalValue": null,
+      "Attributes": [
+        {
+          "Type": "Mandatory To Submit",
+          "Parameter": ""
+        }
+      ],
+      "Fields": [],
+      "Options": [
+        {
+          "Value": "1",
+          "Text": "Yes",
+          "Order": 1
+        }
+      ]
+    },
+    {
+      "InternalDescription": "question id: 13748",
+      "QuestionThreadId": "5e65fa3e-4cea-4314-9466-4e242f978489",
+      "Order": 1,
+      "QuestionType": "Multiselect",
+      "Text": "<b>I have read and understood the consent and declaration</b>",
+      "RootQuestionThreadId": "4f533045-ff8a-4966-b90b-966d4f81acf0",
+      "ParentQuestionThreadId": "4f533045-ff8a-4966-b90b-966d4f81acf0",
+      "ParentConditionalValue": null,
+      "RelatedQuestionThreadId": "4f533045-ff8a-4966-b90b-966d4f81acf0",
+      "RelatedConditionalValue": null,
+      "Attributes": [
+        {
+          "Type": "Mandatory To Submit",
+          "Parameter": ""
+        }
+      ],
+      "Fields": [],
+      "Options": [
+        {
+          "Value": "1",
+          "Text": "Yes",
+          "Order": 1
+        }
+      ]
+    },
+    {
+      "InternalDescription": "SWP - Agree",
+      "QuestionThreadId": "b39e1751-0151-4b3c-9d15-aa4e172bde37",
+      "Order": 15,
+      "QuestionType": "Multiselect",
+      "Text": "<b>Declaration</b>\r\n",
+      "RootQuestionThreadId": "11ffb1be-d82d-439d-9b7e-1193f7038feb",
+      "ParentQuestionThreadId": "11ffb1be-d82d-439d-9b7e-1193f7038feb",
+      "ParentConditionalValue": null,
+      "RelatedQuestionThreadId": "11ffb1be-d82d-439d-9b7e-1193f7038feb",
+      "RelatedConditionalValue": null,
+      "Attributes": [
+        {
+          "Type": "Mandatory To Submit",
+          "Parameter": ""
+        }
+      ],
+      "Fields": [],
+      "Options": [
+        {
+          "Value": "1",
+          "Text": "I Agree",
+          "Order": 1
+        }
+      ]
+    },
+    {
+      "InternalDescription": "SWP - Agree",
+      "QuestionThreadId": "d43db81c-0301-474b-8aeb-7d8ef2fe5aa2",
+      "Order": 6,
+      "QuestionType": "Multiselect",
+      "Text": "<b>Declaration</b>",
+      "RootQuestionThreadId": "0860910f-4d90-4924-bfe8-65dc6313c242",
+      "ParentQuestionThreadId": "0860910f-4d90-4924-bfe8-65dc6313c242",
+      "ParentConditionalValue": null,
+      "RelatedQuestionThreadId": "0860910f-4d90-4924-bfe8-65dc6313c242",
+      "RelatedConditionalValue": null,
+      "Attributes": [
+        {
+          "Type": "Mandatory To Submit",
+          "Parameter": ""
+        }
+      ],
+      "Fields": [],
+      "Options": [
+        {
+          "Value": "1",
+          "Text": "I Agree",
+          "Order": 1
+        }
+      ]
+    },
+    {
+      "InternalDescription": "question id: 13726",
+      "QuestionThreadId": "887e877f-c5b7-4714-a271-e181d2e48904",
+      "Order": 1,
+      "QuestionType": "File Upload",
+      "Text": "<b>All applicants must complete and submit a <a href=\"https://docs.employment.gov.au/documents/seasonal-worker-programme-financial-and-credentials-information-form\" target=\"_blank\">Financial and Credentials Information Form </a><span class=\"fas fa-external-link-alt\"></span> to support their application. Applications submitted without a complete Financial Credentials Information Form will not be assessed by the department.</b>\r\n<br>\r\n<br><i>Please, note the information identified through the Financial Viability and Credentials assessment will be used to verify your entity’s financial state and its capacity to meet upfront cost of recruiting seasonal workers.</i>\r\n<br>\r\n<br>\r\n<b>Please complete the form and upload it below, along with all required attachments specified in the Financial and Credentials Information Form.</b>",
+      "RootQuestionThreadId": null,
+      "ParentQuestionThreadId": null,
+      "ParentConditionalValue": null,
+      "RelatedQuestionThreadId": null,
+      "RelatedConditionalValue": null,
+      "Attributes": [
+        {
+          "Type": "Mandatory To Submit",
+          "Parameter": ""
+        }
+      ],
+      "Fields": [],
+      "Options": []
+    },
+    {
+      "InternalDescription": "SWP - policies and procedures error",
+      "QuestionThreadId": "60695239-03d5-4f0d-99aa-0ebc4e4d4784",
+      "Order": 2,
+      "QuestionType": "File Upload",
+      "Text": "Please attach a copy of your policies or procedures",
+      "RootQuestionThreadId": "f4915db5-5cc6-4034-bd7d-e3f39df128e4",
+      "ParentQuestionThreadId": "f4915db5-5cc6-4034-bd7d-e3f39df128e4",
+      "ParentConditionalValue": null,
+      "RelatedQuestionThreadId": "f4915db5-5cc6-4034-bd7d-e3f39df128e4",
+      "RelatedConditionalValue": null,
+      "Attributes": [
+        {
+          "Type": "Error Message",
+          "Parameter": ""
+        }
+      ],
+      "Fields": [],
+      "Options": []
+    },
+    {
+      "InternalDescription": "question id: 13442",
+      "QuestionThreadId": "43ca8060-cb77-44f2-b7b1-c9c19f566a54",
+      "Order": 1,
+      "QuestionType": "Info",
+      "Text": "<i>Please note all answers to the following questions will be checked and verified by the assessing bodies and taken into consideration in assessing your eligibility to become an SWP Approved Employer. Non-disclosure or any answers found to be false, misleading or inaccurate will result in rejection of your application and may result in the termination of any future Deeds of Agreement entered into by the parties.</i>",
+      "RootQuestionThreadId": null,
+      "ParentQuestionThreadId": null,
+      "ParentConditionalValue": null,
+      "RelatedQuestionThreadId": null,
+      "RelatedConditionalValue": null,
+      "Attributes": [],
+      "Fields": [],
+      "Options": []
+    },
+    {
+      "InternalDescription": "question id: 13378",
+      "QuestionThreadId": "dee2fdf7-b273-422e-828a-c843933cb002",
+      "Order": 1,
+      "QuestionType": "Info",
+      "Text": "<b>Does your Entity have any conflict of interest relating to this application?</b>",
+      "RootQuestionThreadId": null,
+      "ParentQuestionThreadId": null,
+      "ParentConditionalValue": null,
+      "RelatedQuestionThreadId": null,
+      "RelatedConditionalValue": null,
+      "Attributes": [
+        {
+          "Type": "Help Text",
+          "Parameter": "State that your Entity has no undisclosed conflict of interest relating to this application or (if applicable) outline your Entity’s known actual or potential conflict of interest relating to this application. If you have none please advise nil."
+        }
+      ],
+      "Fields": [],
+      "Options": []
+    },
+    {
+      "InternalDescription": "question id: 13397",
+      "QuestionThreadId": "e3b9684e-b7e2-49e8-a6dd-18145f13c46d",
+      "Order": 1,
+      "QuestionType": "Info",
+      "Text": "<b>How many seasonal workers you currently employ (not under SWP)?</b><br><br>\r\n<b>Please enter a value into each of the following fields. If not applicable please enter '0'</b>",
+      "RootQuestionThreadId": null,
+      "ParentQuestionThreadId": null,
+      "ParentConditionalValue": null,
+      "RelatedQuestionThreadId": null,
+      "RelatedConditionalValue": null,
+      "Attributes": [],
+      "Fields": [],
+      "Options": []
+    },
+    {
+      "InternalDescription": "question id: 13562",
+      "QuestionThreadId": "0ca647bd-e7e3-4969-abb1-f941dfe2673d",
+      "Order": 1,
+      "QuestionType": "Info",
+      "Text": "<b>Disclaimer</b><br><br>\r\nSubmission of this application form is not to be taken to be or relied upon as an offer capable of acceptance by any person or as creating any form of contractual, quasi contractual, restitutionary or promissory estoppel rights, or rights based on similar legal or equitable grounds, whether implied or otherwise.<br><br>\r\nNeither the department, nor its officers, employees, agents or advisers will be liable to any applicant or any other person on the basis of any contract or other understanding whatsoever, or in negligence, as a consequence of any matter relating or incidental to this application or an applicant’s participation in this application process, including instances where: \r\n<ol type=\"a\">\r\n<li>an applicant is not invited to participate in the SWP following submission of this application;</li>\r\n<li>the department varies the application process;</li>\r\n<li>the department decides to terminate the application process, not proceed to any subsequent process, or not to contract for all or any of the requirements; or</li>\r\n<li>the department exercises or fails to exercise any of its other rights in relation to this application process.</li>\r\n</ol>\r\n<br>Participation in any stage of this application process or in relation to any matter concerning this application process will be at each applicant’s sole risk, cost and expense. The department will not be responsible in any circumstance for any costs or expenses incurred by any applicant in preparing or lodging an application or in taking part in this application process or taking any action related to this application process.",
+      "RootQuestionThreadId": null,
+      "ParentQuestionThreadId": null,
+      "ParentConditionalValue": null,
+      "RelatedQuestionThreadId": null,
+      "RelatedConditionalValue": null,
+      "Attributes": [],
+      "Fields": [],
+      "Options": []
+    },
+    {
+      "InternalDescription": "question id: 13745",
+      "QuestionThreadId": "f4975328-778f-48a7-a79c-dbb12707350c",
+      "Order": 1,
+      "QuestionType": "Info",
+      "Text": "<b>Personal information</b>\r\n<br>\r\n<br>\r\nPersonal information is information or an opinion about an individual. Personal information includes a person’s name and contact details.<br><br>\r\nPersonal information is protected by law, including under the <i>Privacy Act 1988</i> (Privacy Act).<br><br>\r\nSensitive information is a type of personal information and includes information about an individual’s criminal record, cultural or linguistic background and political opinions.<br><br>\r\n<b>Collection of personal information</b><br><br>\r\nThe department collects personal information from applicants to become Approved Employers, from Approved Employers, Seasonal Worker Programme (SWP) participants and from other Commonwealth and state/territory Government agencies for the purposes of administering the SWP and related purposes, including assessing applications to become an Approved Employer, SWP deed administration and program evaluation and research.<br><br>\r\nIf you do not provide some or all of the personal information requested in the application form, the department may not be able to process your application and the Entity may not be eligible to participate in the SWP.<br><br>\r\n<b>Disclosure of personal information</b><br><br>\r\nThe department may disclose collected personal information to others, including but not limited to:\r\n<ul>\r\n<li>Commonwealth agencies and their contracted providers, including, but not limited to:</li>\r\n<ul>\r\n<li>the Department of Home Affairs;</li>\r\n<li>the Fair Work Ombudsman;</li>\r\n<li>the Department of Foreign Affairs and Trade;</li>\r\n<li>the Department of Health;</li>\r\n<li>the Australian Taxation Office;</li>\r\n<li>the Australian Federal Police;</li>\r\n<li>the Australian National Audit Office; and/or</li>\r\n</ul>\r\n<li>state or territory agencies and their respective contracted providers, including: </li>\r\n<ul>\r\n<li>law enforcement agencies;</li>\r\n<li>health agencies;</li>\r\n<li>workplace health and safety agencies;</li>\r\n<li>workers compensation agencies; and/or</li>\r\n</ul>\r\n<li>local governments and their authorities.</li>\r\n</ul>\r\n<br>\r\nThe personal information provided may also be given to other parties where the person to whom the personal information relates has agreed, or where it is otherwise permitted, including where it is required or authorised by or under an Australian law or a court or tribunal order.\r\n<br><br>\r\n<b>Privacy Policy</b><br><br>\r\nThe department’s Privacy Policy, including information about how an individual may access and seek correction of personal information held by the department can be found on the <a href=\"https://www.dese.gov.au/privacy\" target=\"_blank\">department's privacy page</a> or by requesting a copy from the department at <a href=\"mailto:privacy@dese.gov.au\">privacy@dese.gov.au</a>.",
+      "RootQuestionThreadId": null,
+      "ParentQuestionThreadId": null,
+      "ParentConditionalValue": null,
+      "RelatedQuestionThreadId": null,
+      "RelatedConditionalValue": null,
+      "Attributes": [],
+      "Fields": [],
+      "Options": []
+    },
+    {
+      "InternalDescription": "question id: 13747",
+      "QuestionThreadId": "4f533045-ff8a-4966-b90b-966d4f81acf0",
+      "Order": 1,
+      "QuestionType": "Info",
+      "Text": "<b>Privacy consent and/or declaration</b><br><br>\r\n<b>Collection, use and disclosure of sensitive information</b><br><br>\r\nSensitive information is a type of personal information and includes information about an individual’s criminal history. The department needs consent in order to collect sensitive information.<br><br>\r\nIf you have provided your own personal information in this form, by submitting this form, you confirm that you have read, understood and consent to the collection, use and disclosure of your personal information, including sensitive information, in accordance with the above privacy consent.<br><br> \r\nIf you provide another person’s or other peoples’ personal information to the department, by submitting this form you confirm that the individual/s to whom the sensitive information relates has/have consented to the department collecting, using and disclosing their personal and sensitive information.<br><br>\r\n<b>Overseas disclosure of personal information</b><br><br>\r\nIf your application to become an Approved Employer is successful, throughout your participation in SWP the department may disclose the name and contact details of the individuals nominated by you as relevant contacts, to relevant overseas partner countries for the purposes of administering the SWP and related purposes.<br><br> \r\nThe department needs consent to disclose this personal information to the overseas recipients. These overseas recipients may not have the same privacy protection obligations as Australia in relation to personal information.<br><br>\r\nBy submitting this form, you confirm that you always gain consent of the relevant individuals to the overseas disclosure of their personal information prior to providing this information to the department. This means that Australian Privacy Principle 8.1, as set out in the Privacy Act, will not apply to the disclosure of the personal information provided to overseas recipients.<br><br>\r\n<b>Privacy declaration</b><br><br>\r\nBy submitting this form, you confirm that:\r\n<ul>\r\n<li>the individuals whose personal information have been provided in this application; and</li>\r\n<li>any individuals whose personal information you provide to the department throughout your participation in SWP</li>\r\n</ul>\r\nare aware of the Privacy Consent, the department’s Privacy Policy and advised to familiarise themselves with the content of the Privacy Consent and the department’s Privacy Policy.",
+      "RootQuestionThreadId": null,
+      "ParentQuestionThreadId": null,
+      "ParentConditionalValue": null,
+      "RelatedQuestionThreadId": null,
+      "RelatedConditionalValue": null,
+      "Attributes": [],
+      "Fields": [],
+      "Options": []
+    },
+    {
+      "InternalDescription": "SWP - policies and procedures",
+      "QuestionThreadId": "f4915db5-5cc6-4034-bd7d-e3f39df128e4",
+      "Order": 1,
+      "QuestionType": "Info",
+      "Text": "<b>Describe, or upload a copy of, the Entity’s policies or procedures about employment terms and conditions <i>(for example, work health and safety, induction, dispute resolution procedures)</i>.</b>",
+      "RootQuestionThreadId": null,
+      "ParentQuestionThreadId": null,
+      "ParentConditionalValue": null,
+      "RelatedQuestionThreadId": null,
+      "RelatedConditionalValue": null,
+      "Attributes": [
+        {
+          "Type": "Validate On Submit",
+          "Parameter": "Swp.Domain.Questionnaires.Commands.ProceduresAboutEmploymentTermsValidator"
+        }
+      ],
+      "Fields": [],
+      "Options": []
+    },
+    {
+      "InternalDescription": "SWP - Registered Address",
+      "QuestionThreadId": "21649f8d-e4e3-4433-a28f-706bdf5e4da7",
+      "Order": 1,
+      "QuestionType": "Info",
+      "Text": "<b>What is the Entity's registered address (not a PO Box)</b>",
+      "RootQuestionThreadId": null,
+      "ParentQuestionThreadId": null,
+      "ParentConditionalValue": null,
+      "RelatedQuestionThreadId": null,
+      "RelatedConditionalValue": null,
+      "Attributes": [],
+      "Fields": [
+        {
+          "Type": "Text",
+          "Text": "Street",
+          "Order": 1
+        },
+        {
+          "Type": "Text",
+          "Text": "Suburb/City",
+          "Order": 2
+        },
+        {
+          "Type": "Text",
+          "Text": "State",
+          "Order": 3
+        },
+        {
+          "Type": "Text",
+          "Text": "Postcode",
+          "Order": 4
+        }
+      ],
+      "Options": []
+    },
+    {
+      "InternalDescription": "SWP - agreement to program requirements",
+      "QuestionThreadId": "11ffb1be-d82d-439d-9b7e-1193f7038feb",
+      "Order": 1,
+      "QuestionType": "Info",
+      "Text": "<b>If you are granted Approved Employer status do you agree:</b><br>",
+      "RootQuestionThreadId": null,
+      "ParentQuestionThreadId": null,
+      "ParentConditionalValue": null,
+      "RelatedQuestionThreadId": null,
+      "RelatedConditionalValue": null,
+      "Attributes": [],
+      "Fields": [],
+      "Options": []
+    },
+    {
+      "InternalDescription": "SWP - number of staff",
+      "QuestionThreadId": "38000832-8d36-4816-8525-953cfcd42514",
+      "Order": 1,
+      "QuestionType": "Info",
+      "Text": "<b>How many employees does your Entity have?</b> <br>\r\n<br>\r\n<b>Please enter a value into each of the following fields.  If not applicable please enter '0'.</b>",
+      "RootQuestionThreadId": null,
+      "ParentQuestionThreadId": null,
+      "ParentConditionalValue": null,
+      "RelatedQuestionThreadId": null,
+      "RelatedConditionalValue": null,
+      "Attributes": [
+        {
+          "Type": "Help Text",
+          "Parameter": "Please include all full-time, part-time, casual and fixed term staff at the time of your application. Employees exclude contractors and people working for the Entity on a voluntary basis."
+        }
+      ],
+      "Fields": [],
+      "Options": []
+    },
+    {
+      "InternalDescription": "SWP - Declaration",
+      "QuestionThreadId": "31ca782e-42ab-4e3f-b1c4-dd2e0afc4f7f",
+      "Order": 1,
+      "QuestionType": "Info",
+      "Text": "<b>I declare that:</b>",
+      "RootQuestionThreadId": null,
+      "ParentQuestionThreadId": null,
+      "ParentConditionalValue": null,
+      "RelatedQuestionThreadId": null,
+      "RelatedConditionalValue": null,
+      "Attributes": [],
+      "Fields": [],
+      "Options": []
+    },
+    {
+      "InternalDescription": "SWP - Other Requirements",
+      "QuestionThreadId": "0860910f-4d90-4924-bfe8-65dc6313c242",
+      "Order": 1,
+      "QuestionType": "Info",
+      "Text": "<b>If you are offered a Deed of Agreement (Deed) do you agree:</b>",
+      "RootQuestionThreadId": null,
+      "ParentQuestionThreadId": null,
+      "ParentConditionalValue": null,
+      "RelatedQuestionThreadId": null,
+      "RelatedConditionalValue": null,
+      "Attributes": [],
+      "Fields": [],
+      "Options": []
+    },
+    {
+      "InternalDescription": "SWP - Eligibility",
+      "QuestionThreadId": "cbf51c68-3ee4-48c8-81a0-77a7b60e5b00",
+      "Order": 1,
+      "QuestionType": "Info",
+      "Text": "<b>Eligibility Criteria</b><br<br>\r\nTo become an Approved Employer, an entity must:<br>\r\n<ol>\r\n<li>demonstrate to the satisfaction of the Department of Education, Skills and Employment that it is an eligible business registered and operating in Australia and has an ABN.\r\n<ul>\r\n<li>Applying Entities must be incorporated in Australia or a formal partnership. Sole traders are not an eligible business.</li>\r\n<li>They must plan to recruit seasonal workers in <a href=\"https://www.employment.gov.au/jobs-seasonal-workers\" target=\"_blank\">eligible occupations</a> within listed industries on the Seasonal Worker Programme website.</li>\r\n<li>Entities that use a <u>Contractor</u> business model must have at least five years of continuous operation.</li>\r\n<li>They must be an ‘Organisation’ for the purposes of the Migration Regulations 1994. This is assessed by the Department of Home Affairs.</li>\r\n</ul>\r\n</li>\r\n<li>satisfy integrity checks conducted by the Department of Education, Skills and Employment. It must:\r\n<ul>\r\n<li>have good immigration practices and a history of compliance with immigration legislation as assessed by the Department of Home Affairs.</li>\r\n<li>have a history of compliance with Australian workplace relations, work health and safety legislation, and other relevant laws.<br><br>\r\n<b>NOTE.</b> Directors, partners, trustees or other <u>Relevant Persons<u> must have a history of compliance with these laws and where there has been non-compliance, it must be disclosed in the application as well as what the entity has done to prevent such non-compliance in the future. Non-disclosure can result in the application being rejected. <u>Labour Hire Entities</u> and <u>Contractors</u>, will be required to obtain a labour hire licence as applicable.</li>\r\n<li>be in a sound financial position. The Department of Education, Skills and Employment will conduct a financial viability assessment to determine if the applying Entity can meet the upfront costs associated with recruiting seasonal workers.</li>\r\n</ul>\r\n<liLdemonstrate to the satisfaction of the Department of Education, Skills and Employment that it understands and will comply with the program requirements in the Seasonal Worker Programme Deed of Agreement and Guidelines on the program <a href=\"https://www.employment.gov.au/resources-approved-employers\" target=\"_blank\">website</a>. \r\n<ul>\r\n<li>Applying entities (including <u>Related entities</u>) with previous experience as Approved Employers must have a satisfactory history of compliance with program requirements.</li>\r\n<li>Applying entities (including <u>Related entities</u>) with previous experience as <u>Host Organisations</u> must have a satisfactory record as <u>Host Organisations</u>.</li>\r\n</ul>\r\n</ol>\r\n<br>\r\nPlease note the department <b>will not</b> accept applications from an entity where: \r\n<ol>\r\n<li>the entity and/or <u>Related entities</u> and/or its <u>Relevant Persons</u> have, within the preceding five years, a history of non-compliance with relevant laws including multiple and/or serious contraventions and/or criminal offences,</li>\r\n<li>the entity is subject to a workplace relations or immigration investigation or prosecution, or</li>\r\n<li>within the preceding five years, the Department of Education, Skills and Employment terminated or did not renew a Seasonal Worker Programme Deed of Agreement (Deed) with the entity or a <u>Related entity</u> due to breaches of the Deed. If the department has terminated or did not renew a Deed with the entity or a Related entity for this reason more than five years ago, the entity must demonstrate how it will meet the program requirements.</li>\r\n</ol>\r\nApplicants must meet <u>ALL above requirements</u> to become an Approved Employer for the Seasonal Worker Programme.\r\n<br><br>If an Entity becomes an Approved Employer and is found to have failed to provide relevant information or, provided dishonest or misleading responses and information in their application, the Department of Education, Skills and Employment may seek to terminate the Deed with the Approved Employer. Termination of the Deed will impact any other agreements or sponsorship arrangements under the program.\r\n<br><br>\r\nIf an Approved Employer breaches the program requirements, the Department of Education, Skills and Employment may seek to terminate the Deed of Agreement with the Approved Employer.\r\n<br><br>\r\n<b>Key Terms</b>\r\n<br><br>\r\n<b>Contractor<b> is an entity that delivers a service and is paid for that service (for example, for paddocks harvested).\r\n<br><br>\r\n<b>Labour Hire entity</b> is an entity that supplies workers to host organisations and is paid on an on-hire basis (for example, for the number of workers supplied).\r\n<br><br>\r\n<b>Host Organisation</b> hires seasonal workers from a labour hire Approved Employer and may host them on their property.\r\n<br><br>\r\n<b>Related entities</b> are entities that the directors, partners or trustees of the applying Entity currently hold the position of director or have previously held the position of director within five years prior to submission of the application.\r\n<br><br>\r\n<b>Relevant Persons</b> are persons who have a direct or indirect interest in the Entity or business with potential to exert influence over the management or operation of the Entity. This might include senior staff such as a Human Resources Manager or Chief Financial Officer.",
+      "RootQuestionThreadId": null,
+      "ParentQuestionThreadId": null,
+      "ParentConditionalValue": null,
+      "RelatedQuestionThreadId": null,
+      "RelatedConditionalValue": null,
+      "Attributes": [],
+      "Fields": [],
+      "Options": []
+    },
+    {
+      "InternalDescription": "SWP - Application Process",
+      "QuestionThreadId": "1c920db9-7927-4c74-84b4-351d338a2b54",
+      "Order": 1,
+      "QuestionType": "Info",
+      "Text": "<b>Application Process</b>\r\n<br><br>\r\nTo  participate in the Seasonal Worker Programme an Entity must successfully complete a three-step application process:\r\n<ol>\r\n<li>Complete this application form and submit it via SWP Online and submit to the Department.</li>\r\n<li>Successful applicants will be granted provisional approval as an Approved Employer. Entities will need to apply to become a Temporary Activities Sponsor through the Department of Home Affairs in order to be able to sponsor workers from participating countries to come to Australia. The Entity has three months to become a Temporary Activities Sponsor or the Department may revoke its provisional approval and the Entity will need to submit a new application if it remains interested in becoming an Approved Employer.</li>\r\n<li>If approved as a Temporary Activities Sponsor, the Entity will be offered a Deed of Agreement to become an Approved employer under the SWP. After the Deed is executed, the Entity may be able to employ seasonal workers under the SWP, in accordance with obligations imposed under the Deed of Agreement and Temporary Activities Sponsorship.</li>\r\n</ol>\r\n<br>\r\n<b>Instructions</b>\r\n<br><br>\r\nPlease ensure you complete all parts of the application form. Any answers found to be false, misleading or inaccurate will result in rejection of the application and may result in the termination of any future Deeds of Agreement entered into by the parties.\r\n<br><br>\r\nPlease state your answers clearly and provide detailed information when lodging your application. Should you need further information please contact the Department via email: <a href=\"mailto:SWPapplications@dese.gov.au\">SWPapplications@dese.gov.au</a> or call (02) 6240 5234.\r\n<br><br>\r\n<b>Application processing timeframe</b>\r\n<br><br>\r\nApplicants should allow about five to six months from lodging an application to when they can start recruiting seasonal workers, if their application is successful. The total processing time for step 1 is approximately 12 weeks and steps 2-3 take about 4-6 weeks.\r\n<br><br>\r\nOnce these steps are completed, all Approved Employers will need to complete an induction process before they submit a recruitment application to the Department for approval. The recruitment application includes a Welfare and Wellbeing Plan, Accommodation Plan, Labour Market Testing, Recruitment Details and an Offer of Employment letter. Workers cannot be recruited before a recruitment application has been approved by the department. The recruitment application approval process takes about 4-6 weeks. The total timeframe is indicative only. To ensure timely processing of an application, Entities should provide all requested information and to respond to questions fully and truthfully at the time of submission.\r\n<br><br>\r\nAn Entity may only apply for Approved Employer status twice in any 12 month period from the date of submitting their first application. Should the Department require further information in order to complete their assessment, the applying Entity will be sent a Request for Information through SWP Online via email notification, outlining additional information required and stating a closing date for response. If the Entity does not respond to the Request for Information prior to the closing date, the Department will close the application.\r\n<br><br>\r\nIf an Entity becomes an Approved Employer and is found to have failed to provide relevant information or, provided dishonest or misleading responses and information in their application, the Department may seek to terminate the Deed of Agreement with the Approved Employer. Termination of the Deed will impact any other agreements or sponsorship arrangements under the program.\r\n<br><br>\r\nFurther information about the SWP can be found on the <a href=\"https://www.employment.gov.au/seasonal-worker-programme\">SWP Website</a>.\r\n<br><br><br>\r\n<i>Please ensure you complete all parts of the application form.</i>\r\n<br><br>\r\nPlease state your answers clearly and provide detailed information when lodging your application. Should you need further information please contact the Department of Education, Skills and Employment via email <a href=\"mailto:SWPapplications@dese.gov.au\">SWPapplications@dese.gov.au</a>  or call (02) 6240 5234.",
+      "RootQuestionThreadId": null,
+      "ParentQuestionThreadId": null,
+      "ParentConditionalValue": null,
+      "RelatedQuestionThreadId": null,
+      "RelatedConditionalValue": null,
+      "Attributes": [],
+      "Fields": [],
+      "Options": []
+    },
+    {
+      "InternalDescription": "question id: 13780",
+      "QuestionThreadId": "3716e886-be06-440d-ab21-d814a4a43014",
+      "Order": 1,
+      "QuestionType": "Info",
+      "Text": "<br>\r\n<b><i>For contractors</i></b></br>\r\nNote that the department will apply a recruitment cap of between 10 and 40 for a first recruitment, at the department’s sole discretion.\r\n",
+      "RootQuestionThreadId": "35361fda-498c-4995-a493-42c20e972d5d",
+      "ParentQuestionThreadId": "35361fda-498c-4995-a493-42c20e972d5d",
+      "ParentConditionalValue": null,
+      "RelatedQuestionThreadId": "b8f87802-33c3-4793-af58-ba9b222de3ae",
+      "RelatedConditionalValue": "Contractor",
+      "Attributes": [],
+      "Fields": [],
+      "Options": []
+    },
+    {
+      "InternalDescription": "question id: 13781",
+      "QuestionThreadId": "93a00533-ceaa-46a4-b25a-761c0bf6cc1d",
+      "Order": 2,
+      "QuestionType": "Info",
+      "Text": "<br><b><i>For direct employers</i></b></br>\r\nNote that the department will apply a recruitment cap of between 10 and 20 for a first recruitment, at the department’s sole discretion. \r\n",
+      "RootQuestionThreadId": "35361fda-498c-4995-a493-42c20e972d5d",
+      "ParentQuestionThreadId": "35361fda-498c-4995-a493-42c20e972d5d",
+      "ParentConditionalValue": null,
+      "RelatedQuestionThreadId": "b8f87802-33c3-4793-af58-ba9b222de3ae",
+      "RelatedConditionalValue": "Direct Employer",
+      "Attributes": [],
+      "Fields": [],
+      "Options": []
+    },
+    {
+      "InternalDescription": "question id: 13782",
+      "QuestionThreadId": "b1bd465c-8607-4b44-bf8f-9ed6c5222977",
+      "Order": 3,
+      "QuestionType": "Info",
+      "Text": "<br>\r\n<b><i>For labour hire</i></b></br>\r\nNote that the department will apply a recruitment cap of between 10 and 40 for a first recruitment, at the department’s sole discretion.\r\n",
+      "RootQuestionThreadId": "35361fda-498c-4995-a493-42c20e972d5d",
+      "ParentQuestionThreadId": "35361fda-498c-4995-a493-42c20e972d5d",
+      "ParentConditionalValue": null,
+      "RelatedQuestionThreadId": "b8f87802-33c3-4793-af58-ba9b222de3ae",
+      "RelatedConditionalValue": "Labour Hire",
+      "Attributes": [],
+      "Fields": [],
+      "Options": []
+    },
+    {
+      "InternalDescription": "SWP - postal address details",
+      "QuestionThreadId": "0d78254d-adaf-4b81-8bb2-0e37d9cbd2bc",
+      "Order": 1,
+      "QuestionType": "Info",
+      "Text": "<b>What is the Entity's postal adress?</b>",
+      "RootQuestionThreadId": "d844c893-7bc2-4bbc-a61d-5d422d5fcc0a",
+      "ParentQuestionThreadId": "216ac538-b702-4ed2-b353-664cc9a40310",
+      "ParentConditionalValue": "2",
+      "RelatedQuestionThreadId": "216ac538-b702-4ed2-b353-664cc9a40310",
+      "RelatedConditionalValue": "2",
+      "Attributes": [],
+      "Fields": [
+        {
+          "Type": "Text",
+          "Text": "Street/PO Box Number",
+          "Order": 1
+        },
+        {
+          "Type": "Text",
+          "Text": "Suburb/City",
+          "Order": 2
+        },
+        {
+          "Type": "Text",
+          "Text": "State",
+          "Order": 3
+        },
+        {
+          "Type": "Text",
+          "Text": "Postcode",
+          "Order": 4
+        }
+      ],
+      "Options": []
+    },
+    {
+      "InternalDescription": "SWP - trading address",
+      "QuestionThreadId": "7572e157-b64c-4163-b39c-8afbc099baf3",
+      "Order": 1,
+      "QuestionType": "Info",
+      "Text": "<b>What is the Entity's trading address?</b>",
+      "RootQuestionThreadId": "507ed2b3-2918-435b-9bfa-4649f17b5d0c",
+      "ParentQuestionThreadId": "507ed2b3-2918-435b-9bfa-4649f17b5d0c",
+      "ParentConditionalValue": "2",
+      "RelatedQuestionThreadId": "507ed2b3-2918-435b-9bfa-4649f17b5d0c",
+      "RelatedConditionalValue": "2",
+      "Attributes": [],
+      "Fields": [],
+      "Options": []
+    },
+    {
+      "InternalDescription": "SWP - test local labour market",
+      "QuestionThreadId": "5776aa75-4ca8-41d6-be38-8c3d6dad38fb",
+      "Order": 1,
+      "QuestionType": "Info",
+      "Text": "<br>1. To genuinely test the local labour market for suitable Australian job seekers before seeking to access seasonal workers through the SWP following guidance provided by the department, including advertising available vacancies on Australian Government’s jobsearch website.",
+      "RootQuestionThreadId": "11ffb1be-d82d-439d-9b7e-1193f7038feb",
+      "ParentQuestionThreadId": "11ffb1be-d82d-439d-9b7e-1193f7038feb",
+      "ParentConditionalValue": null,
+      "RelatedQuestionThreadId": "11ffb1be-d82d-439d-9b7e-1193f7038feb",
+      "RelatedConditionalValue": null,
+      "Attributes": [],
+      "Fields": [],
+      "Options": []
+    },
+    {
+      "InternalDescription": "SWP - assist with initial cash advance",
+      "QuestionThreadId": "245c46f8-df54-4e47-ba80-8470f25875c7",
+      "Order": 4,
+      "QuestionType": "Info",
+      "Text": "<br>4. To offer a cash advance for reasonable initial living expenses on seasonal workers’ arrival.<br><br>Note these expenses can be recouped as a reasonable authorised deduction from the seasonal workers’ pay during the employment period. ",
+      "RootQuestionThreadId": "11ffb1be-d82d-439d-9b7e-1193f7038feb",
+      "ParentQuestionThreadId": "11ffb1be-d82d-439d-9b7e-1193f7038feb",
+      "ParentConditionalValue": null,
+      "RelatedQuestionThreadId": "11ffb1be-d82d-439d-9b7e-1193f7038feb",
+      "RelatedConditionalValue": null,
+      "Attributes": [],
+      "Fields": [],
+      "Options": []
+    },
+    {
+      "InternalDescription": "SWP - arrange all transportation",
+      "QuestionThreadId": "c41d2f81-e588-4893-a0b5-4e0bc44e33de",
+      "Order": 5,
+      "QuestionType": "Info",
+      "Text": "<br>5. To pay up front the full cost of return international airfares and domestic transport for all seasonal workers (you must pay the first $300 of these costs, and can recoup costs over $300 by authorised deductions from seasonal workers pay during the employment period). ",
+      "RootQuestionThreadId": "11ffb1be-d82d-439d-9b7e-1193f7038feb",
+      "ParentQuestionThreadId": "11ffb1be-d82d-439d-9b7e-1193f7038feb",
+      "ParentConditionalValue": null,
+      "RelatedQuestionThreadId": "11ffb1be-d82d-439d-9b7e-1193f7038feb",
+      "RelatedConditionalValue": null,
+      "Attributes": [],
+      "Fields": [],
+      "Options": []
+    },
+    {
+      "InternalDescription": "SWP - 30 hours per week",
+      "QuestionThreadId": "8cf13f98-177b-4375-ae83-56d1f068d555",
+      "Order": 6,
+      "QuestionType": "Info",
+      "Text": "<br>6. To provide each seasonal worker a minimum of 30 hours of work per week on average for the duration of their placement. ",
+      "RootQuestionThreadId": "11ffb1be-d82d-439d-9b7e-1193f7038feb",
+      "ParentQuestionThreadId": "11ffb1be-d82d-439d-9b7e-1193f7038feb",
+      "ParentConditionalValue": null,
+      "RelatedQuestionThreadId": "11ffb1be-d82d-439d-9b7e-1193f7038feb",
+      "RelatedConditionalValue": null,
+      "Attributes": [],
+      "Fields": [],
+      "Options": []
+    },
+    {
+      "InternalDescription": "SWP - monitor well being",
+      "QuestionThreadId": "d071a315-7b20-4f25-a23e-161ab9aec30f",
+      "Order": 7,
+      "QuestionType": "Info",
+      "Text": "<br>7. To ensure the ongoing welfare and wellbeing of the seasonal workers while they are in Australia, including, but not limited to monitoring  the progress, placement and well-being of seasonal workers on a regular basis. ",
+      "RootQuestionThreadId": "11ffb1be-d82d-439d-9b7e-1193f7038feb",
+      "ParentQuestionThreadId": "11ffb1be-d82d-439d-9b7e-1193f7038feb",
+      "ParentConditionalValue": null,
+      "RelatedQuestionThreadId": "11ffb1be-d82d-439d-9b7e-1193f7038feb",
+      "RelatedConditionalValue": null,
+      "Attributes": [],
+      "Fields": [],
+      "Options": []
+    },
+    {
+      "InternalDescription": "SWP - to arrange accommodation",
+      "QuestionThreadId": "e5a03126-e3c1-47e7-8f69-a762c6e15761",
+      "Order": 8,
+      "QuestionType": "Info",
+      "Text": "<br>8. To arrange accommodation for seasonal workers under the SWP:\r\n<ul>\r\n<li>that meets relevant state, territory or council regulations or legislative requirements</li>\r\n<li>that meets the program’s minimum accommodation standards</li>\r\n<li>where the cost represents value for money and does not exceed the cost to you</li>\r\n</ul>\r\nNote this expense can be recouped by authorised deductions from the seasonal worker’s pay during the employment period. ",
+      "RootQuestionThreadId": "11ffb1be-d82d-439d-9b7e-1193f7038feb",
+      "ParentQuestionThreadId": "11ffb1be-d82d-439d-9b7e-1193f7038feb",
+      "ParentConditionalValue": null,
+      "RelatedQuestionThreadId": "11ffb1be-d82d-439d-9b7e-1193f7038feb",
+      "RelatedConditionalValue": null,
+      "Attributes": [],
+      "Fields": [],
+      "Options": []
+    },
+    {
+      "InternalDescription": "SWP - to provide pay slips",
+      "QuestionThreadId": "911b7bee-90a8-44b3-947f-a343f6b35ed0",
+      "Order": 9,
+      "QuestionType": "Info",
+      "Text": "<br>9. To provide weekly/fortnightly pay slips to seasonal workers under the SWP that clearly set out gross pay, net pay, itemised deductions, tax and superannuation, and to instruct each seasonal worker how to read their pay slip.",
+      "RootQuestionThreadId": "11ffb1be-d82d-439d-9b7e-1193f7038feb",
+      "ParentQuestionThreadId": "11ffb1be-d82d-439d-9b7e-1193f7038feb",
+      "ParentConditionalValue": null,
+      "RelatedQuestionThreadId": "11ffb1be-d82d-439d-9b7e-1193f7038feb",
+      "RelatedConditionalValue": null,
+      "Attributes": [],
+      "Fields": [],
+      "Options": []
+    },
+    {
+      "InternalDescription": "SWP - deductions are reasonable",
+      "QuestionThreadId": "c31dab9c-0dee-4792-a11d-142f02f436d1",
+      "Order": 10,
+      "QuestionType": "Info",
+      "Text": "<br>10. To ensure any deductions from seasonal workers’ pay are allowable under the SWP Deed of Agreement, reasonable, have been explained to and agreed by the seasonal worker in advance and in writing. ",
+      "RootQuestionThreadId": "11ffb1be-d82d-439d-9b7e-1193f7038feb",
+      "ParentQuestionThreadId": "11ffb1be-d82d-439d-9b7e-1193f7038feb",
+      "ParentConditionalValue": null,
+      "RelatedQuestionThreadId": "11ffb1be-d82d-439d-9b7e-1193f7038feb",
+      "RelatedConditionalValue": null,
+      "Attributes": [],
+      "Fields": [],
+      "Options": []
+    },
+    {
+      "InternalDescription": "SWP - meet visa obligations",
+      "QuestionThreadId": "dad471a4-0151-480f-aa7d-a15621313349",
+      "Order": 11,
+      "QuestionType": "Info",
+      "Text": "<br>11. To ensure that seasonal workers under the SWP meet their visa obligations. This includes ensuring the seasonal workers have and maintain adequate health insurance during the period of their stay in Australia and to assist seasonal workers to depart Australia before their visa expires.",
+      "RootQuestionThreadId": "11ffb1be-d82d-439d-9b7e-1193f7038feb",
+      "ParentQuestionThreadId": "11ffb1be-d82d-439d-9b7e-1193f7038feb",
+      "ParentConditionalValue": null,
+      "RelatedQuestionThreadId": "11ffb1be-d82d-439d-9b7e-1193f7038feb",
+      "RelatedConditionalValue": null,
+      "Attributes": [],
+      "Fields": [],
+      "Options": []
+    },
+    {
+      "InternalDescription": "SWP - to facility banking",
+      "QuestionThreadId": "179c7ff1-3bb7-43a8-97e8-6d0f88543dba",
+      "Order": 12,
+      "QuestionType": "Info",
+      "Text": "<br>12. To facilitate access to personal banking, a superannuation, and a Tax File Number for each seasonal worker under the SWP. ",
+      "RootQuestionThreadId": "11ffb1be-d82d-439d-9b7e-1193f7038feb",
+      "ParentQuestionThreadId": "11ffb1be-d82d-439d-9b7e-1193f7038feb",
+      "ParentConditionalValue": null,
+      "RelatedQuestionThreadId": "11ffb1be-d82d-439d-9b7e-1193f7038feb",
+      "RelatedConditionalValue": null,
+      "Attributes": [],
+      "Fields": [],
+      "Options": []
+    },
+    {
+      "InternalDescription": "SWP - to facilitate training",
+      "QuestionThreadId": "d1c40f76-c348-43e9-8d8c-7e915386ee38",
+      "Order": 13,
+      "QuestionType": "Info",
+      "Text": "<br>13. To facilitate the opportunity for seasonal workers under the SWP to participate in Australian Government funded eligible training while they are in Australia. ",
+      "RootQuestionThreadId": "11ffb1be-d82d-439d-9b7e-1193f7038feb",
+      "ParentQuestionThreadId": "11ffb1be-d82d-439d-9b7e-1193f7038feb",
+      "ParentConditionalValue": null,
+      "RelatedQuestionThreadId": "11ffb1be-d82d-439d-9b7e-1193f7038feb",
+      "RelatedConditionalValue": null,
+      "Attributes": [],
+      "Fields": [],
+      "Options": []
+    },
+    {
+      "InternalDescription": "SWP - choice of movement",
+      "QuestionThreadId": "4b027486-5176-466f-b779-b8fa33b5a30b",
+      "Order": 14,
+      "QuestionType": "Info",
+      "Text": "<br>14. To ensure seasonal workers under the SWP have freedom of choice, association and movement outside of working hours, and to facilitate access to religious, recreational, shopping, health and other facilities as required. ",
+      "RootQuestionThreadId": "11ffb1be-d82d-439d-9b7e-1193f7038feb",
+      "ParentQuestionThreadId": "11ffb1be-d82d-439d-9b7e-1193f7038feb",
+      "ParentConditionalValue": null,
+      "RelatedQuestionThreadId": "11ffb1be-d82d-439d-9b7e-1193f7038feb",
+      "RelatedConditionalValue": null,
+      "Attributes": [],
+      "Fields": [],
+      "Options": []
+    },
+    {
+      "InternalDescription": "SWP - obtain TAS",
+      "QuestionThreadId": "ba3a09dc-1bab-4983-a0f9-aaa1e0677d4e",
+      "Order": 2,
+      "QuestionType": "Info",
+      "Text": "<br>2. To obtain and maintain approval as a Temporary Activities Sponsor (TAS) through the Department of Home Affairs.<br><br> \r\nNote: If you do not obtain approval as a Temporary Activities Sponsor within three months of being granted provisional approval of your application, the department may revoke its provisional approval and you will need to submit a new application. If you do not maintain approval as a Temporary Activities Sponsor, the department may terminate your Deed.",
+      "RootQuestionThreadId": "11ffb1be-d82d-439d-9b7e-1193f7038feb",
+      "ParentQuestionThreadId": "11ffb1be-d82d-439d-9b7e-1193f7038feb",
+      "ParentConditionalValue": null,
+      "RelatedQuestionThreadId": "11ffb1be-d82d-439d-9b7e-1193f7038feb",
+      "RelatedConditionalValue": null,
+      "Attributes": [],
+      "Fields": [],
+      "Options": []
+    },
+    {
+      "InternalDescription": "SWP - Offered Positions",
+      "QuestionThreadId": "f54051fb-f90d-4152-8cda-27482b2bb580",
+      "Order": 3,
+      "QuestionType": "Info",
+      "Text": "<br>3. To only offer positions to seasonal workers in eligible occupations within industries listed on the SWP website.",
+      "RootQuestionThreadId": "11ffb1be-d82d-439d-9b7e-1193f7038feb",
+      "ParentQuestionThreadId": "11ffb1be-d82d-439d-9b7e-1193f7038feb",
+      "ParentConditionalValue": null,
+      "RelatedQuestionThreadId": "11ffb1be-d82d-439d-9b7e-1193f7038feb",
+      "RelatedConditionalValue": null,
+      "Attributes": [],
+      "Fields": [],
+      "Options": []
+    },
+    {
+      "InternalDescription": "SWP - person making declaration",
+      "QuestionThreadId": "0cc997cc-52d5-47b5-a9cd-5ac7ee5f7b68",
+      "Order": 8,
+      "QuestionType": "Info",
+      "Text": "<b>Name of person making this declaration</b> (Must be a relevant person listed in this application)",
+      "RootQuestionThreadId": "31ca782e-42ab-4e3f-b1c4-dd2e0afc4f7f",
+      "ParentQuestionThreadId": "31ca782e-42ab-4e3f-b1c4-dd2e0afc4f7f",
+      "ParentConditionalValue": null,
+      "RelatedQuestionThreadId": "31ca782e-42ab-4e3f-b1c4-dd2e0afc4f7f",
+      "RelatedConditionalValue": null,
+      "Attributes": [],
+      "Fields": [],
+      "Options": []
+    },
+    {
+      "InternalDescription": "SWP - Dec 1",
+      "QuestionThreadId": "ff3d1514-f9ea-4c6d-ac3c-b90d2a86fdf4",
+      "Order": 1,
+      "QuestionType": "Info",
+      "Text": "The contents of this application have been read and understood and the Entity agrees to observe the conditions noted in this form.",
+      "RootQuestionThreadId": "31ca782e-42ab-4e3f-b1c4-dd2e0afc4f7f",
+      "ParentQuestionThreadId": "31ca782e-42ab-4e3f-b1c4-dd2e0afc4f7f",
+      "ParentConditionalValue": null,
+      "RelatedQuestionThreadId": "31ca782e-42ab-4e3f-b1c4-dd2e0afc4f7f",
+      "RelatedConditionalValue": null,
+      "Attributes": [],
+      "Fields": [],
+      "Options": []
+    },
+    {
+      "InternalDescription": "SWP - Dec 4",
+      "QuestionThreadId": "f4c081a3-bf45-49d3-8c64-f7f41b05a5cb",
+      "Order": 4,
+      "QuestionType": "Info",
+      "Text": "I will advise the department if any of the information in this form changes between the time of submitting this form and executing a <a href=\"https://docs.jobs.gov.au/documents/seasonal-worker-programme-deed-agreement\" target=\"_blank\">Deed of Agreement </a><span class=\"fas fa-external-link-alt\"></span>.",
+      "RootQuestionThreadId": "31ca782e-42ab-4e3f-b1c4-dd2e0afc4f7f",
+      "ParentQuestionThreadId": "31ca782e-42ab-4e3f-b1c4-dd2e0afc4f7f",
+      "ParentConditionalValue": null,
+      "RelatedQuestionThreadId": "31ca782e-42ab-4e3f-b1c4-dd2e0afc4f7f",
+      "RelatedConditionalValue": null,
+      "Attributes": [],
+      "Fields": [],
+      "Options": []
+    },
+    {
+      "InternalDescription": "SWP - Dec 2",
+      "QuestionThreadId": "62b1174a-e90b-4f49-a313-0166c39f0a82",
+      "Order": 2,
+      "QuestionType": "Info",
+      "Text": "All information submitted is complete and accurate.",
+      "RootQuestionThreadId": "31ca782e-42ab-4e3f-b1c4-dd2e0afc4f7f",
+      "ParentQuestionThreadId": "31ca782e-42ab-4e3f-b1c4-dd2e0afc4f7f",
+      "ParentConditionalValue": null,
+      "RelatedQuestionThreadId": "31ca782e-42ab-4e3f-b1c4-dd2e0afc4f7f",
+      "RelatedConditionalValue": null,
+      "Attributes": [],
+      "Fields": [],
+      "Options": []
+    },
+    {
+      "InternalDescription": "SWP - Dec 3",
+      "QuestionThreadId": "90de42e9-1554-42e5-a680-0c9d92017717",
+      "Order": 3,
+      "QuestionType": "Info",
+      "Text": "I understand there are penalties under the Commonwealth Criminal Code for providing false or misleading information to the Commonwealth.",
+      "RootQuestionThreadId": "31ca782e-42ab-4e3f-b1c4-dd2e0afc4f7f",
+      "ParentQuestionThreadId": "31ca782e-42ab-4e3f-b1c4-dd2e0afc4f7f",
+      "ParentConditionalValue": null,
+      "RelatedQuestionThreadId": "31ca782e-42ab-4e3f-b1c4-dd2e0afc4f7f",
+      "RelatedConditionalValue": null,
+      "Attributes": [],
+      "Fields": [],
+      "Options": []
+    },
+    {
+      "InternalDescription": "SWP - Dec 6",
+      "QuestionThreadId": "17301497-8168-47b6-bd84-7a2dfb971de9",
+      "Order": 6,
+      "QuestionType": "Info",
+      "Text": "I will advise the department in writing immediately upon becoming aware of any actual or potential conflict of interest in respect to the application.",
+      "RootQuestionThreadId": "31ca782e-42ab-4e3f-b1c4-dd2e0afc4f7f",
+      "ParentQuestionThreadId": "31ca782e-42ab-4e3f-b1c4-dd2e0afc4f7f",
+      "ParentConditionalValue": null,
+      "RelatedQuestionThreadId": "31ca782e-42ab-4e3f-b1c4-dd2e0afc4f7f",
+      "RelatedConditionalValue": null,
+      "Attributes": [],
+      "Fields": [],
+      "Options": []
+    },
+    {
+      "InternalDescription": "SWP - Dec 5",
+      "QuestionThreadId": "50658334-38b5-424d-83b9-f0199903f0ed",
+      "Order": 5,
+      "QuestionType": "Info",
+      "Text": "The application has been compiled without improper assistance of any departmental employee and without the use of information obtained unlawfully or in breach of an obligation to the department.\r\n",
+      "RootQuestionThreadId": "31ca782e-42ab-4e3f-b1c4-dd2e0afc4f7f",
+      "ParentQuestionThreadId": "31ca782e-42ab-4e3f-b1c4-dd2e0afc4f7f",
+      "ParentConditionalValue": null,
+      "RelatedQuestionThreadId": "31ca782e-42ab-4e3f-b1c4-dd2e0afc4f7f",
+      "RelatedConditionalValue": null,
+      "Attributes": [],
+      "Fields": [],
+      "Options": []
+    },
+    {
+      "InternalDescription": "SWP - Dec 8",
+      "QuestionThreadId": "f4fd5bc3-4c39-470c-aec4-3579a94bef94",
+      "Order": 7,
+      "QuestionType": "Info",
+      "Text": "All communication from the department remains confidential and I will not disclose without the department’s written <i>consent</i>.",
+      "RootQuestionThreadId": "31ca782e-42ab-4e3f-b1c4-dd2e0afc4f7f",
+      "ParentQuestionThreadId": "31ca782e-42ab-4e3f-b1c4-dd2e0afc4f7f",
+      "ParentConditionalValue": null,
+      "RelatedQuestionThreadId": "31ca782e-42ab-4e3f-b1c4-dd2e0afc4f7f",
+      "RelatedConditionalValue": null,
+      "Attributes": [],
+      "Fields": [],
+      "Options": []
+    },
+    {
+      "InternalDescription": "SWP - sign deed",
+      "QuestionThreadId": "481f61c3-bb05-4393-9839-a90c27976e10",
+      "Order": 1,
+      "QuestionType": "Info",
+      "Text": "<br>1. To sign and return a copy of the Deed within 20 business days of receipt of the Deed. If the Deed is not returned within the timeframe, our offer to you to become an Approved Employer may be withdrawn.",
+      "RootQuestionThreadId": "0860910f-4d90-4924-bfe8-65dc6313c242",
+      "ParentQuestionThreadId": "0860910f-4d90-4924-bfe8-65dc6313c242",
+      "ParentConditionalValue": null,
+      "RelatedQuestionThreadId": "0860910f-4d90-4924-bfe8-65dc6313c242",
+      "RelatedConditionalValue": null,
+      "Attributes": [],
+      "Fields": [],
+      "Options": []
+    },
+    {
+      "InternalDescription": "SWP - abide by requirements",
+      "QuestionThreadId": "d50def5f-5381-4e5c-b7ce-5362585f88f8",
+      "Order": 2,
+      "QuestionType": "Info",
+      "Text": "<br>2. To abide by all Deed requirements.",
+      "RootQuestionThreadId": "0860910f-4d90-4924-bfe8-65dc6313c242",
+      "ParentQuestionThreadId": "0860910f-4d90-4924-bfe8-65dc6313c242",
+      "ParentConditionalValue": null,
+      "RelatedQuestionThreadId": "0860910f-4d90-4924-bfe8-65dc6313c242",
+      "RelatedConditionalValue": null,
+      "Attributes": [],
+      "Fields": [],
+      "Options": []
+    },
+    {
+      "InternalDescription": "SWP - engage government",
+      "QuestionThreadId": "a42b6240-faff-4ee7-804e-4c8f71d0dac8",
+      "Order": 3,
+      "QuestionType": "Info",
+      "Text": "<br>3. To engage with the Australian Government and its representatives, and with partner countries’ governments and their representatives, in a respectful manner at all times.  ",
+      "RootQuestionThreadId": "0860910f-4d90-4924-bfe8-65dc6313c242",
+      "ParentQuestionThreadId": "0860910f-4d90-4924-bfe8-65dc6313c242",
+      "ParentConditionalValue": null,
+      "RelatedQuestionThreadId": "0860910f-4d90-4924-bfe8-65dc6313c242",
+      "RelatedConditionalValue": null,
+      "Attributes": [],
+      "Fields": [],
+      "Options": []
+    },
+    {
+      "InternalDescription": "SWP - program assurance",
+      "QuestionThreadId": "ee376387-00b9-4079-ab15-c57369af42a9",
+      "Order": 4,
+      "QuestionType": "Info",
+      "Text": "<br>4. To participate in program assurance and compliance and program evaluation activities, as required by the department.",
+      "RootQuestionThreadId": "0860910f-4d90-4924-bfe8-65dc6313c242",
+      "ParentQuestionThreadId": "0860910f-4d90-4924-bfe8-65dc6313c242",
+      "ParentConditionalValue": null,
+      "RelatedQuestionThreadId": "0860910f-4d90-4924-bfe8-65dc6313c242",
+      "RelatedConditionalValue": null,
+      "Attributes": [],
+      "Fields": [],
+      "Options": []
+    },
+    {
+      "InternalDescription": "SWP - labour hire licence",
+      "QuestionThreadId": "a7e28da3-6c5a-4cc3-992d-6992d5cf1b95",
+      "Order": 5,
+      "QuestionType": "Info",
+      "Text": "<br>5. Where applicable, that your Deed will be subject to you obtaining and maintaining any labour hire licence(s) applicable to you in any states/territories you seek to place seasonal workers under the SWP. ",
+      "RootQuestionThreadId": "0860910f-4d90-4924-bfe8-65dc6313c242",
+      "ParentQuestionThreadId": "0860910f-4d90-4924-bfe8-65dc6313c242",
+      "ParentConditionalValue": null,
+      "RelatedQuestionThreadId": "0860910f-4d90-4924-bfe8-65dc6313c242",
+      "RelatedConditionalValue": null,
+      "Attributes": [],
+      "Fields": [],
+      "Options": []
+    },
+    {
+      "InternalDescription": "question id: 13749",
+      "QuestionThreadId": "1ca839a1-0865-46cb-8a89-fc23208efaac",
+      "Order": 1,
+      "QuestionType": "Date",
+      "Text": "<b>Date of ABN approval</b>",
+      "RootQuestionThreadId": null,
+      "ParentQuestionThreadId": null,
+      "ParentConditionalValue": null,
+      "RelatedQuestionThreadId": null,
+      "RelatedConditionalValue": null,
+      "Attributes": [
+        {
+          "Type": "Mandatory To Submit",
+          "Parameter": ""
+        }
+      ],
+      "Fields": [],
+      "Options": []
+    },
+    {
+      "InternalDescription": "question id: 13779",
+      "QuestionThreadId": "24433988-54e4-458f-84e4-eaa6a35c0649",
+      "Order": 1,
+      "QuestionType": "Date",
+      "Text": "<b>Date of ACN approval</b>",
+      "RootQuestionThreadId": null,
+      "ParentQuestionThreadId": null,
+      "ParentConditionalValue": null,
+      "RelatedQuestionThreadId": null,
+      "RelatedConditionalValue": null,
+      "Attributes": [],
+      "Fields": [],
+      "Options": []
+    },
+    {
+      "InternalDescription": "question id: 13411",
+      "QuestionThreadId": "02e11bb6-d540-4e6e-88d5-48274f6c73ca",
+      "Order": 1,
+      "QuestionType": "Input Table",
+      "Text": "<b>Please provide details of two referees.  The referees should have <u>no</u> commercial or personal involvement or interest in the application. Both referees will be contacted.</b>",
+      "RootQuestionThreadId": null,
+      "ParentQuestionThreadId": null,
+      "ParentConditionalValue": null,
+      "RelatedQuestionThreadId": null,
+      "RelatedConditionalValue": null,
+      "Attributes": [
+        {
+          "Type": "Max Rows",
+          "Parameter": "2"
+        },
+        {
+          "Type": "Mandatory To Submit",
+          "Parameter": ""
+        },
+        {
+          "Type": "Copy to field on submit",
+          "Parameter": "Swp.Domain.Applications.Commands.CopyRefereesIntegrityCheck"
+        },
+        {
+          "Type": "Help Text",
+          "Parameter": "Examples of an impartial referee might include a representative from the local council, a representative from an industry association, a local member of parliament, other companies you have a working relationship with or local community groups that know your business but gain no financial benefit from your entity’s participation in SWP."
+        }
+      ],
+      "Fields": [
+        {
+          "Type": "Text",
+          "Text": "First Name",
+          "Order": 1
+        },
+        {
+          "Type": "Text",
+          "Text": "Surname",
+          "Order": 2
+        },
+        {
+          "Type": "Text",
+          "Text": "Email",
+          "Order": 3
+        },
+        {
+          "Type": "Text",
+          "Text": "Relationship to Entity",
+          "Order": 4
+        },
+        {
+          "Type": "Text",
+          "Text": "Contact Number",
+          "Order": 5
+        }
+      ],
+      "Options": []
+    },
+    {
+      "InternalDescription": "question id: 13564",
+      "QuestionThreadId": "75adaa1e-308e-47e3-ac1a-81eb8388c626",
+      "Order": 12,
+      "QuestionType": "Input Table",
+      "Text": "<span><strong>Please enter the contact person(s) for any communications about this application.&nbsp;</strong>Please note the department will only correspond with the nominated contact person in regards to the application. If the nominated contact person is an external party representing the Entity, evidence of authorisation must be attached.</span>",
+      "RootQuestionThreadId": null,
+      "ParentQuestionThreadId": null,
+      "ParentConditionalValue": null,
+      "RelatedQuestionThreadId": null,
+      "RelatedConditionalValue": null,
+      "Attributes": [
+        {
+          "Type": "Help Text",
+          "Parameter": "The contact person must be a ‘relevant person’ of the Entity applying or an external party authorised to represent the Entity."
+        },
+        {
+          "Type": "Copy to field on submit",
+          "Parameter": "Swp.Domain.Applications.Commands.EmployerContacts"
+        },
+        {
+          "Type": "Mandatory To Submit",
+          "Parameter": ""
+        },
+        {
+          "Type": "Max Rows",
+          "Parameter": "10"
+        }
+      ],
+      "Fields": [
+        {
+          "Type": "Text",
+          "Text": "First Name",
+          "Order": 1
+        },
+        {
+          "Type": "Text",
+          "Text": "Surname",
+          "Order": 2
+        },
+        {
+          "Type": "Text",
+          "Text": "Position",
+          "Order": 3
+        },
+        {
+          "Type": "Text",
+          "Text": "Contact Number",
+          "Order": 4
+        },
+        {
+          "Type": "Text",
+          "Text": "Email",
+          "Order": 5
+        },
+        {
+          "Type": "Text",
+          "Text": "Postal Address",
+          "Order": 6
+        }
+      ],
+      "Options": []
+    },
+    {
+      "InternalDescription": "question id: 13336",
+      "QuestionThreadId": "d91308a5-0029-4754-ad54-86894d563d12",
+      "Order": 1,
+      "QuestionType": "Input Table",
+      "Text": "<br><b>Please provide details</b>",
+      "RootQuestionThreadId": "8a5f4e08-589e-4f1b-9a3a-05cdc20cc5a0",
+      "ParentQuestionThreadId": "8a5f4e08-589e-4f1b-9a3a-05cdc20cc5a0",
+      "ParentConditionalValue": "1",
+      "RelatedQuestionThreadId": "8a5f4e08-589e-4f1b-9a3a-05cdc20cc5a0",
+      "RelatedConditionalValue": "1",
+      "Attributes": [
+        {
+          "Type": "Mandatory To Submit",
+          "Parameter": ""
+        }
+      ],
+      "Fields": [
+        {
+          "Type": "Date",
+          "Text": "Application Date",
+          "Order": 1
+        },
+        {
+          "Type": "Text",
+          "Text": "Entity Name",
+          "Order": 2
+        },
+        {
+          "Type": "Text",
+          "Text": "ABN",
+          "Order": 3
+        }
+      ],
+      "Options": []
+    },
+    {
+      "InternalDescription": "question id: 13526",
+      "QuestionThreadId": "25999a60-a1c6-4144-8b0c-171a642be995",
+      "Order": 1,
+      "QuestionType": "Input Table",
+      "Text": "Please provide details",
+      "RootQuestionThreadId": "c797748f-1b1e-4fe2-8b9e-530eca8a61a6",
+      "ParentQuestionThreadId": "c797748f-1b1e-4fe2-8b9e-530eca8a61a6",
+      "ParentConditionalValue": "1",
+      "RelatedQuestionThreadId": "c797748f-1b1e-4fe2-8b9e-530eca8a61a6",
+      "RelatedConditionalValue": "1",
+      "Attributes": [
+        {
+          "Type": "Mandatory To Submit",
+          "Parameter": ""
+        }
+      ],
+      "Fields": [
+        {
+          "Type": "Text",
+          "Text": "First Name",
+          "Order": 1
+        },
+        {
+          "Type": "Text",
+          "Text": "Surname",
+          "Order": 2
+        },
+        {
+          "Type": "Text",
+          "Text": "Position",
+          "Order": 3
+        },
+        {
+          "Type": "Text",
+          "Text": "Contact Number",
+          "Order": 4
+        },
+        {
+          "Type": "Text",
+          "Text": "Email Address",
+          "Order": 5
+        },
+        {
+          "Type": "Text",
+          "Text": "Postal Address",
+          "Order": 6
+        }
+      ],
+      "Options": []
+    },
+    {
+      "InternalDescription": "question id: 11639",
+      "QuestionThreadId": "7a1b4076-1009-410d-8e2e-1628ea6e8064",
+      "Order": 1,
+      "QuestionType": "Numeric",
+      "Text": "<b>How many Australian citizens or permanent residents are permanent employees of the Entity?</b>",
+      "RootQuestionThreadId": null,
+      "ParentQuestionThreadId": null,
+      "ParentConditionalValue": null,
+      "RelatedQuestionThreadId": null,
+      "RelatedConditionalValue": null,
+      "Attributes": [
+        {
+          "Type": "Mandatory To Submit",
+          "Parameter": ""
+        }
+      ],
+      "Fields": [],
+      "Options": []
+    },
+    {
+      "InternalDescription": "question id: 13750",
+      "QuestionThreadId": "35361fda-498c-4995-a493-42c20e972d5d",
+      "Order": 1,
+      "QuestionType": "Numeric",
+      "Text": "<b>What is the estimated maximum number of seasonal workers under the SWP the Entity is likely to recruit for their first recruitment?</b><br><br>\r\n<i>Please note the department in consultation with an Approved Employer can revise the cap after the first recruitment has been completed.</i>",
+      "RootQuestionThreadId": null,
+      "ParentQuestionThreadId": null,
+      "ParentConditionalValue": null,
+      "RelatedQuestionThreadId": null,
+      "RelatedConditionalValue": null,
+      "Attributes": [
+        {
+          "Type": "Mandatory To Submit",
+          "Parameter": ""
+        }
+      ],
+      "Fields": [],
+      "Options": []
+    },
+    {
+      "InternalDescription": "question id: 13398",
+      "QuestionThreadId": "21b4ae85-a8d2-41f0-a4ce-beceefa0dff4",
+      "Order": 1,
+      "QuestionType": "Numeric",
+      "Text": "Total",
+      "RootQuestionThreadId": "e3b9684e-b7e2-49e8-a6dd-18145f13c46d",
+      "ParentQuestionThreadId": "e3b9684e-b7e2-49e8-a6dd-18145f13c46d",
+      "ParentConditionalValue": null,
+      "RelatedQuestionThreadId": "e3b9684e-b7e2-49e8-a6dd-18145f13c46d",
+      "RelatedConditionalValue": null,
+      "Attributes": [
+        {
+          "Type": "Mandatory To Submit",
+          "Parameter": ""
+        }
+      ],
+      "Fields": [],
+      "Options": []
+    },
+    {
+      "InternalDescription": "question id: 13399",
+      "QuestionThreadId": "834140da-6483-415b-a687-bdc852686ba3",
+      "Order": 2,
+      "QuestionType": "Numeric",
+      "Text": "Full time",
+      "RootQuestionThreadId": "e3b9684e-b7e2-49e8-a6dd-18145f13c46d",
+      "ParentQuestionThreadId": "e3b9684e-b7e2-49e8-a6dd-18145f13c46d",
+      "ParentConditionalValue": null,
+      "RelatedQuestionThreadId": "e3b9684e-b7e2-49e8-a6dd-18145f13c46d",
+      "RelatedConditionalValue": null,
+      "Attributes": [
+        {
+          "Type": "Mandatory To Submit",
+          "Parameter": ""
+        }
+      ],
+      "Fields": [],
+      "Options": []
+    },
+    {
+      "InternalDescription": "question id: 13400",
+      "QuestionThreadId": "78f13196-82a7-49e5-85d8-e835963cd214",
+      "Order": 3,
+      "QuestionType": "Numeric",
+      "Text": "Part time",
+      "RootQuestionThreadId": "e3b9684e-b7e2-49e8-a6dd-18145f13c46d",
+      "ParentQuestionThreadId": "e3b9684e-b7e2-49e8-a6dd-18145f13c46d",
+      "ParentConditionalValue": null,
+      "RelatedQuestionThreadId": "e3b9684e-b7e2-49e8-a6dd-18145f13c46d",
+      "RelatedConditionalValue": null,
+      "Attributes": [
+        {
+          "Type": "Mandatory To Submit",
+          "Parameter": ""
+        }
+      ],
+      "Fields": [],
+      "Options": []
+    },
+    {
+      "InternalDescription": "question id: 13401",
+      "QuestionThreadId": "aee0903a-c387-4743-864e-0968c85adcc9",
+      "Order": 4,
+      "QuestionType": "Numeric",
+      "Text": "Casual",
+      "RootQuestionThreadId": "e3b9684e-b7e2-49e8-a6dd-18145f13c46d",
+      "ParentQuestionThreadId": "e3b9684e-b7e2-49e8-a6dd-18145f13c46d",
+      "ParentConditionalValue": null,
+      "RelatedQuestionThreadId": "e3b9684e-b7e2-49e8-a6dd-18145f13c46d",
+      "RelatedConditionalValue": null,
+      "Attributes": [
+        {
+          "Type": "Mandatory To Submit",
+          "Parameter": ""
+        }
+      ],
+      "Fields": [],
+      "Options": []
+    },
+    {
+      "InternalDescription": "question id: 13402",
+      "QuestionThreadId": "083e72b9-c3be-45c0-aa3d-182da3f25fa3",
+      "Order": 5,
+      "QuestionType": "Numeric",
+      "Text": "Contractor",
+      "RootQuestionThreadId": "e3b9684e-b7e2-49e8-a6dd-18145f13c46d",
+      "ParentQuestionThreadId": "e3b9684e-b7e2-49e8-a6dd-18145f13c46d",
+      "ParentConditionalValue": null,
+      "RelatedQuestionThreadId": "e3b9684e-b7e2-49e8-a6dd-18145f13c46d",
+      "RelatedConditionalValue": null,
+      "Attributes": [
+        {
+          "Type": "Mandatory To Submit",
+          "Parameter": ""
+        }
+      ],
+      "Fields": [],
+      "Options": []
+    },
+    {
+      "InternalDescription": "SWP - full time",
+      "QuestionThreadId": "dec05805-7f0d-4ac9-8976-9a8db47c9915",
+      "Order": 2,
+      "QuestionType": "Numeric",
+      "Text": "Full time",
+      "RootQuestionThreadId": "38000832-8d36-4816-8525-953cfcd42514",
+      "ParentQuestionThreadId": "38000832-8d36-4816-8525-953cfcd42514",
+      "ParentConditionalValue": null,
+      "RelatedQuestionThreadId": "38000832-8d36-4816-8525-953cfcd42514",
+      "RelatedConditionalValue": null,
+      "Attributes": [
+        {
+          "Type": "Mandatory To Submit",
+          "Parameter": ""
+        },
+        {
+          "Type": "Min",
+          "Parameter": "0"
+        }
+      ],
+      "Fields": [],
+      "Options": []
+    },
+    {
+      "InternalDescription": "SWP - part time",
+      "QuestionThreadId": "ac3aa078-983a-409d-830f-dae022a2d16c",
+      "Order": 4,
+      "QuestionType": "Numeric",
+      "Text": "Part time",
+      "RootQuestionThreadId": "38000832-8d36-4816-8525-953cfcd42514",
+      "ParentQuestionThreadId": "38000832-8d36-4816-8525-953cfcd42514",
+      "ParentConditionalValue": null,
+      "RelatedQuestionThreadId": "38000832-8d36-4816-8525-953cfcd42514",
+      "RelatedConditionalValue": null,
+      "Attributes": [
+        {
+          "Type": "Min",
+          "Parameter": "0"
+        },
+        {
+          "Type": "Mandatory To Submit",
+          "Parameter": ""
+        }
+      ],
+      "Fields": [],
+      "Options": []
+    },
+    {
+      "InternalDescription": "SWP - Casual",
+      "QuestionThreadId": "897173c2-b62c-4fcb-9132-d2c427996afa",
+      "Order": 5,
+      "QuestionType": "Numeric",
+      "Text": "Casual",
+      "RootQuestionThreadId": "38000832-8d36-4816-8525-953cfcd42514",
+      "ParentQuestionThreadId": "38000832-8d36-4816-8525-953cfcd42514",
+      "ParentConditionalValue": null,
+      "RelatedQuestionThreadId": "38000832-8d36-4816-8525-953cfcd42514",
+      "RelatedConditionalValue": null,
+      "Attributes": [
+        {
+          "Type": "Min",
+          "Parameter": "0"
+        },
+        {
+          "Type": "Mandatory To Submit",
+          "Parameter": ""
+        }
+      ],
+      "Fields": [],
+      "Options": []
+    },
+    {
+      "InternalDescription": "SWP - Contractor",
+      "QuestionThreadId": "378c7fe8-a61e-474d-82b6-320e21769bda",
+      "Order": 6,
+      "QuestionType": "Numeric",
+      "Text": "Contractor",
+      "RootQuestionThreadId": "38000832-8d36-4816-8525-953cfcd42514",
+      "ParentQuestionThreadId": "38000832-8d36-4816-8525-953cfcd42514",
+      "ParentConditionalValue": null,
+      "RelatedQuestionThreadId": "38000832-8d36-4816-8525-953cfcd42514",
+      "RelatedConditionalValue": null,
+      "Attributes": [
+        {
+          "Type": "Min",
+          "Parameter": "0"
+        },
+        {
+          "Type": "Mandatory To Submit",
+          "Parameter": ""
+        }
+      ],
+      "Fields": [],
+      "Options": []
+    },
+    {
+      "InternalDescription": "SWP - Total",
+      "QuestionThreadId": "64fdaf37-1443-469d-a7e1-84be56115752",
+      "Order": 1,
+      "QuestionType": "Numeric",
+      "Text": "Total",
+      "RootQuestionThreadId": "38000832-8d36-4816-8525-953cfcd42514",
+      "ParentQuestionThreadId": "38000832-8d36-4816-8525-953cfcd42514",
+      "ParentConditionalValue": null,
+      "RelatedQuestionThreadId": "38000832-8d36-4816-8525-953cfcd42514",
+      "RelatedConditionalValue": null,
+      "Attributes": [
+        {
+          "Type": "Mandatory To Submit",
+          "Parameter": ""
+        }
+      ],
+      "Fields": [],
+      "Options": []
+    },
+    {
+      "InternalDescription": "question id: 11642",
+      "QuestionThreadId": "650b7a97-2e52-4cb4-bebc-f74bfcf30bb8",
+      "Order": 1,
+      "QuestionType": "ABR Data",
+      "Text": "<b>Australian Business Number (ABN)</b>",
+      "RootQuestionThreadId": null,
+      "ParentQuestionThreadId": null,
+      "ParentConditionalValue": null,
+      "RelatedQuestionThreadId": null,
+      "RelatedConditionalValue": null,
+      "Attributes": [
+        {
+          "Type": "Mandatory To Submit",
+          "Parameter": ""
+        },
+        {
+          "Type": "ABR Field",
+          "Parameter": "Abn"
+        }
+      ],
+      "Fields": [
+        {
+          "Type": "Date",
+          "Text": "Date",
+          "Order": 1
+        },
+        {
+          "Type": "Text",
+          "Text": "Enitity Name",
+          "Order": 2
+        },
+        {
+          "Type": "Text",
+          "Text": "ABN",
+          "Order": 3
+        }
+      ],
+      "Options": []
+    },
+    {
+      "InternalDescription": "question id: 13413",
+      "QuestionThreadId": "5f0c9ba3-f87b-493f-a054-ee6ce5643a90",
+      "Order": 1,
+      "QuestionType": "ABR Data",
+      "Text": "<b>Which type of Entity is this Business? (What structure best describes the Entity structure)</b>",
+      "RootQuestionThreadId": null,
+      "ParentQuestionThreadId": null,
+      "ParentConditionalValue": null,
+      "RelatedQuestionThreadId": null,
+      "RelatedConditionalValue": null,
+      "Attributes": [
+        {
+          "Type": "Mandatory To Submit",
+          "Parameter": ""
+        },
+        {
+          "Type": "ABR Field",
+          "Parameter": "EntityDescription"
+        },
+        {
+          "Type": "Copy to field on submit",
+          "Parameter": "Swp.Domain.Applications.Commands.CopyLookupEntityType"
+        }
+      ],
+      "Fields": [
+        {
+          "Type": "Text",
+          "Text": "Entity Name",
+          "Order": 1
+        },
+        {
+          "Type": "Text",
+          "Text": "ABN",
+          "Order": 2
+        },
+        {
+          "Type": "Text",
+          "Text": "ACN",
+          "Order": 3
+        }
+      ],
+      "Options": []
+    },
+    {
+      "InternalDescription": "question id: 12273",
+      "QuestionThreadId": "96852c8f-d4a9-4a3d-998e-848edd3b7393",
+      "Order": 1,
+      "QuestionType": "ABR Data",
+      "Text": "<p><strong>Legal Name of Entity- Test if this worked&nbsp;</strong></p>",
+      "RootQuestionThreadId": null,
+      "ParentQuestionThreadId": null,
+      "ParentConditionalValue": null,
+      "RelatedQuestionThreadId": null,
+      "RelatedConditionalValue": null,
+      "Attributes": [
+        {
+          "Type": "Mandatory To Submit",
+          "Parameter": ""
+        },
+        {
+          "Type": "ABR Field",
+          "Parameter": "EntityName"
+        },
+        {
+          "Type": "Copy to field on submit",
+          "Parameter": "Swp.Domain.Applications.Commands.CopyLegalNameOfEntity"
+        },
+        {
+          "Type": "Help Text",
+          "Parameter": "Help?"
+        }
+      ],
+      "Fields": [],
+      "Options": []
+    },
+    {
+      "InternalDescription": "SWP - Address Search",
+      "QuestionThreadId": "e172806e-bff7-499b-ac32-780368c38a55",
+      "Order": 6,
+      "QuestionType": "Address Search",
+      "Text": "<b>Address Search</b>",
+      "RootQuestionThreadId": "507ed2b3-2918-435b-9bfa-4649f17b5d0c",
+      "ParentQuestionThreadId": "7572e157-b64c-4163-b39c-8afbc099baf3",
+      "ParentConditionalValue": null,
+      "RelatedQuestionThreadId": "7572e157-b64c-4163-b39c-8afbc099baf3",
+      "RelatedConditionalValue": null,
+      "Attributes": [
+        {
+          "Type": "Hide Optional Tag",
+          "Parameter": ""
+        },
+        {
+          "Type": "Help Text",
+          "Parameter": "Start typing your address into the address search field to lookup your address.  If you cannot find your address, select the 'manually enter address' checkbox and enter your address details into the address fields.  Please note that the search facility cannot search for PO Boxes."
+        }
+      ],
+      "Fields": [],
+      "Options": []
+    },
+    {
+      "InternalDescription": "SWP - Address search",
+      "QuestionThreadId": "53c7713c-ed91-476b-a6ac-da9542342ea5",
+      "Order": 1,
+      "QuestionType": "Address Search",
+      "Text": "<b>Address Search</b>",
+      "RootQuestionThreadId": "21649f8d-e4e3-4433-a28f-706bdf5e4da7",
+      "ParentQuestionThreadId": "21649f8d-e4e3-4433-a28f-706bdf5e4da7",
+      "ParentConditionalValue": null,
+      "RelatedQuestionThreadId": "21649f8d-e4e3-4433-a28f-706bdf5e4da7",
+      "RelatedConditionalValue": null,
+      "Attributes": [
+        {
+          "Type": "Hide Optional Tag",
+          "Parameter": ""
+        },
+        {
+          "Type": "Help Text",
+          "Parameter": "Start typing your address into the address search field to lookup your address. If you cannot find your address, select the 'manually enter address' checkbox and enter your address details into the address fields. Please note that the search facility cannot search for PO Boxes."
+        }
+      ],
+      "Fields": [],
+      "Options": []
+    }
+  ]
+}

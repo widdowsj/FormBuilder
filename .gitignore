@@ -28,6 +28,7 @@ speed-measure-plugin*.json
 obj
 *.user
 launchSettings.json
+bin/
 
 # IDE - VSCode
 .vscode/*
