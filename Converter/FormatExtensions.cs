@@ -17,18 +17,22 @@ namespace Converter
                 IsPublished = oldForm.IsPublished,
             };
 
-            newForm.PageList.AddRange(oldForm.Pages.Select(x => new NewFormat.Page
+            foreach (var oldPage in oldForm.Pages)
             {
-                PageId = x.Guid,
-                Text = x.Description,
-                Order = x.Order,
-            }));
+                var newPage = new NewFormat.Page
+                {
+                    PageId = IdGenerator.NextId("page"),
+                    Text = oldPage.Description,
+                    Order = oldPage.Order,
+                };
+                newForm.PageList.Add(newPage);
+                newForm.ItemList.AddRange(oldForm.GetPageQuestions(oldPage, newPage.PageId));
+            }
 
-            newForm.ItemList.AddRange(oldForm.Pages.SelectMany(x => oldForm.GetPageQuestions(x)));
             return newForm;
         }
 
-        public static IEnumerable<NewFormat.FormItem> GetPageQuestions(this OldFormat.Form form, OldFormat.Page page)
+        public static IEnumerable<NewFormat.FormItem> GetPageQuestions(this OldFormat.Form form, OldFormat.Page page, string pageId)
         {
             var order = 0;
             return page.QuestionList.OrderBy(x => x.Order)
@@ -36,7 +40,7 @@ namespace Converter
                 .Select(x => new NewFormat.FormItem
                 {
                     ItemId = x.QuestionThreadId,
-                    PageId = page.Guid,
+                    PageId = pageId,
                     Description = x.InternalDescription,
                     Text = x.Text,
                     Order = order++,

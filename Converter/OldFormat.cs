@@ -19,7 +19,6 @@ namespace Converter.OldFormat
     {
         public int Order { get; set; }
         public string Description { get; set; } = "";
-        public string Guid { get; set; } = "";
         public List<QuestionPageMap> QuestionList { get; set; } = new();
     }
 
@@ -64,6 +63,6 @@ namespace Converter.OldFormat
     {
         public string Value { get; set; } = "";
         public string Text { get; set; } = "";
-        public int Order { get; set; }
+        public int? Order { get; set; }
     }
 }
