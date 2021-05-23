@@ -1,3 +1,11 @@
+export interface FormMetaData {
+  id: number;
+  name: string;
+  version: number;
+  isPublished: boolean;
+  type: string;
+}
+
 export interface FormDetail {
   pageList: Page[];
   itemList: FormItem[];
