@@ -1,8 +1,5 @@
-import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
-import { Observable } from 'rxjs';
+import { Component, Input, OnInit } from '@angular/core';
 import { FormDetail } from '../forms.entities';
-import { FormsService } from '../forms.service';
 
 @Component({
   selector: 'app-form-detail',
@@ -10,11 +7,9 @@ import { FormsService } from '../forms.service';
   styleUrls: ['./form-detail.component.scss']
 })
 export class FormDetailComponent implements OnInit {
-  form$: Observable<FormDetail>;
+  @Input() form: FormDetail | null = null;
 
-  constructor(formsService: FormsService, route: ActivatedRoute) {
-    const id = route.snapshot.params['id'];
-    this.form$ = formsService.getFormDetail(id!);
+  constructor() {
   }
 
   ngOnInit(): void {

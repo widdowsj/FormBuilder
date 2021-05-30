@@ -13,3 +13,8 @@ export const getFormList = createSelector(
   selectFormsState,
   (state: FormsState) => state.forms
 );
+
+export const getCurrentForm = createSelector(
+  selectFormsState,
+  (state: FormsState) => state.currentForm
+);
