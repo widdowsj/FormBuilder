@@ -4,77 +4,77 @@
   "isPublished": true,
   "pageList": [
     {
-      "pageId": "",
+      "pageId": "page-12",
       "text": "Entity details",
       "order": 1
     },
     {
-      "pageId": "",
+      "pageId": "page-13",
       "text": "Application Process",
       "order": 2
     },
     {
-      "pageId": "",
+      "pageId": "page-14",
       "text": "Entity addresses",
       "order": 3
     },
     {
-      "pageId": "",
+      "pageId": "page-15",
       "text": "Contact details",
       "order": 4
     },
     {
-      "pageId": "",
+      "pageId": "page-16",
       "text": "Eligibility",
       "order": 5
     },
     {
-      "pageId": "",
+      "pageId": "page-17",
       "text": "Proposed employment of seasonal workers under the SWP",
       "order": 6
     },
     {
-      "pageId": "",
+      "pageId": "page-18",
       "text": "Agreement to programme requirements",
       "order": 7
     },
     {
-      "pageId": "",
+      "pageId": "page-19",
       "text": "Compliance",
       "order": 8
     },
     {
-      "pageId": "",
+      "pageId": "page-20",
       "text": "Previous applications",
       "order": 9
     },
     {
-      "pageId": "",
+      "pageId": "page-21",
       "text": "Employee details",
       "order": 10
     },
     {
-      "pageId": "",
+      "pageId": "page-22",
       "text": "Conflict of interest",
       "order": 11
     },
     {
-      "pageId": "",
+      "pageId": "page-23",
       "text": "Referees",
       "order": 12
     },
     {
-      "pageId": "",
+      "pageId": "page-24",
       "text": "Privacy and Consent",
       "order": 13
     },
     {
-      "pageId": "",
+      "pageId": "page-25",
       "text": "Disclaimer",
       "order": 14
     },
     {
-      "pageId": "",
+      "pageId": "page-26",
       "text": "Declaration",
       "order": 15
     }
@@ -82,7 +82,7 @@
   "itemList": [
     {
       "itemId": "96852c8f-d4a9-4a3d-998e-848edd3b7393",
-      "pageId": "",
+      "pageId": "page-12",
       "description": "question id: 12273",
       "order": 0,
       "questionType": "ABR Data",
@@ -93,10 +93,10 @@
     },
     {
       "itemId": "dbf8446c-a6c2-4dad-9108-259069d15da4",
-      "pageId": "",
+      "pageId": "page-12",
       "description": "question id: 12274",
       "order": 1,
-      "questionType": "Single Select",
+      "questionType": "Dropdown",
       "text": "<b>Is the legal name as shown in the Australian Business Register correct?</b>",
       "attributes": [],
       "fields": [],
@@ -104,7 +104,7 @@
     },
     {
       "itemId": "aa2fd0c8-ecf5-498e-9889-825d80405d90",
-      "pageId": "",
+      "pageId": "page-12",
       "description": "question id: 12275",
       "order": 2,
       "questionType": "Text",
@@ -116,7 +116,7 @@
     },
     {
       "itemId": "650b7a97-2e52-4cb4-bebc-f74bfcf30bb8",
-      "pageId": "",
+      "pageId": "page-12",
       "description": "question id: 11642",
       "order": 3,
       "questionType": "ABR Data",
@@ -127,7 +127,7 @@
     },
     {
       "itemId": "b0b7168d-e1ba-417d-ae8c-3003cf2a8775",
-      "pageId": "",
+      "pageId": "page-12",
       "description": "question id: 13329",
       "order": 4,
       "questionType": "Text",
@@ -138,7 +138,7 @@
     },
     {
       "itemId": "1ca839a1-0865-46cb-8a89-fc23208efaac",
-      "pageId": "",
+      "pageId": "page-12",
       "description": "question id: 13749",
       "order": 5,
       "questionType": "Date",
@@ -149,7 +149,7 @@
     },
     {
       "itemId": "51544f97-42b1-49f1-b5c8-7f04f568e8d6",
-      "pageId": "",
+      "pageId": "page-12",
       "description": "question id: 13707",
       "order": 6,
       "questionType": "Text",
@@ -160,7 +160,7 @@
     },
     {
       "itemId": "24433988-54e4-458f-84e4-eaa6a35c0649",
-      "pageId": "",
+      "pageId": "page-12",
       "description": "question id: 13779",
       "order": 7,
       "questionType": "Date",
@@ -171,7 +171,7 @@
     },
     {
       "itemId": "5f0c9ba3-f87b-493f-a054-ee6ce5643a90",
-      "pageId": "",
+      "pageId": "page-12",
       "description": "question id: 13413",
       "order": 8,
       "questionType": "ABR Data",
@@ -182,10 +182,10 @@
     },
     {
       "itemId": "a3bbc64a-854e-4a6f-8746-1a25a5d0b44b",
-      "pageId": "",
+      "pageId": "page-12",
       "description": "question id: 13414",
       "order": 9,
-      "questionType": "Single Select",
+      "questionType": "Dropdown",
       "text": "<b>Is the Entity type as shown in the Australian Business Register correct?</b>",
       "attributes": [],
       "fields": [],
@@ -193,10 +193,10 @@
     },
     {
       "itemId": "51a3a352-c65a-4907-a13f-817d6bfb0e5a",
-      "pageId": "",
+      "pageId": "page-12",
       "description": "question id: 13415",
       "order": 10,
-      "questionType": "Single Select",
+      "questionType": "Dropdown",
       "text": "<b>Please select the correct entity type</b>",
       "relatedFormItemId": "a3bbc64a-854e-4a6f-8746-1a25a5d0b44b",
       "attributes": [],
@@ -205,7 +205,7 @@
     },
     {
       "itemId": "887e877f-c5b7-4714-a271-e181d2e48904",
-      "pageId": "",
+      "pageId": "page-12",
       "description": "question id: 13726",
       "order": 11,
       "questionType": "File Upload",
@@ -216,7 +216,7 @@
     },
     {
       "itemId": "1c920db9-7927-4c74-84b4-351d338a2b54",
-      "pageId": "",
+      "pageId": "page-13",
       "description": "SWP - Application Process",
       "order": 0,
       "questionType": "Info",
@@ -227,7 +227,7 @@
     },
     {
       "itemId": "21649f8d-e4e3-4433-a28f-706bdf5e4da7",
-      "pageId": "",
+      "pageId": "page-14",
       "description": "SWP - Registered Address",
       "order": 0,
       "questionType": "Info",
@@ -238,7 +238,7 @@
     },
     {
       "itemId": "53c7713c-ed91-476b-a6ac-da9542342ea5",
-      "pageId": "",
+      "pageId": "page-14",
       "description": "SWP - Address search",
       "order": 1,
       "questionType": "Address Search",
@@ -249,7 +249,7 @@
     },
     {
       "itemId": "7dfa49e0-dd11-4fce-99d2-40d32db15820",
-      "pageId": "",
+      "pageId": "page-14",
       "description": "SWP - Street",
       "order": 2,
       "questionType": "Text",
@@ -260,7 +260,7 @@
     },
     {
       "itemId": "f6cde243-99ee-4ebf-9777-0dff65c4f7d2",
-      "pageId": "",
+      "pageId": "page-14",
       "description": "SWP - Suburb/City",
       "order": 3,
       "questionType": "Text",
@@ -271,10 +271,10 @@
     },
     {
       "itemId": "1d2fed47-6ed4-47f4-8310-c823ce480cbd",
-      "pageId": "",
+      "pageId": "page-14",
       "description": "SWP - State",
       "order": 4,
-      "questionType": "Single Select",
+      "questionType": "Dropdown",
       "text": "<b>State</b>",
       "attributes": [],
       "fields": [],
@@ -282,7 +282,7 @@
     },
     {
       "itemId": "64a5395d-5aa1-4945-b29b-9b8960bcaae0",
-      "pageId": "",
+      "pageId": "page-14",
       "description": "SWP - Postcode",
       "order": 5,
       "questionType": "Text",
@@ -293,10 +293,10 @@
     },
     {
       "itemId": "507ed2b3-2918-435b-9bfa-4649f17b5d0c",
-      "pageId": "",
+      "pageId": "page-14",
       "description": "SWP - Trading Address",
       "order": 6,
-      "questionType": "Single Select",
+      "questionType": "Dropdown",
       "text": "<b>Is the trading address the same as the registered address?</b>",
       "attributes": [],
       "fields": [],
@@ -304,7 +304,7 @@
     },
     {
       "itemId": "7572e157-b64c-4163-b39c-8afbc099baf3",
-      "pageId": "",
+      "pageId": "page-14",
       "description": "SWP - trading address",
       "order": 7,
       "questionType": "Info",
@@ -316,7 +316,7 @@
     },
     {
       "itemId": "e172806e-bff7-499b-ac32-780368c38a55",
-      "pageId": "",
+      "pageId": "page-14",
       "description": "SWP - Address Search",
       "order": 8,
       "questionType": "Address Search",
@@ -327,7 +327,7 @@
     },
     {
       "itemId": "55dd087e-e2b2-4115-beda-17013841ec37",
-      "pageId": "",
+      "pageId": "page-14",
       "description": "SWP - Street",
       "order": 9,
       "questionType": "Text",
@@ -339,7 +339,7 @@
     },
     {
       "itemId": "bb00c4b6-44f3-44e1-b3dd-d61d732064d3",
-      "pageId": "",
+      "pageId": "page-14",
       "description": "SWP - Suburb",
       "order": 10,
       "questionType": "Text",
@@ -351,10 +351,10 @@
     },
     {
       "itemId": "25131a05-4d1a-4877-a612-1de82814ae8f",
-      "pageId": "",
+      "pageId": "page-14",
       "description": "SWP - State",
       "order": 11,
-      "questionType": "Single Select",
+      "questionType": "Dropdown",
       "text": "<b>State</b>",
       "relatedFormItemId": "e172806e-bff7-499b-ac32-780368c38a55",
       "attributes": [],
@@ -363,7 +363,7 @@
     },
     {
       "itemId": "6089528e-a697-4d7e-801f-9f1bfe6cf1f4",
-      "pageId": "",
+      "pageId": "page-14",
       "description": "SWP - Postcode",
       "order": 12,
       "questionType": "Text",
@@ -375,10 +375,10 @@
     },
     {
       "itemId": "d844c893-7bc2-4bbc-a61d-5d422d5fcc0a",
-      "pageId": "",
+      "pageId": "page-14",
       "description": "SWP - Postal Address",
       "order": 13,
-      "questionType": "Single Select",
+      "questionType": "Dropdown",
       "text": "<b>Is the Entity's postal address the same as the registered address?</b>",
       "attributes": [],
       "fields": [],
@@ -386,10 +386,10 @@
     },
     {
       "itemId": "216ac538-b702-4ed2-b353-664cc9a40310",
-      "pageId": "",
+      "pageId": "page-14",
       "description": "SWP - same as trading address",
       "order": 14,
-      "questionType": "Single Select",
+      "questionType": "Dropdown",
       "text": "<b>Is the Entity's postal address the same as the trading address?</b>",
       "relatedFormItemId": "d844c893-7bc2-4bbc-a61d-5d422d5fcc0a",
       "attributes": [],
@@ -398,7 +398,7 @@
     },
     {
       "itemId": "0d78254d-adaf-4b81-8bb2-0e37d9cbd2bc",
-      "pageId": "",
+      "pageId": "page-14",
       "description": "SWP - postal address details",
       "order": 15,
       "questionType": "Info",
@@ -410,7 +410,7 @@
     },
     {
       "itemId": "e3f6fbd5-ea1a-455b-b57e-46aa46dee0e9",
-      "pageId": "",
+      "pageId": "page-14",
       "description": "SWP - Address Search",
       "order": 16,
       "questionType": "Text",
@@ -421,7 +421,7 @@
     },
     {
       "itemId": "3eed15ad-606a-4b9a-a823-a5689603f7de",
-      "pageId": "",
+      "pageId": "page-14",
       "description": "SWP - Street",
       "order": 17,
       "questionType": "Text",
@@ -433,7 +433,7 @@
     },
     {
       "itemId": "b04f9c00-2c45-4f60-9051-40d78a57dc8d",
-      "pageId": "",
+      "pageId": "page-14",
       "description": "SWP - Suburb",
       "order": 18,
       "questionType": "Text",
@@ -445,10 +445,10 @@
     },
     {
       "itemId": "35ee8d9c-3394-4e29-bf76-eedc51b423a5",
-      "pageId": "",
+      "pageId": "page-14",
       "description": "SWP - State",
       "order": 19,
-      "questionType": "Single Select",
+      "questionType": "Dropdown",
       "text": "<b>State</b>",
       "relatedFormItemId": "e3f6fbd5-ea1a-455b-b57e-46aa46dee0e9",
       "attributes": [],
@@ -457,7 +457,7 @@
     },
     {
       "itemId": "2d49ecb3-7296-4c70-8b0e-1a06d4bc393b",
-      "pageId": "",
+      "pageId": "page-14",
       "description": "SWP - Postcode",
       "order": 20,
       "questionType": "Text",
@@ -469,7 +469,7 @@
     },
     {
       "itemId": "75adaa1e-308e-47e3-ac1a-81eb8388c626",
-      "pageId": "",
+      "pageId": "page-15",
       "description": "question id: 13564",
       "order": 0,
       "questionType": "Input Table",
@@ -480,10 +480,10 @@
     },
     {
       "itemId": "c797748f-1b1e-4fe2-8b9e-530eca8a61a6",
-      "pageId": "",
+      "pageId": "page-15",
       "description": "question id: 13525",
       "order": 1,
-      "questionType": "Single Select",
+      "questionType": "Dropdown",
       "text": "<b>Does the Entity wish to authorise the department to contact any other third parties, and for those third parties to provide information about the Entity to the department? </b><i>For example an accountant or lawyer.</i>",
       "attributes": [],
       "fields": [],
@@ -491,7 +491,7 @@
     },
     {
       "itemId": "25999a60-a1c6-4144-8b0c-171a642be995",
-      "pageId": "",
+      "pageId": "page-15",
       "description": "question id: 13526",
       "order": 2,
       "questionType": "Input Table",
@@ -503,7 +503,7 @@
     },
     {
       "itemId": "cbf51c68-3ee4-48c8-81a0-77a7b60e5b00",
-      "pageId": "",
+      "pageId": "page-16",
       "description": "SWP - Eligibility",
       "order": 0,
       "questionType": "Info",
@@ -514,10 +514,10 @@
     },
     {
       "itemId": "b8f87802-33c3-4793-af58-ba9b222de3ae",
-      "pageId": "",
+      "pageId": "page-17",
       "description": "question id: 13720",
       "order": 0,
-      "questionType": "Single Select",
+      "questionType": "Dropdown",
       "text": "<b>What Approved Employer type is the Entity applying to become?</b>",
       "attributes": [],
       "fields": [],
@@ -525,7 +525,7 @@
     },
     {
       "itemId": "4b9af36b-03f4-44eb-96cc-9a1cbcedbb75",
-      "pageId": "",
+      "pageId": "page-17",
       "description": "SWP - In which sector will seasonal workers under the SWP be employed? ",
       "order": 1,
       "questionType": "Multiselect",
@@ -536,10 +536,10 @@
     },
     {
       "itemId": "2bcdedb8-f9eb-44d3-acd0-1d8c1009925f",
-      "pageId": "",
+      "pageId": "page-17",
       "description": "SWP - Will all seasonal workers be employed in only Western Australia, Northern Territory, Tropical North Queensland or Kangaroo Island? ",
       "order": 2,
-      "questionType": "Multiline Text",
+      "questionType": "MultilineText",
       "text": "<b>For Accommodation sector, please provide locations.</b><br><br>\r\n<i>NB: Only available in Western Australia, Northern Territory, Tropical North Queensland or Kangaroo Island.</i> ",
       "relatedFormItemId": "4b9af36b-03f4-44eb-96cc-9a1cbcedbb75",
       "attributes": [],
@@ -548,7 +548,7 @@
     },
     {
       "itemId": "cba24fa9-b07c-4d4f-a92a-aace98ded4ab",
-      "pageId": "",
+      "pageId": "page-17",
       "description": "question id: 13365",
       "order": 3,
       "questionType": "Multiselect",
@@ -559,7 +559,7 @@
     },
     {
       "itemId": "cf798ec8-43a9-456c-bdb8-82fef6672803",
-      "pageId": "",
+      "pageId": "page-17",
       "description": "SWP - How skilled is the work",
       "order": 4,
       "questionType": "Multiselect",
@@ -570,10 +570,10 @@
     },
     {
       "itemId": "4c201e39-a646-402c-8834-01e64133ecb1",
-      "pageId": "",
+      "pageId": "page-17",
       "description": "SWP - what employees are paid under",
       "order": 5,
-      "questionType": "Multiline Text",
+      "questionType": "RichText",
       "text": "<b>Under what Fair Work Instrument does the Entity propose to pay seasonal workers?</b><br><br>\r\n<i>Please outline whether the Entity has an Enterprise Agreement, or proposes to pay seasonal workers under another applicable Fair Work Instrument, such as the Horticulture Award.</i>",
       "attributes": [],
       "fields": [],
@@ -581,10 +581,10 @@
     },
     {
       "itemId": "720d5601-610b-4d2f-9c11-e30a3252b7ca",
-      "pageId": "",
+      "pageId": "page-17",
       "description": "question id: 13520",
       "order": 6,
-      "questionType": "Multiline Text",
+      "questionType": "RichText",
       "text": "<b>Describe the range of proposed duties the seasonal workers would perform.</b>",
       "attributes": [],
       "fields": [],
@@ -592,7 +592,7 @@
     },
     {
       "itemId": "35361fda-498c-4995-a493-42c20e972d5d",
-      "pageId": "",
+      "pageId": "page-17",
       "description": "question id: 13750",
       "order": 7,
       "questionType": "Numeric",
@@ -603,7 +603,7 @@
     },
     {
       "itemId": "3716e886-be06-440d-ab21-d814a4a43014",
-      "pageId": "",
+      "pageId": "page-17",
       "description": "question id: 13780",
       "order": 8,
       "questionType": "Info",
@@ -615,7 +615,7 @@
     },
     {
       "itemId": "93a00533-ceaa-46a4-b25a-761c0bf6cc1d",
-      "pageId": "",
+      "pageId": "page-17",
       "description": "question id: 13781",
       "order": 9,
       "questionType": "Info",
@@ -627,7 +627,7 @@
     },
     {
       "itemId": "b1bd465c-8607-4b44-bf8f-9ed6c5222977",
-      "pageId": "",
+      "pageId": "page-17",
       "description": "question id: 13782",
       "order": 10,
       "questionType": "Info",
@@ -639,7 +639,7 @@
     },
     {
       "itemId": "f4915db5-5cc6-4034-bd7d-e3f39df128e4",
-      "pageId": "",
+      "pageId": "page-17",
       "description": "SWP - policies and procedures",
       "order": 11,
       "questionType": "Info",
@@ -650,10 +650,10 @@
     },
     {
       "itemId": "493df6c3-79af-4605-8cd5-b6fbab8306b9",
-      "pageId": "",
+      "pageId": "page-17",
       "description": "SWP - policies and procedures desc",
       "order": 12,
-      "questionType": "Multiline Text",
+      "questionType": "RichText",
       "text": "Please describe your policies or procedures",
       "attributes": [],
       "fields": [],
@@ -661,7 +661,7 @@
     },
     {
       "itemId": "60695239-03d5-4f0d-99aa-0ebc4e4d4784",
-      "pageId": "",
+      "pageId": "page-17",
       "description": "SWP - policies and procedures error",
       "order": 13,
       "questionType": "File Upload",
@@ -672,10 +672,10 @@
     },
     {
       "itemId": "2ec46862-4e53-4e7f-bde6-8a11c92c1a5b",
-      "pageId": "",
+      "pageId": "page-17",
       "description": "question id: 13709",
       "order": 14,
-      "questionType": "Multiline Text",
+      "questionType": "RichText",
       "text": "<b>What welfare and wellbeing arrangements will you have in place to assist seasonal workers and ensure you meet the requirements of the Program?</b>",
       "attributes": [],
       "fields": [],
@@ -683,10 +683,10 @@
     },
     {
       "itemId": "23f1e922-a2bd-4441-af18-91fc787820f5",
-      "pageId": "",
+      "pageId": "page-17",
       "description": "question id: 13710",
       "order": 15,
-      "questionType": "Multiline Text",
+      "questionType": "RichText",
       "text": "<b>What accommodation arrangements will you have in place for Seasonal Workers?</b>",
       "attributes": [],
       "fields": [],
@@ -694,10 +694,10 @@
     },
     {
       "itemId": "2da94313-89de-4e54-b0c7-3075acacabc5",
-      "pageId": "",
+      "pageId": "page-17",
       "description": "question id: 13333",
       "order": 16,
-      "questionType": "Single Select",
+      "questionType": "Dropdown",
       "text": "<b>Have you employed workers through the SWP previously using a labour hire company or contractor that is an Approved Employer?</b>",
       "attributes": [],
       "fields": [],
@@ -705,10 +705,10 @@
     },
     {
       "itemId": "69fe5fec-e210-48b5-91ab-497dfde256e0",
-      "pageId": "",
+      "pageId": "page-17",
       "description": "question id: 13334",
       "order": 17,
-      "questionType": "Multiline Text",
+      "questionType": "RichText",
       "text": "Please provide the name of the Approved Employer(s), how many times you hosted seasonal workers, the length of time and relevant dates",
       "relatedFormItemId": "2da94313-89de-4e54-b0c7-3075acacabc5",
       "attributes": [],
@@ -717,7 +717,7 @@
     },
     {
       "itemId": "11ffb1be-d82d-439d-9b7e-1193f7038feb",
-      "pageId": "",
+      "pageId": "page-18",
       "description": "SWP - agreement to program requirements",
       "order": 0,
       "questionType": "Info",
@@ -728,7 +728,7 @@
     },
     {
       "itemId": "5776aa75-4ca8-41d6-be38-8c3d6dad38fb",
-      "pageId": "",
+      "pageId": "page-18",
       "description": "SWP - test local labour market",
       "order": 1,
       "questionType": "Info",
@@ -739,7 +739,7 @@
     },
     {
       "itemId": "ba3a09dc-1bab-4983-a0f9-aaa1e0677d4e",
-      "pageId": "",
+      "pageId": "page-18",
       "description": "SWP - obtain TAS",
       "order": 2,
       "questionType": "Info",
@@ -750,7 +750,7 @@
     },
     {
       "itemId": "f54051fb-f90d-4152-8cda-27482b2bb580",
-      "pageId": "",
+      "pageId": "page-18",
       "description": "SWP - Offered Positions",
       "order": 3,
       "questionType": "Info",
@@ -761,7 +761,7 @@
     },
     {
       "itemId": "245c46f8-df54-4e47-ba80-8470f25875c7",
-      "pageId": "",
+      "pageId": "page-18",
       "description": "SWP - assist with initial cash advance",
       "order": 4,
       "questionType": "Info",
@@ -772,7 +772,7 @@
     },
     {
       "itemId": "c41d2f81-e588-4893-a0b5-4e0bc44e33de",
-      "pageId": "",
+      "pageId": "page-18",
       "description": "SWP - arrange all transportation",
       "order": 5,
       "questionType": "Info",
@@ -783,7 +783,7 @@
     },
     {
       "itemId": "8cf13f98-177b-4375-ae83-56d1f068d555",
-      "pageId": "",
+      "pageId": "page-18",
       "description": "SWP - 30 hours per week",
       "order": 6,
       "questionType": "Info",
@@ -794,7 +794,7 @@
     },
     {
       "itemId": "d071a315-7b20-4f25-a23e-161ab9aec30f",
-      "pageId": "",
+      "pageId": "page-18",
       "description": "SWP - monitor well being",
       "order": 7,
       "questionType": "Info",
@@ -805,7 +805,7 @@
     },
     {
       "itemId": "e5a03126-e3c1-47e7-8f69-a762c6e15761",
-      "pageId": "",
+      "pageId": "page-18",
       "description": "SWP - to arrange accommodation",
       "order": 8,
       "questionType": "Info",
@@ -816,7 +816,7 @@
     },
     {
       "itemId": "911b7bee-90a8-44b3-947f-a343f6b35ed0",
-      "pageId": "",
+      "pageId": "page-18",
       "description": "SWP - to provide pay slips",
       "order": 9,
       "questionType": "Info",
@@ -827,7 +827,7 @@
     },
     {
       "itemId": "c31dab9c-0dee-4792-a11d-142f02f436d1",
-      "pageId": "",
+      "pageId": "page-18",
       "description": "SWP - deductions are reasonable",
       "order": 10,
       "questionType": "Info",
@@ -838,7 +838,7 @@
     },
     {
       "itemId": "dad471a4-0151-480f-aa7d-a15621313349",
-      "pageId": "",
+      "pageId": "page-18",
       "description": "SWP - meet visa obligations",
       "order": 11,
       "questionType": "Info",
@@ -849,7 +849,7 @@
     },
     {
       "itemId": "179c7ff1-3bb7-43a8-97e8-6d0f88543dba",
-      "pageId": "",
+      "pageId": "page-18",
       "description": "SWP - to facility banking",
       "order": 12,
       "questionType": "Info",
@@ -860,7 +860,7 @@
     },
     {
       "itemId": "d1c40f76-c348-43e9-8d8c-7e915386ee38",
-      "pageId": "",
+      "pageId": "page-18",
       "description": "SWP - to facilitate training",
       "order": 13,
       "questionType": "Info",
@@ -871,7 +871,7 @@
     },
     {
       "itemId": "4b027486-5176-466f-b779-b8fa33b5a30b",
-      "pageId": "",
+      "pageId": "page-18",
       "description": "SWP - choice of movement",
       "order": 14,
       "questionType": "Info",
@@ -882,7 +882,7 @@
     },
     {
       "itemId": "b39e1751-0151-4b3c-9d15-aa4e172bde37",
-      "pageId": "",
+      "pageId": "page-18",
       "description": "SWP - Agree",
       "order": 15,
       "questionType": "Multiselect",
@@ -893,7 +893,7 @@
     },
     {
       "itemId": "0860910f-4d90-4924-bfe8-65dc6313c242",
-      "pageId": "",
+      "pageId": "page-18",
       "description": "SWP - Other Requirements",
       "order": 16,
       "questionType": "Info",
@@ -904,7 +904,7 @@
     },
     {
       "itemId": "481f61c3-bb05-4393-9839-a90c27976e10",
-      "pageId": "",
+      "pageId": "page-18",
       "description": "SWP - sign deed",
       "order": 17,
       "questionType": "Info",
@@ -915,7 +915,7 @@
     },
     {
       "itemId": "d50def5f-5381-4e5c-b7ce-5362585f88f8",
-      "pageId": "",
+      "pageId": "page-18",
       "description": "SWP - abide by requirements",
       "order": 18,
       "questionType": "Info",
@@ -926,7 +926,7 @@
     },
     {
       "itemId": "a42b6240-faff-4ee7-804e-4c8f71d0dac8",
-      "pageId": "",
+      "pageId": "page-18",
       "description": "SWP - engage government",
       "order": 19,
       "questionType": "Info",
@@ -937,7 +937,7 @@
     },
     {
       "itemId": "ee376387-00b9-4079-ab15-c57369af42a9",
-      "pageId": "",
+      "pageId": "page-18",
       "description": "SWP - program assurance",
       "order": 20,
       "questionType": "Info",
@@ -948,7 +948,7 @@
     },
     {
       "itemId": "a7e28da3-6c5a-4cc3-992d-6992d5cf1b95",
-      "pageId": "",
+      "pageId": "page-18",
       "description": "SWP - labour hire licence",
       "order": 21,
       "questionType": "Info",
@@ -959,7 +959,7 @@
     },
     {
       "itemId": "d43db81c-0301-474b-8aeb-7d8ef2fe5aa2",
-      "pageId": "",
+      "pageId": "page-18",
       "description": "SWP - Agree",
       "order": 22,
       "questionType": "Multiselect",
@@ -970,7 +970,7 @@
     },
     {
       "itemId": "43ca8060-cb77-44f2-b7b1-c9c19f566a54",
-      "pageId": "",
+      "pageId": "page-19",
       "description": "question id: 13442",
       "order": 0,
       "questionType": "Info",
@@ -981,10 +981,10 @@
     },
     {
       "itemId": "6f9e8e2e-aca8-497c-a168-71bdf00b0ceb",
-      "pageId": "",
+      "pageId": "page-19",
       "description": "SWP - is the business currenty being investigated",
       "order": 1,
-      "questionType": "Single Select",
+      "questionType": "Dropdown",
       "text": "<b>Have the Entity and/or the Entity’s relevant persons and/or related entities been subject to a Government investigation or inquiries from government authorities including compliance with workplace relations, work health and safety, immigration, taxation or criminal laws as a result of business dealings, both within or outside of Australia?</b>",
       "attributes": [],
       "fields": [],
@@ -992,10 +992,10 @@
     },
     {
       "itemId": "a41bc5cd-6a6c-4aba-8905-e9179b2b7725",
-      "pageId": "",
+      "pageId": "page-19",
       "description": "SWP - please provide details",
       "order": 2,
-      "questionType": "Multiline Text",
+      "questionType": "RichText",
       "text": "<b>Please provide details</b>",
       "relatedFormItemId": "6f9e8e2e-aca8-497c-a168-71bdf00b0ceb",
       "attributes": [],
@@ -1004,10 +1004,10 @@
     },
     {
       "itemId": "bc8b623b-e90d-4439-a548-ff23259c0142",
-      "pageId": "",
+      "pageId": "page-19",
       "description": "SWP - government investigation of relevant person",
       "order": 3,
-      "questionType": "Single Select",
+      "questionType": "Dropdown",
       "text": "<b>Have the Entity’s relevant persons owned, worked in, managed or similarly been associated with any other entity (e.g. a company, partnership or trust) which has been subject to a Government investigation including compliance with workplace relations, work health and safety, immigration, taxation or criminal laws as a result of business dealings, both within and outside of Australia?</b>",
       "attributes": [],
       "fields": [],
@@ -1015,10 +1015,10 @@
     },
     {
       "itemId": "02278c51-2475-4c99-810e-46090011526e",
-      "pageId": "",
+      "pageId": "page-19",
       "description": "SWP - details of government investigation",
       "order": 4,
-      "questionType": "Multiline Text",
+      "questionType": "RichText",
       "text": "<b>Please provide details</b>",
       "relatedFormItemId": "bc8b623b-e90d-4439-a548-ff23259c0142",
       "attributes": [],
@@ -1027,10 +1027,10 @@
     },
     {
       "itemId": "713ece35-ed56-4051-8107-f6bdca846f17",
-      "pageId": "",
+      "pageId": "page-19",
       "description": "SWP - relationship with other entities",
       "order": 5,
-      "questionType": "Single Select",
+      "questionType": "Dropdown",
       "text": "<b>Do any of the relevant persons of the Entity hold, or previously held within the last 5 years, the position of director for another Entity?</b>",
       "attributes": [],
       "fields": [],
@@ -1038,10 +1038,10 @@
     },
     {
       "itemId": "60090b9a-6557-4a37-8881-1da3646a9688",
-      "pageId": "",
+      "pageId": "page-19",
       "description": "SWP - provide details of other entities",
       "order": 6,
-      "questionType": "Multiline Text",
+      "questionType": "RichText",
       "text": "<b>Please provide details of those other Entities</b>",
       "relatedFormItemId": "713ece35-ed56-4051-8107-f6bdca846f17",
       "attributes": [],
@@ -1050,10 +1050,10 @@
     },
     {
       "itemId": "0de17657-8229-4ed7-9c81-440b7ee569ef",
-      "pageId": "",
+      "pageId": "page-19",
       "description": "SWP - Relationship with other approved employer",
       "order": 7,
-      "questionType": "Single Select",
+      "questionType": "Dropdown",
       "text": "<b>Does the Entity have a relationship with any existing Approved Employer?</b>",
       "attributes": [],
       "fields": [],
@@ -1061,10 +1061,10 @@
     },
     {
       "itemId": "1d8000b4-a2fe-43f4-b8db-5e3983bb4be1",
-      "pageId": "",
+      "pageId": "page-19",
       "description": "SWP - please provide details",
       "order": 8,
-      "questionType": "Multiline Text",
+      "questionType": "RichText",
       "text": "<b>Please provide details</b>",
       "relatedFormItemId": "0de17657-8229-4ed7-9c81-440b7ee569ef",
       "attributes": [],
@@ -1073,10 +1073,10 @@
     },
     {
       "itemId": "8a5f4e08-589e-4f1b-9a3a-05cdc20cc5a0",
-      "pageId": "",
+      "pageId": "page-20",
       "description": "question id: 13335",
       "order": 0,
-      "questionType": "Single Select",
+      "questionType": "Dropdown",
       "text": "<b>Has the Entity or any of its relevant persons previously submitted an application to become an Approved Employer under the Seasonal Worker Programme?</b>",
       "attributes": [],
       "fields": [],
@@ -1084,7 +1084,7 @@
     },
     {
       "itemId": "d91308a5-0029-4754-ad54-86894d563d12",
-      "pageId": "",
+      "pageId": "page-20",
       "description": "question id: 13336",
       "order": 1,
       "questionType": "Input Table",
@@ -1096,7 +1096,7 @@
     },
     {
       "itemId": "7a1b4076-1009-410d-8e2e-1628ea6e8064",
-      "pageId": "",
+      "pageId": "page-21",
       "description": "question id: 11639",
       "order": 0,
       "questionType": "Numeric",
@@ -1107,7 +1107,7 @@
     },
     {
       "itemId": "e3b9684e-b7e2-49e8-a6dd-18145f13c46d",
-      "pageId": "",
+      "pageId": "page-21",
       "description": "question id: 13397",
       "order": 1,
       "questionType": "Info",
@@ -1118,7 +1118,7 @@
     },
     {
       "itemId": "21b4ae85-a8d2-41f0-a4ce-beceefa0dff4",
-      "pageId": "",
+      "pageId": "page-21",
       "description": "question id: 13398",
       "order": 2,
       "questionType": "Numeric",
@@ -1129,7 +1129,7 @@
     },
     {
       "itemId": "834140da-6483-415b-a687-bdc852686ba3",
-      "pageId": "",
+      "pageId": "page-21",
       "description": "question id: 13399",
       "order": 3,
       "questionType": "Numeric",
@@ -1140,7 +1140,7 @@
     },
     {
       "itemId": "78f13196-82a7-49e5-85d8-e835963cd214",
-      "pageId": "",
+      "pageId": "page-21",
       "description": "question id: 13400",
       "order": 4,
       "questionType": "Numeric",
@@ -1151,7 +1151,7 @@
     },
     {
       "itemId": "aee0903a-c387-4743-864e-0968c85adcc9",
-      "pageId": "",
+      "pageId": "page-21",
       "description": "question id: 13401",
       "order": 5,
       "questionType": "Numeric",
@@ -1162,7 +1162,7 @@
     },
     {
       "itemId": "083e72b9-c3be-45c0-aa3d-182da3f25fa3",
-      "pageId": "",
+      "pageId": "page-21",
       "description": "question id: 13402",
       "order": 6,
       "questionType": "Numeric",
@@ -1173,7 +1173,7 @@
     },
     {
       "itemId": "38000832-8d36-4816-8525-953cfcd42514",
-      "pageId": "",
+      "pageId": "page-21",
       "description": "SWP - number of staff",
       "order": 7,
       "questionType": "Info",
@@ -1184,7 +1184,7 @@
     },
     {
       "itemId": "64fdaf37-1443-469d-a7e1-84be56115752",
-      "pageId": "",
+      "pageId": "page-21",
       "description": "SWP - Total",
       "order": 8,
       "questionType": "Numeric",
@@ -1195,7 +1195,7 @@
     },
     {
       "itemId": "dec05805-7f0d-4ac9-8976-9a8db47c9915",
-      "pageId": "",
+      "pageId": "page-21",
       "description": "SWP - full time",
       "order": 9,
       "questionType": "Numeric",
@@ -1206,7 +1206,7 @@
     },
     {
       "itemId": "ac3aa078-983a-409d-830f-dae022a2d16c",
-      "pageId": "",
+      "pageId": "page-21",
       "description": "SWP - part time",
       "order": 10,
       "questionType": "Numeric",
@@ -1217,7 +1217,7 @@
     },
     {
       "itemId": "897173c2-b62c-4fcb-9132-d2c427996afa",
-      "pageId": "",
+      "pageId": "page-21",
       "description": "SWP - Casual",
       "order": 11,
       "questionType": "Numeric",
@@ -1228,7 +1228,7 @@
     },
     {
       "itemId": "378c7fe8-a61e-474d-82b6-320e21769bda",
-      "pageId": "",
+      "pageId": "page-21",
       "description": "SWP - Contractor",
       "order": 12,
       "questionType": "Numeric",
@@ -1239,7 +1239,7 @@
     },
     {
       "itemId": "dee2fdf7-b273-422e-828a-c843933cb002",
-      "pageId": "",
+      "pageId": "page-22",
       "description": "question id: 13378",
       "order": 0,
       "questionType": "Info",
@@ -1250,10 +1250,10 @@
     },
     {
       "itemId": "eb9d9bfc-6b18-4efb-a037-9f48fdce06da",
-      "pageId": "",
+      "pageId": "page-22",
       "description": "question id: 13379",
       "order": 1,
-      "questionType": "Single Select",
+      "questionType": "Dropdown",
       "text": "<br><i>Should you require assistance in answering this question please call us for more information on (02) 6240 5234.</i>",
       "attributes": [],
       "fields": [],
@@ -1261,10 +1261,10 @@
     },
     {
       "itemId": "61754959-dfee-4725-add5-033a3f49efb4",
-      "pageId": "",
+      "pageId": "page-22",
       "description": "question id: 13380",
       "order": 2,
-      "questionType": "Multiline Text",
+      "questionType": "RichText",
       "text": "<br><b>Please provide details</b>",
       "relatedFormItemId": "eb9d9bfc-6b18-4efb-a037-9f48fdce06da",
       "attributes": [],
@@ -1273,7 +1273,7 @@
     },
     {
       "itemId": "02e11bb6-d540-4e6e-88d5-48274f6c73ca",
-      "pageId": "",
+      "pageId": "page-23",
       "description": "question id: 13411",
       "order": 0,
       "questionType": "Input Table",
@@ -1284,7 +1284,7 @@
     },
     {
       "itemId": "f4975328-778f-48a7-a79c-dbb12707350c",
-      "pageId": "",
+      "pageId": "page-24",
       "description": "question id: 13745",
       "order": 0,
       "questionType": "Info",
@@ -1295,7 +1295,7 @@
     },
     {
       "itemId": "df0f7216-af2d-407e-b0b6-3cd17cbec7b0",
-      "pageId": "",
+      "pageId": "page-24",
       "description": "question id: 13746",
       "order": 1,
       "questionType": "Multiselect",
@@ -1306,7 +1306,7 @@
     },
     {
       "itemId": "4f533045-ff8a-4966-b90b-966d4f81acf0",
-      "pageId": "",
+      "pageId": "page-24",
       "description": "question id: 13747",
       "order": 2,
       "questionType": "Info",
@@ -1317,7 +1317,7 @@
     },
     {
       "itemId": "5e65fa3e-4cea-4314-9466-4e242f978489",
-      "pageId": "",
+      "pageId": "page-24",
       "description": "question id: 13748",
       "order": 3,
       "questionType": "Multiselect",
@@ -1328,7 +1328,7 @@
     },
     {
       "itemId": "0ca647bd-e7e3-4969-abb1-f941dfe2673d",
-      "pageId": "",
+      "pageId": "page-25",
       "description": "question id: 13562",
       "order": 0,
       "questionType": "Info",
@@ -1339,7 +1339,7 @@
     },
     {
       "itemId": "c6998e0c-81ee-4dcc-9f18-674ceea63875",
-      "pageId": "",
+      "pageId": "page-25",
       "description": "question id: 13563",
       "order": 1,
       "questionType": "Multiselect",
@@ -1350,7 +1350,7 @@
     },
     {
       "itemId": "31ca782e-42ab-4e3f-b1c4-dd2e0afc4f7f",
-      "pageId": "",
+      "pageId": "page-26",
       "description": "SWP - Declaration",
       "order": 0,
       "questionType": "Info",
@@ -1361,7 +1361,7 @@
     },
     {
       "itemId": "ff3d1514-f9ea-4c6d-ac3c-b90d2a86fdf4",
-      "pageId": "",
+      "pageId": "page-26",
       "description": "SWP - Dec 1",
       "order": 1,
       "questionType": "Info",
@@ -1372,7 +1372,7 @@
     },
     {
       "itemId": "62b1174a-e90b-4f49-a313-0166c39f0a82",
-      "pageId": "",
+      "pageId": "page-26",
       "description": "SWP - Dec 2",
       "order": 2,
       "questionType": "Info",
@@ -1383,7 +1383,7 @@
     },
     {
       "itemId": "90de42e9-1554-42e5-a680-0c9d92017717",
-      "pageId": "",
+      "pageId": "page-26",
       "description": "SWP - Dec 3",
       "order": 3,
       "questionType": "Info",
@@ -1394,7 +1394,7 @@
     },
     {
       "itemId": "f4c081a3-bf45-49d3-8c64-f7f41b05a5cb",
-      "pageId": "",
+      "pageId": "page-26",
       "description": "SWP - Dec 4",
       "order": 4,
       "questionType": "Info",
@@ -1405,7 +1405,7 @@
     },
     {
       "itemId": "50658334-38b5-424d-83b9-f0199903f0ed",
-      "pageId": "",
+      "pageId": "page-26",
       "description": "SWP - Dec 5",
       "order": 5,
       "questionType": "Info",
@@ -1416,7 +1416,7 @@
     },
     {
       "itemId": "17301497-8168-47b6-bd84-7a2dfb971de9",
-      "pageId": "",
+      "pageId": "page-26",
       "description": "SWP - Dec 6",
       "order": 6,
       "questionType": "Info",
@@ -1427,7 +1427,7 @@
     },
     {
       "itemId": "f4fd5bc3-4c39-470c-aec4-3579a94bef94",
-      "pageId": "",
+      "pageId": "page-26",
       "description": "SWP - Dec 8",
       "order": 7,
       "questionType": "Info",
@@ -1438,7 +1438,7 @@
     },
     {
       "itemId": "0cc997cc-52d5-47b5-a9cd-5ac7ee5f7b68",
-      "pageId": "",
+      "pageId": "page-26",
       "description": "SWP - person making declaration",
       "order": 8,
       "questionType": "Info",
@@ -1449,7 +1449,7 @@
     },
     {
       "itemId": "d55fd025-2aae-4b75-8d81-12b13725ad92",
-      "pageId": "",
+      "pageId": "page-26",
       "description": "Full Name",
       "order": 9,
       "questionType": "Text",
@@ -1460,7 +1460,7 @@
     },
     {
       "itemId": "711714c8-fe42-47e6-9e53-15dbb54545ea",
-      "pageId": "",
+      "pageId": "page-26",
       "description": "Position",
       "order": 10,
       "questionType": "Text",
@@ -1471,7 +1471,7 @@
     },
     {
       "itemId": "e54d1391-2fe8-4a8b-a45f-e1dcb26adb80",
-      "pageId": "",
+      "pageId": "page-26",
       "description": "On behalf of (insert name of Entity)",
       "order": 11,
       "questionType": "Text",
@@ -1482,10 +1482,10 @@
     },
     {
       "itemId": "da676191-3a6b-4243-9b36-c3c4314e635b",
-      "pageId": "",
+      "pageId": "page-26",
       "description": "Address",
       "order": 12,
-      "questionType": "Multiline Text",
+      "questionType": "MultilineText",
       "text": "<b>Address</b>",
       "attributes": [],
       "fields": [],
@@ -1493,7 +1493,7 @@
     },
     {
       "itemId": "8705755e-cad9-41f4-b174-53645c568380",
-      "pageId": "",
+      "pageId": "page-26",
       "description": "Contact number",
       "order": 13,
       "questionType": "Text",
@@ -1504,7 +1504,7 @@
     },
     {
       "itemId": "d639383f-17ff-4ac0-a4a2-cca295a2055c",
-      "pageId": "",
+      "pageId": "page-26",
       "description": "Email",
       "order": 14,
       "questionType": "Text",

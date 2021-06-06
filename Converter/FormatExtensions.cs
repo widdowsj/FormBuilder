@@ -44,7 +44,7 @@ namespace Converter
                     Description = x.InternalDescription,
                     Text = x.Text,
                     Order = order++,
-                    QuestionType = x.QuestionType,
+                    QuestionType = x.GetQuestionType(),
                     RelatedFormItemId = (x.ParentConditionalValue ?? x.RelatedConditionalValue) != null ? x.ParentQuestionThreadId ?? x.RelatedQuestionThreadId : null,
                 });
         }
@@ -64,6 +64,23 @@ namespace Converter
             {
                 yield return question;
             }
+        }
+
+        public static string GetQuestionType(this OldFormat.Question question)
+        {
+            switch (question.QuestionType)
+            {
+                case "Multiline Text":
+                    if (question.Attributes.Any(x => x.Type == "Rich Text Editor"))
+                        return "RichText";
+                    return "MultilineText";
+
+                case "Single Select":
+                    if (question.Attributes.Any(x => x.Type == "Dropdown"))
+                        return "Dropdown";
+                    return "RadioButtons";
+            }
+            return question.QuestionType;
         }
     }
 }
