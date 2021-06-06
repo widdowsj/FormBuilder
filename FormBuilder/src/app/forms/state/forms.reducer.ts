@@ -20,7 +20,7 @@ export const formsReducer = createReducer(
     return { ...state, forms };
   }),
   on(setSelectedForm, (state, { selectedFormId }) => {
-    return { ...state, selectedFormId };
+    return { ...state, selectedFormId, currentForm: null };
   }),
   on(getFormDetailSuccess, (state, { form }) => {
     return { ...state, currentForm: form };

@@ -1,1 +1,28 @@
-<p *ngFor="let item of pageItems">{{item.text}}</p>
+<div *ngFor="let item of pageItems">
+    <div *ngIf="item.isFormField">
+        <mat-form-field [ngSwitch]="item.questionType" appearance="fill">
+            <mat-label [innerHtml]="item.text"></mat-label>
+
+            <input *ngSwitchCase="ItemType.text" matInput />
+
+            <textarea *ngSwitchCase="ItemType.multilineText" matInput rows="5"></textarea>
+
+            <input *ngSwitchCase="ItemType.date" matInput [matDatepicker]="picker">
+            <mat-datepicker-toggle *ngSwitchCase="ItemType.date" matSuffix [for]="picker"></mat-datepicker-toggle>
+            <mat-datepicker #picker></mat-datepicker>
+
+            <div *ngSwitchDefault>
+                <input matInput />
+                <mat-error>Item Type not found: {{item.questionType}}! Description: {{item.description}}</mat-error>
+            </div>
+        </mat-form-field>
+    </div>
+    <div *ngIf="!item.isFormField">
+        <ng-container [ngSwitch]="item.questionType">
+            <p *ngSwitchCase="ItemType.info" [innerHtml]="item.text"></p>
+            <div *ngSwitchDefault>
+                <p style="color: red;">Item Type not found: {{item.questionType}}! Description: {{item.description}}</p>
+            </div>
+        </ng-container>
+    </div>
+</div>

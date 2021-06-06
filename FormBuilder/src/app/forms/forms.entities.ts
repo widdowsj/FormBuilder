@@ -19,5 +19,20 @@ export interface Page {
 
 export interface FormItem {
   pageId: string;
+  description: string;
   text: string;
+  questionType: ItemType;
+  isFormField: boolean;
 }
+
+export enum ItemType {
+  text = 'Text',
+  multilineText = 'MultilineText',
+  richText = 'RichText',
+  info = 'Info',
+  date = 'Date',
+  dropdown = 'Dropdown',
+  radioButtons = 'RadioButtons',
+}
+
+export const formFields = [ItemType.text, ItemType.multilineText, ItemType.date];

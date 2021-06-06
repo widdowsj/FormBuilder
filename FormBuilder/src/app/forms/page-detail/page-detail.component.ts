@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { FormItem, Page } from '../forms.entities';
+import { FormItem, ItemType, Page } from '../forms.entities';
 
 @Component({
   selector: 'app-page-detail',
@@ -10,6 +10,7 @@ export class PageDetailComponent implements OnInit {
   @Input() page: Page | null = null;
   @Input() itemList: FormItem[] | null = null;
   pageItems: FormItem[] | null = null;
+  ItemType = ItemType;
 
   constructor() { }
 

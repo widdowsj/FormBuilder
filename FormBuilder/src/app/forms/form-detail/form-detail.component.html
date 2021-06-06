@@ -4,6 +4,7 @@
     <app-page-detail [page]='page' [itemList]='form.itemList'></app-page-detail>
   </mat-step>
 </mat-vertical-stepper>
+<mat-spinner *ngIf="!form"></mat-spinner>
 
 <p>Form: </p>
 <textarea readonly rows="50" cols="160">{{form | json}}</textarea>
