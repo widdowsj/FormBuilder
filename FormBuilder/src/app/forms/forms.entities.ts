@@ -1,3 +1,4 @@
+
 export interface FormMetaData {
   id: number;
   name: string;
@@ -23,6 +24,13 @@ export interface FormItem {
   text: string;
   questionType: ItemType;
   isFormField: boolean;
+  options: FormOption[];
+}
+
+export interface FormOption {
+  value: string;
+  text: string;
+  order: number;
 }
 
 export enum ItemType {
@@ -33,6 +41,8 @@ export enum ItemType {
   date = 'Date',
   dropdown = 'Dropdown',
   radioButtons = 'RadioButtons',
+  multiselect = 'Multiselect',
+  numeric = 'Numeric',
 }
 
-export const formFields = [ItemType.text, ItemType.multilineText, ItemType.date];
+export const formFields = [ItemType.text, ItemType.numeric, ItemType.multilineText, ItemType.date, ItemType.dropdown];

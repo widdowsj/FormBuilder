@@ -10,6 +10,8 @@ namespace Converter
     {
         public static NewFormat.Form ConvertToNewForm(this OldFormat.Form oldForm)
         {
+            IdGenerator.Reset();
+
             var newForm = new NewFormat.Form
             {
                 Name = oldForm.Name,
@@ -46,6 +48,7 @@ namespace Converter
                     Order = order++,
                     QuestionType = x.GetQuestionType(),
                     RelatedFormItemId = (x.ParentConditionalValue ?? x.RelatedConditionalValue) != null ? x.ParentQuestionThreadId ?? x.RelatedQuestionThreadId : null,
+                    Options = x.Options.OrderBy(o => o.Order).Select((o, i) => new NewFormat.Option { Text = o.Text, Value = o.Value, Order = o.Order ?? i }).ToList(),
                 });
         }
 

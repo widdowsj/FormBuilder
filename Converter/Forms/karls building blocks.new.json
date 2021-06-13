@@ -69,7 +69,23 @@
       "text": "whats your favourite pizza topping",
       "attributes": [],
       "fields": [],
-      "options": []
+      "options": [
+        {
+          "value": "PINEAPPLE",
+          "text": "Apple of the pine",
+          "order": 0
+        },
+        {
+          "value": "CHEESE",
+          "text": "Cheese",
+          "order": 1
+        },
+        {
+          "value": "ANCHOVES",
+          "text": "Anchoves",
+          "order": 2
+        }
+      ]
     },
     {
       "itemId": "6f761831-cd0b-497f-9c79-96d8882291cb",
@@ -191,7 +207,18 @@
       "text": "Is your name Karl?",
       "attributes": [],
       "fields": [],
-      "options": []
+      "options": [
+        {
+          "value": "1",
+          "text": "Yes",
+          "order": 1
+        },
+        {
+          "value": "2",
+          "text": "No",
+          "order": 2
+        }
+      ]
     },
     {
       "itemId": "01A9DD34-CA98-4157-939E-30A9EF037DDC",
@@ -238,7 +265,23 @@
       "relatedFormItemId": "k1.4.1a",
       "attributes": [],
       "fields": [],
-      "options": []
+      "options": [
+        {
+          "value": "1",
+          "text": "Mother",
+          "order": 1
+        },
+        {
+          "value": "2",
+          "text": "Father",
+          "order": 2
+        },
+        {
+          "value": "3",
+          "text": "Unknown",
+          "order": 3
+        }
+      ]
     },
     {
       "itemId": "DFB0B1EF-DF3C-4479-803F-39AFF5EEE4E5",
@@ -250,7 +293,23 @@
       "relatedFormItemId": "k1.4.1a",
       "attributes": [],
       "fields": [],
-      "options": []
+      "options": [
+        {
+          "value": "1",
+          "text": "Carl",
+          "order": 1
+        },
+        {
+          "value": "2",
+          "text": "Carlos",
+          "order": 2
+        },
+        {
+          "value": "3",
+          "text": "Karlos",
+          "order": 3
+        }
+      ]
     },
     {
       "itemId": "D7A9E6FE-AD53-402C-91D5-0A778DF1A98B",
@@ -345,7 +404,28 @@
       "text": "Which of these options is your favourite football team? (Dropdown)",
       "attributes": [],
       "fields": [],
-      "options": []
+      "options": [
+        {
+          "value": "1",
+          "text": "Boro",
+          "order": 0
+        },
+        {
+          "value": "2",
+          "text": "Sunderland",
+          "order": 1
+        },
+        {
+          "value": "3",
+          "text": "Newcastle",
+          "order": 2
+        },
+        {
+          "value": "4",
+          "text": "None of these",
+          "order": 3
+        }
+      ]
     },
     {
       "itemId": "k1.4.1",
@@ -368,7 +448,18 @@
       "text": "Do you prefer Ice Cream or Pizza",
       "attributes": [],
       "fields": [],
-      "options": []
+      "options": [
+        {
+          "value": "2",
+          "text": "Pizza",
+          "order": 1
+        },
+        {
+          "value": "1",
+          "text": "Ice Cream",
+          "order": 2
+        }
+      ]
     },
     {
       "itemId": "e9a7ed03-129d-45b3-8c54-c2dc3031aaed",
@@ -380,7 +471,23 @@
       "relatedFormItemId": "655e17d2-0681-4230-8de6-5740f0795bf6",
       "attributes": [],
       "fields": [],
-      "options": []
+      "options": [
+        {
+          "value": "1",
+          "text": "Meat Feast",
+          "order": 1
+        },
+        {
+          "value": "2",
+          "text": "Chicken",
+          "order": 2
+        },
+        {
+          "value": "3",
+          "text": "Veggie",
+          "order": 3
+        }
+      ]
     },
     {
       "itemId": "55a2ed1e-d91b-431a-8c02-c825c0449e60",
@@ -392,7 +499,23 @@
       "relatedFormItemId": "655e17d2-0681-4230-8de6-5740f0795bf6",
       "attributes": [],
       "fields": [],
-      "options": []
+      "options": [
+        {
+          "value": "1",
+          "text": "Strawberry",
+          "order": 1
+        },
+        {
+          "value": "2",
+          "text": "Chcolate",
+          "order": 2
+        },
+        {
+          "value": "3",
+          "text": "Vanilla",
+          "order": 3
+        }
+      ]
     },
     {
       "itemId": "k1.2",
@@ -403,7 +526,28 @@
       "text": "Which games are you likely to attend?",
       "attributes": [],
       "fields": [],
-      "options": []
+      "options": [
+        {
+          "value": "1",
+          "text": "Chelsea vs Midlesbrough",
+          "order": 0
+        },
+        {
+          "value": "2",
+          "text": "Middlesbrough vs Liverpool",
+          "order": 1
+        },
+        {
+          "value": "3",
+          "text": "Middlesbrough vs Leeds",
+          "order": 2
+        },
+        {
+          "value": "4",
+          "text": "Manchester City vs Middlesbrough",
+          "order": 3
+        }
+      ]
     },
     {
       "itemId": "F3B07AB4-D27E-4625-9656-A36BDC4AD456",
@@ -450,7 +594,18 @@
       "relatedFormItemId": "k1.2",
       "attributes": [],
       "fields": [],
-      "options": []
+      "options": [
+        {
+          "value": "1",
+          "text": "Yes",
+          "order": 1
+        },
+        {
+          "value": "2",
+          "text": "No",
+          "order": 2
+        }
+      ]
     },
     {
       "itemId": "B454C9F7-8821-41E9-8129-94E71D2122AA",
@@ -462,7 +617,23 @@
       "relatedFormItemId": "k1.2",
       "attributes": [],
       "fields": [],
-      "options": []
+      "options": [
+        {
+          "value": "1",
+          "text": "Ian Rush",
+          "order": 1
+        },
+        {
+          "value": "2",
+          "text": "Michael Owen",
+          "order": 2
+        },
+        {
+          "value": "3",
+          "text": "Bruce Groblar",
+          "order": 3
+        }
+      ]
     },
     {
       "itemId": "5E853A08-3344-49A9-9D31-4BCA78748243",
@@ -545,7 +716,23 @@
       "text": "Which games do you know you will not be attending?",
       "attributes": [],
       "fields": [],
-      "options": []
+      "options": [
+        {
+          "value": "1",
+          "text": "Middlesbrough vs Blackburn",
+          "order": 1
+        },
+        {
+          "value": "2",
+          "text": "Middlesbrough vs Sunderland",
+          "order": 2
+        },
+        {
+          "value": "3",
+          "text": "Middlesbrough vs Newcastle",
+          "order": 3
+        }
+      ]
     },
     {
       "itemId": "498b5f50-7a51-43d1-9049-6e1a6d342f40",
@@ -589,7 +776,18 @@
       "text": "<b>I have attached relevant supporting document</b>",
       "attributes": [],
       "fields": [],
-      "options": []
+      "options": [
+        {
+          "value": "1",
+          "text": "Yes",
+          "order": 1
+        },
+        {
+          "value": "2",
+          "text": "No - You must provide evidence of your Australian citizenship or residency status before assessment of your claim can commence",
+          "order": 2
+        }
+      ]
     },
     {
       "itemId": "d273ff8b-f8e9-4859-8278-b91f34ed9f13",
@@ -611,7 +809,13 @@
       "text": "<b></b>",
       "attributes": [],
       "fields": [],
-      "options": []
+      "options": [
+        {
+          "value": "1",
+          "text": "I declare that I have read and accept this privacy notice.",
+          "order": 1
+        }
+      ]
     },
     {
       "itemId": "B16BDBC0-F7DF-4AE6-B52A-4699F9D575A7",
@@ -655,7 +859,18 @@
       "text": "Have you ever considered supporting another team?",
       "attributes": [],
       "fields": [],
-      "options": []
+      "options": [
+        {
+          "value": "1",
+          "text": "Yes",
+          "order": 0
+        },
+        {
+          "value": "2",
+          "text": "No",
+          "order": 1
+        }
+      ]
     },
     {
       "itemId": "9BAE43F5-0527-436C-B383-07EEB6723C76",
@@ -666,7 +881,28 @@
       "text": "Which football strip are you most likely to buy?",
       "attributes": [],
       "fields": [],
-      "options": []
+      "options": [
+        {
+          "value": "1",
+          "text": "Home",
+          "order": 1
+        },
+        {
+          "value": "2",
+          "text": "Away",
+          "order": 2
+        },
+        {
+          "value": "3",
+          "text": "Kids Home",
+          "order": 3
+        },
+        {
+          "value": "4",
+          "text": "Kids Away",
+          "order": 4
+        }
+      ]
     },
     {
       "itemId": "3FDFC7FD-6C55-4C0A-9FFD-C66C2AB7C033",
@@ -948,7 +1184,18 @@
       "relatedFormItemId": "53DE369D-5729-4DA2-8FD1-CC7DA60E3123",
       "attributes": [],
       "fields": [],
-      "options": []
+      "options": [
+        {
+          "value": "1",
+          "text": "Yes",
+          "order": 1
+        },
+        {
+          "value": "2",
+          "text": "No",
+          "order": 2
+        }
+      ]
     },
     {
       "itemId": "7E6B98D7-9C3A-4D59-B041-1C954A5784BD",
@@ -960,7 +1207,23 @@
       "relatedFormItemId": "53DE369D-5729-4DA2-8FD1-CC7DA60E3123",
       "attributes": [],
       "fields": [],
-      "options": []
+      "options": [
+        {
+          "value": "1",
+          "text": "Greater than 20",
+          "order": 1
+        },
+        {
+          "value": "2",
+          "text": "Greater than 25",
+          "order": 2
+        },
+        {
+          "value": "3",
+          "text": "Greater than 30",
+          "order": 3
+        }
+      ]
     },
     {
       "itemId": "92407857-6A39-42F1-934D-E34E47FDCAE0",
@@ -1110,7 +1373,23 @@
       "text": "Will you complete the child questions?",
       "attributes": [],
       "fields": [],
-      "options": []
+      "options": [
+        {
+          "value": "1",
+          "text": "Yes",
+          "order": 1
+        },
+        {
+          "value": "2",
+          "text": "No",
+          "order": 2
+        },
+        {
+          "value": "3",
+          "text": "Havent decided yet",
+          "order": 3
+        }
+      ]
     },
     {
       "itemId": "A60252FE-B448-4151-989D-60F78B8CAD92",
@@ -1122,7 +1401,23 @@
       "relatedFormItemId": "E244EC0F-A182-49DC-A6D9-F171458A9170",
       "attributes": [],
       "fields": [],
-      "options": []
+      "options": [
+        {
+          "value": "1",
+          "text": "Indian",
+          "order": 1
+        },
+        {
+          "value": "2",
+          "text": "Thai",
+          "order": 2
+        },
+        {
+          "value": "3",
+          "text": "Turkish",
+          "order": 3
+        }
+      ]
     },
     {
       "itemId": "47AFB0E5-C70D-4081-B3DB-82A1A0A98AD6",
@@ -1167,7 +1462,18 @@
       "text": "KW Regression Q",
       "attributes": [],
       "fields": [],
-      "options": []
+      "options": [
+        {
+          "value": "1",
+          "text": "a",
+          "order": 0
+        },
+        {
+          "value": "2",
+          "text": "b",
+          "order": 1
+        }
+      ]
     },
     {
       "itemId": "c4fa69dd-e289-4362-b700-cccf4865ceab",
@@ -1179,7 +1485,18 @@
       "relatedFormItemId": "d1dd333d-43e6-4421-987a-91236e08fe2f",
       "attributes": [],
       "fields": [],
-      "options": []
+      "options": [
+        {
+          "value": "1",
+          "text": "a",
+          "order": 0
+        },
+        {
+          "value": "2",
+          "text": "b",
+          "order": 1
+        }
+      ]
     },
     {
       "itemId": "8cee62c6-a978-47d3-860c-1b1a2774539a",
@@ -1213,7 +1530,18 @@
       "text": "KW UI Text Q - CHLD Q 1 - Have you ever owned a Samsung?",
       "attributes": [],
       "fields": [],
-      "options": []
+      "options": [
+        {
+          "value": "1",
+          "text": "Yes",
+          "order": 0
+        },
+        {
+          "value": "2",
+          "text": "No",
+          "order": 1
+        }
+      ]
     },
     {
       "itemId": "50950630-7849-45A4-AE39-DCA7C7DDCA50",
@@ -1225,7 +1553,18 @@
       "relatedFormItemId": "4BAB092D-6219-4F36-AA2D-2E3CB3A64A51",
       "attributes": [],
       "fields": [],
-      "options": []
+      "options": [
+        {
+          "value": "1",
+          "text": "Yes",
+          "order": 0
+        },
+        {
+          "value": "2",
+          "text": "No",
+          "order": 1
+        }
+      ]
     },
     {
       "itemId": "EB7C39CB-B311-417E-9E8C-FD88F7C2FE2D",
@@ -1258,7 +1597,21 @@
       "text": "KW UI Single Select Question - Do you like ice cream?",
       "attributes": [],
       "fields": [],
-      "options": []
+      "options": [
+        {
+          "order": 0
+        },
+        {
+          "value": "2",
+          "text": "No",
+          "order": 1
+        },
+        {
+          "value": "1",
+          "text": "Yes",
+          "order": 1
+        }
+      ]
     },
     {
       "itemId": "AE68EE5B-EC74-4E14-BEFF-56A83AF2DBB4",
@@ -1280,7 +1633,28 @@
       "text": "KW UI Multiselect Question - Which meat products do you each regularly? EDITABLE",
       "attributes": [],
       "fields": [],
-      "options": []
+      "options": [
+        {
+          "value": "1",
+          "text": "black",
+          "order": 0
+        },
+        {
+          "value": "2",
+          "text": "Red",
+          "order": 1
+        },
+        {
+          "value": "3",
+          "text": "Blue",
+          "order": 2
+        },
+        {
+          "value": "4",
+          "text": "EDITABLE",
+          "order": 3
+        }
+      ]
     },
     {
       "itemId": "099fe8f3-0e28-47b0-a956-cccac2a535cc",
