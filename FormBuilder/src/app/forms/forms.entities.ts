@@ -26,11 +26,18 @@ export interface FormItem {
   questionType: ItemType;
   isFormField: boolean;
   options: FormOption[];
+  fields: FormField[];
 }
 
 export interface FormOption {
   value: string;
   text: string;
+  order: number;
+}
+
+export interface FormField {
+  text: string;
+  type: string;
   order: number;
 }
 
@@ -46,6 +53,11 @@ export enum ItemType {
   multiselect = 'Multiselect',
   numeric = 'Numeric',
   numberRange = 'Number Range',
+  inputTable = 'Input Table',
 }
 
 export const formFields = [ItemType.text, ItemType.numeric, ItemType.multilineText, ItemType.date, ItemType.dropdown];
+
+export enum FieldType {
+  text = 'Text',
+}

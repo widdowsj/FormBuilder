@@ -61,6 +61,10 @@
             <!-- Number Range -->
             <app-numeric-range *ngSwitchCase="ItemType.numberRange" [labelText]="item.text"></app-numeric-range>
 
+            <!-- Input Table -->
+            <app-input-table *ngSwitchCase="ItemType.inputTable" [labelText]="item.text" [fields]="item.fields">
+            </app-input-table>
+
             <!-- Not found -->
             <div *ngSwitchDefault>
                 <p style="color: red;">{{getError()}}</p>

@@ -25,6 +25,7 @@ import { FormsEffects } from './state/forms.effects';
 import { formsReducer } from './state/forms.reducer';
 import { formsStateKey } from './state/forms.selectors';
 import { NumericRangeComponent } from './numeric-range/numeric-range.component';
+import { InputTableComponent } from './input-table/input-table.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { NumericRangeComponent } from './numeric-range/numeric-range.component';
     FormDetailShellComponent,
     PageDetailComponent,
     ItemDetailComponent,
-    NumericRangeComponent
+    NumericRangeComponent,
+    InputTableComponent
   ],
   imports: [
     CommonModule,

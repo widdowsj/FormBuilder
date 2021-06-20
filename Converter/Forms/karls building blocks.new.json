@@ -129,7 +129,18 @@
       "questionType": "Input Table",
       "text": "names of upto 3 sauces and quantities that go well with your fav topping",
       "attributes": [],
-      "fields": [],
+      "fields": [
+        {
+          "type": "Text",
+          "text": "Sauce",
+          "order": 1
+        },
+        {
+          "type": "Text",
+          "text": "Quantity",
+          "order": 1
+        }
+      ],
       "options": []
     },
     {
@@ -380,7 +391,28 @@
       "text": "Please list any famous people you know with a similar name: ",
       "relatedFormItemId": "k1.4.1a",
       "attributes": [],
-      "fields": [],
+      "fields": [
+        {
+          "type": "Text",
+          "text": "Name of Person",
+          "order": 1
+        },
+        {
+          "type": "Multiline Text",
+          "text": "Why are they famous?",
+          "order": 2
+        },
+        {
+          "type": "Number",
+          "text": "How old is this person?",
+          "order": 3
+        },
+        {
+          "type": "Checkbox",
+          "text": "Which is your favourite",
+          "order": 4
+        }
+      ],
       "options": []
     },
     {
@@ -436,7 +468,33 @@
       "text": "For the duration of your stay, please complete the table below:",
       "relatedFormItemId": "k1",
       "attributes": [],
-      "fields": [],
+      "fields": [
+        {
+          "type": "Text",
+          "text": "Where ae you staying",
+          "order": 1
+        },
+        {
+          "type": "Date",
+          "text": "What is your date of arrival",
+          "order": 2
+        },
+        {
+          "type": "Number",
+          "text": "How many people",
+          "order": 3
+        },
+        {
+          "type": "Time",
+          "text": "What time will you meet",
+          "order": 4
+        },
+        {
+          "type": "Multiline Text",
+          "text": "Comments",
+          "order": 5
+        }
+      ],
       "options": []
     },
     {
@@ -956,7 +1014,18 @@
       "questionType": "Input Table",
       "text": "Please fill in the table below:",
       "attributes": [],
-      "fields": [],
+      "fields": [
+        {
+          "type": "Text",
+          "text": "Family Member",
+          "order": 1
+        },
+        {
+          "type": "Checkbox",
+          "text": "Season ticket holder?",
+          "order": 2
+        }
+      ],
       "options": []
     },
     {
@@ -1282,7 +1351,18 @@
       "text": "Please provide the Name and position(s) of the employees:",
       "relatedFormItemId": "53DE369D-5729-4DA2-8FD1-CC7DA60E3123",
       "attributes": [],
-      "fields": [],
+      "fields": [
+        {
+          "type": "Text",
+          "text": "Name",
+          "order": 1
+        },
+        {
+          "type": "Multiline Text",
+          "text": "Position(s)/Role(s)",
+          "order": 2
+        }
+      ],
       "options": []
     },
     {
@@ -1328,7 +1408,43 @@
       "questionType": "Input Table",
       "text": "Please complete the following table:",
       "attributes": [],
-      "fields": [],
+      "fields": [
+        {
+          "type": "Date",
+          "text": "Appointment Date",
+          "order": 1
+        },
+        {
+          "type": "Time",
+          "text": "Appointment Time",
+          "order": 2
+        },
+        {
+          "type": "Text",
+          "text": "Doctor",
+          "order": 3
+        },
+        {
+          "type": "Multiline Text",
+          "text": "Notes",
+          "order": 4
+        },
+        {
+          "type": "Number",
+          "text": "No. of Prescriptions (whole number)",
+          "order": 5
+        },
+        {
+          "type": "Checkbox",
+          "text": "Friendly Doctor",
+          "order": 6
+        },
+        {
+          "type": "Currency",
+          "text": "Total Amount Paid (currency)",
+          "order": 7
+        }
+      ],
       "options": []
     },
     {
@@ -1350,7 +1466,18 @@
       "questionType": "Input Table",
       "text": "Please list the members of your family: (Max Rows 5)",
       "attributes": [],
-      "fields": [],
+      "fields": [
+        {
+          "type": "Text",
+          "text": "Name",
+          "order": 1
+        },
+        {
+          "type": "Text",
+          "text": "Relationship",
+          "order": 2
+        }
+      ],
       "options": []
     },
     {
@@ -1461,7 +1588,16 @@
       "questionType": "Dropdown",
       "text": "KW Regression Q",
       "attributes": [],
-      "fields": [],
+      "fields": [
+        {
+          "type": "Text",
+          "order": 1
+        },
+        {
+          "type": "Multiline Text",
+          "order": 1
+        }
+      ],
       "options": [
         {
           "value": "1",
@@ -1507,7 +1643,18 @@
       "text": "KW child Q L3",
       "relatedFormItemId": "c4fa69dd-e289-4362-b700-cccf4865ceab",
       "attributes": [],
-      "fields": [],
+      "fields": [
+        {
+          "type": "Text",
+          "text": "aaa",
+          "order": 1
+        },
+        {
+          "type": "Currency",
+          "text": "bbb",
+          "order": 1
+        }
+      ],
       "options": []
     },
     {
@@ -1708,7 +1855,18 @@
       "questionType": "Input Table",
       "text": "KW UI Input Table Question. Please fill in below: EDITABLE",
       "attributes": [],
-      "fields": [],
+      "fields": [
+        {
+          "type": "Text",
+          "text": "Column name EDITABLE",
+          "order": 1
+        },
+        {
+          "type": "Date",
+          "text": "EDITABLE",
+          "order": 1
+        }
+      ],
       "options": []
     },
     {

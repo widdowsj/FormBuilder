@@ -133,7 +133,23 @@
       "questionType": "ABR Data",
       "text": "<b>Australian Business Number (ABN)</b>",
       "attributes": [],
-      "fields": [],
+      "fields": [
+        {
+          "type": "Date",
+          "text": "Date",
+          "order": 1
+        },
+        {
+          "type": "Text",
+          "text": "Enitity Name",
+          "order": 2
+        },
+        {
+          "type": "Text",
+          "text": "ABN",
+          "order": 3
+        }
+      ],
       "options": []
     },
     {
@@ -166,7 +182,18 @@
       "questionType": "Text",
       "text": "<b>For Trust please provide the Australian Company Number (ACN)</b>",
       "attributes": [],
-      "fields": [],
+      "fields": [
+        {
+          "type": "Text",
+          "text": "Application Number",
+          "order": 1
+        },
+        {
+          "type": "Text",
+          "text": "Client Number",
+          "order": 2
+        }
+      ],
       "options": []
     },
     {
@@ -188,7 +215,23 @@
       "questionType": "ABR Data",
       "text": "<b>Which type of Entity is this Business? (What structure best describes the Entity structure)</b>",
       "attributes": [],
-      "fields": [],
+      "fields": [
+        {
+          "type": "Text",
+          "text": "Entity Name",
+          "order": 1
+        },
+        {
+          "type": "Text",
+          "text": "ABN",
+          "order": 2
+        },
+        {
+          "type": "Text",
+          "text": "ACN",
+          "order": 3
+        }
+      ],
       "options": []
     },
     {
@@ -971,7 +1014,28 @@
       "questionType": "Info",
       "text": "<b>What is the Entity's registered address (not a PO Box)</b>",
       "attributes": [],
-      "fields": [],
+      "fields": [
+        {
+          "type": "Text",
+          "text": "Street",
+          "order": 1
+        },
+        {
+          "type": "Text",
+          "text": "Suburb/City",
+          "order": 2
+        },
+        {
+          "type": "Text",
+          "text": "State",
+          "order": 3
+        },
+        {
+          "type": "Text",
+          "text": "Postcode",
+          "order": 4
+        }
+      ],
       "options": []
     },
     {
@@ -1258,7 +1322,28 @@
       "text": "<b>What is the Entity's postal adress?</b>",
       "relatedFormItemId": "216ac538-b702-4ed2-b353-664cc9a40310",
       "attributes": [],
-      "fields": [],
+      "fields": [
+        {
+          "type": "Text",
+          "text": "Street/PO Box Number",
+          "order": 1
+        },
+        {
+          "type": "Text",
+          "text": "Suburb/City",
+          "order": 2
+        },
+        {
+          "type": "Text",
+          "text": "State",
+          "order": 3
+        },
+        {
+          "type": "Text",
+          "text": "Postcode",
+          "order": 4
+        }
+      ],
       "options": []
     },
     {
@@ -1369,7 +1454,38 @@
       "questionType": "Input Table",
       "text": "<span><strong>Please enter the contact person(s) for any communications about this application.&nbsp;</strong>Please note the department will only correspond with the nominated contact person in regards to the application. If the nominated contact person is an external party representing the Entity, evidence of authorisation must be attached.</span>",
       "attributes": [],
-      "fields": [],
+      "fields": [
+        {
+          "type": "Text",
+          "text": "First Name",
+          "order": 1
+        },
+        {
+          "type": "Text",
+          "text": "Surname",
+          "order": 2
+        },
+        {
+          "type": "Text",
+          "text": "Position",
+          "order": 3
+        },
+        {
+          "type": "Text",
+          "text": "Contact Number",
+          "order": 4
+        },
+        {
+          "type": "Text",
+          "text": "Email",
+          "order": 5
+        },
+        {
+          "type": "Text",
+          "text": "Postal Address",
+          "order": 6
+        }
+      ],
       "options": []
     },
     {
@@ -1403,7 +1519,38 @@
       "text": "Please provide details",
       "relatedFormItemId": "c797748f-1b1e-4fe2-8b9e-530eca8a61a6",
       "attributes": [],
-      "fields": [],
+      "fields": [
+        {
+          "type": "Text",
+          "text": "First Name",
+          "order": 1
+        },
+        {
+          "type": "Text",
+          "text": "Surname",
+          "order": 2
+        },
+        {
+          "type": "Text",
+          "text": "Position",
+          "order": 3
+        },
+        {
+          "type": "Text",
+          "text": "Contact Number",
+          "order": 4
+        },
+        {
+          "type": "Text",
+          "text": "Email Address",
+          "order": 5
+        },
+        {
+          "type": "Text",
+          "text": "Postal Address",
+          "order": 6
+        }
+      ],
       "options": []
     },
     {
@@ -2120,7 +2267,23 @@
       "text": "<b>Please provide details of those other Entities</b>",
       "relatedFormItemId": "713ece35-ed56-4051-8107-f6bdca846f17",
       "attributes": [],
-      "fields": [],
+      "fields": [
+        {
+          "type": "Text",
+          "text": "Entity Name",
+          "order": 1
+        },
+        {
+          "type": "Text",
+          "text": "ABN",
+          "order": 2
+        },
+        {
+          "type": "Text",
+          "text": "ACN",
+          "order": 3
+        }
+      ],
       "options": []
     },
     {
@@ -2188,7 +2351,23 @@
       "text": "<br><b>Please provide details</b>",
       "relatedFormItemId": "8a5f4e08-589e-4f1b-9a3a-05cdc20cc5a0",
       "attributes": [],
-      "fields": [],
+      "fields": [
+        {
+          "type": "Date",
+          "text": "Application Date",
+          "order": 1
+        },
+        {
+          "type": "Text",
+          "text": "Entity Name",
+          "order": 2
+        },
+        {
+          "type": "Text",
+          "text": "ABN",
+          "order": 3
+        }
+      ],
       "options": []
     },
     {
@@ -2387,7 +2566,33 @@
       "questionType": "Input Table",
       "text": "<b>Please provide details of two referees.  The referees should have <u>no</u> commercial or personal involvement or interest in the application. Both referees will be contacted.</b>",
       "attributes": [],
-      "fields": [],
+      "fields": [
+        {
+          "type": "Text",
+          "text": "First Name",
+          "order": 1
+        },
+        {
+          "type": "Text",
+          "text": "Surname",
+          "order": 2
+        },
+        {
+          "type": "Text",
+          "text": "Email",
+          "order": 3
+        },
+        {
+          "type": "Text",
+          "text": "Relationship to Entity",
+          "order": 4
+        },
+        {
+          "type": "Text",
+          "text": "Contact Number",
+          "order": 5
+        }
+      ],
       "options": []
     },
     {
