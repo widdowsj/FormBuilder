@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { Store } from '@ngrx/store';
 import { Observable } from 'rxjs';
@@ -8,7 +8,8 @@ import { FormsFeature, getCurrentForm } from '../state/forms.selectors';
 
 @Component({
   selector: 'app-form-detail-shell',
-  templateUrl: './form-detail-shell.component.html'
+  templateUrl: './form-detail-shell.component.html',
+  changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class FormDetailShellComponent implements OnInit {
   form$: Observable<FormDetail | null>;

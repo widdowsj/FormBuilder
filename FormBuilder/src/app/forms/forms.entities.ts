@@ -8,6 +8,7 @@ export interface FormMetaData {
 }
 
 export interface FormDetail {
+  name: string;
   pageList: Page[];
   itemList: FormItem[];
 }
@@ -39,10 +40,12 @@ export enum ItemType {
   richText = 'RichText',
   info = 'Info',
   date = 'Date',
+  time = 'Time',
   dropdown = 'Dropdown',
   radioButtons = 'RadioButtons',
   multiselect = 'Multiselect',
   numeric = 'Numeric',
+  numberRange = 'Number Range',
 }
 
 export const formFields = [ItemType.text, ItemType.numeric, ItemType.multilineText, ItemType.date, ItemType.dropdown];

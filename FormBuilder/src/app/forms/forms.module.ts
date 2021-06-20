@@ -1,3 +1,5 @@
+import { NgxMatTimepickerModule } from '@angular-material-components/datetime-picker';
+import { NgxMatMomentModule } from '@angular-material-components/moment-adapter';
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { ReactiveFormsModule } from '@angular/forms';
@@ -22,6 +24,7 @@ import { PageDetailComponent } from './page-detail/page-detail.component';
 import { FormsEffects } from './state/forms.effects';
 import { formsReducer } from './state/forms.reducer';
 import { formsStateKey } from './state/forms.selectors';
+import { NumericRangeComponent } from './numeric-range/numeric-range.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +32,8 @@ import { formsStateKey } from './state/forms.selectors';
     FormDetailComponent,
     FormDetailShellComponent,
     PageDetailComponent,
-    ItemDetailComponent
+    ItemDetailComponent,
+    NumericRangeComponent
   ],
   imports: [
     CommonModule,
@@ -45,6 +49,8 @@ import { formsStateKey } from './state/forms.selectors';
     MatSelectModule,
     MatRadioModule,
     MatCheckboxModule,
+    NgxMatTimepickerModule,
+    NgxMatMomentModule,
     StoreModule.forFeature(formsStateKey, formsReducer),
     EffectsModule.forFeature([FormsEffects]),
   ]

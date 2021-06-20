@@ -6,7 +6,7 @@
             <!-- Text -->
             <input *ngSwitchCase="ItemType.text" matInput [formControl]="control" />
 
-            <!-- Text -->
+            <!-- Numeric -->
             <input *ngSwitchCase="ItemType.numeric" type="number" matInput [formControl]="control" />
 
             <!-- Multiline Text -->
@@ -27,8 +27,7 @@
             <!-- Not found -->
             <div *ngSwitchDefault>
                 <input matInput />
-                <mat-error>Item Type not found (form field): {{item.questionType}}! Description: {{item.description}}
-                </mat-error>
+                <mat-error>{{getError()}}</mat-error>
             </div>
         </mat-form-field>
     </div>
@@ -39,7 +38,7 @@
 
             <!-- Radio Buttons -->
             <mat-radio-group *ngSwitchCase="ItemType.radioButtons" [formControl]="control">
-                <p>{{item.text}}</p>
+                <p [innerHtml]="item.text"></p>
                 <mat-radio-button *ngFor="let option of item.options" [value]="option.value">
                     {{option.text}}
                 </mat-radio-button>
@@ -47,16 +46,24 @@
 
             <!-- Checkboxes -->
             <ng-container *ngSwitchCase="ItemType.multiselect">
-                <p>{{item.text}}</p>
+                <p [innerHtml]="item.text"></p>
                 <mat-checkbox *ngFor="let option of item.options" [value]="option.value" [formControl]="control">
                     {{option.text}}
                 </mat-checkbox>
             </ng-container>
 
+            <!-- Time picker -->
+            <ng-container *ngSwitchCase="ItemType.time">
+                <p [innerHtml]="item.text"></p>
+                <ngx-mat-timepicker *ngSwitchCase="ItemType.time" [formControl]="control"></ngx-mat-timepicker>
+            </ng-container>
+
+            <!-- Number Range -->
+            <app-numeric-range *ngSwitchCase="ItemType.numberRange" [labelText]="item.text"></app-numeric-range>
+
             <!-- Not found -->
             <div *ngSwitchDefault>
-                <p style="color: red;">Item Type not found (non-form field): {{item.questionType}}! Description:
-                    {{item.description}}</p>
+                <p style="color: red;">{{getError()}}</p>
             </div>
         </ng-container>
     </div>
