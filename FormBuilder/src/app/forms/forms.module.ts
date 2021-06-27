@@ -13,19 +13,21 @@ import { MatRadioModule } from '@angular/material/radio';
 import { MatSelectModule } from '@angular/material/select';
 import { MatStepperModule } from '@angular/material/stepper';
 import { MatTableModule } from '@angular/material/table';
+import { CKEditorModule } from '@ckeditor/ckeditor5-angular';
 import { EffectsModule } from '@ngrx/effects';
 import { StoreModule } from '@ngrx/store';
 import { FormDetailShellComponent } from './form-detail/form-detail-shell.component';
 import { FormDetailComponent } from './form-detail/form-detail.component';
 import { FormListComponent } from './form-list/form-list.component';
 import { FormsRoutingModule } from './forms-routing.module';
+import { InputTableComponent } from './input-table/input-table.component';
 import { ItemDetailComponent } from './item-detail/item-detail.component';
+import { NumericRangeComponent } from './numeric-range/numeric-range.component';
 import { PageDetailComponent } from './page-detail/page-detail.component';
+import { RichTextEditorComponent } from './rich-text-editor/rich-text-editor.component';
 import { FormsEffects } from './state/forms.effects';
 import { formsReducer } from './state/forms.reducer';
 import { formsStateKey } from './state/forms.selectors';
-import { NumericRangeComponent } from './numeric-range/numeric-range.component';
-import { InputTableComponent } from './input-table/input-table.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +37,8 @@ import { InputTableComponent } from './input-table/input-table.component';
     PageDetailComponent,
     ItemDetailComponent,
     NumericRangeComponent,
-    InputTableComponent
+    InputTableComponent,
+    RichTextEditorComponent
   ],
   imports: [
     CommonModule,
@@ -53,6 +56,7 @@ import { InputTableComponent } from './input-table/input-table.component';
     MatCheckboxModule,
     NgxMatTimepickerModule,
     NgxMatMomentModule,
+    CKEditorModule,
     StoreModule.forFeature(formsStateKey, formsReducer),
     EffectsModule.forFeature([FormsEffects]),
   ]

@@ -61,6 +61,9 @@
             <!-- Number Range -->
             <app-numeric-range *ngSwitchCase="ItemType.numberRange" [labelText]="item.text"></app-numeric-range>
 
+            <!-- Rich Text -->
+            <app-rich-text-editor *ngSwitchCase="ItemType.richText" [labelText]="item.text"></app-rich-text-editor>
+
             <!-- Input Table -->
             <app-input-table *ngSwitchCase="ItemType.inputTable" [labelText]="item.text" [fields]="item.fields">
             </app-input-table>
