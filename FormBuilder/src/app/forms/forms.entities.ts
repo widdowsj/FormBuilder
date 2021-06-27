@@ -60,4 +60,9 @@ export const formFields = [ItemType.text, ItemType.numeric, ItemType.multilineTe
 
 export enum FieldType {
   text = 'Text',
+  multilineText = 'Multiline Text',
+  number = 'Number',
+  currency = 'Currency',
+  date = 'Date',
+  time = 'Time',
 }

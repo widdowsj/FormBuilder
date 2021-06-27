@@ -55,7 +55,7 @@
             <!-- Time picker -->
             <ng-container *ngSwitchCase="ItemType.time">
                 <p [innerHtml]="item.text"></p>
-                <ngx-mat-timepicker *ngSwitchCase="ItemType.time" [formControl]="control"></ngx-mat-timepicker>
+                <ngx-mat-timepicker [formControl]="control"></ngx-mat-timepicker>
             </ng-container>
 
             <!-- Number Range -->

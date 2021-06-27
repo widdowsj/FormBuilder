@@ -9,6 +9,32 @@
                     <input matInput />
                 </mat-form-field>
 
+                <!-- Number -->
+                <mat-form-field *ngSwitchCase="FieldType.number" appearance="fill">
+                    <input matInput type="number" />
+                </mat-form-field>
+
+                <!-- Number -->
+                <mat-form-field *ngSwitchCase="FieldType.currency" appearance="fill">
+                    <input matInput type="number" />
+                    <span matPrefix>$&nbsp;</span>
+                </mat-form-field>
+
+                <!-- Date -->
+                <mat-form-field *ngSwitchCase="FieldType.date" appearance="fill">
+                    <input matInput [matDatepicker]="picker">
+                    <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+                    <mat-datepicker #picker></mat-datepicker>
+                </mat-form-field>
+
+                <!-- Time -->
+                <ngx-mat-timepicker *ngSwitchCase="FieldType.time"></ngx-mat-timepicker>
+
+                <!-- Multiline Text -->
+                <mat-form-field *ngSwitchCase="FieldType.multilineText" appearance="fill">
+                    <textarea rows="5" matInput></textarea>
+                </mat-form-field>
+
                 <!-- Not found -->
                 <div *ngSwitchDefault>
                     <p style="color: red;">{{getError(column)}}</p>
