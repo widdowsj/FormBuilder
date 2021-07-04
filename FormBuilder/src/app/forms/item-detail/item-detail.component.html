@@ -1,4 +1,11 @@
 <div *ngIf="item">
+    <div *ngIf="editMode" class="edit-mode">
+        <div class="edit-controls">
+            <mat-icon>edit</mat-icon>
+            <mat-icon>delete</mat-icon>
+            <mat-icon>drag_indicator</mat-icon>
+        </div>
+    </div>
     <div *ngIf="item.isFormField">
         <mat-form-field [ngSwitch]="item.questionType" appearance="fill">
             <mat-label [innerHtml]="item.text"></mat-label>

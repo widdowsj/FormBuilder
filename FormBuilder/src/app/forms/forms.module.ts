@@ -7,6 +7,7 @@ import { MatMomentDateModule } from '@angular/material-moment-adapter';
 import { MatCheckboxModule } from '@angular/material/checkbox';
 import { MatDatepickerModule } from '@angular/material/datepicker';
 import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatIconModule } from '@angular/material/icon';
 import { MatInputModule } from '@angular/material/input';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import { MatRadioModule } from '@angular/material/radio';
@@ -54,6 +55,7 @@ import { formsStateKey } from './state/forms.selectors';
     MatSelectModule,
     MatRadioModule,
     MatCheckboxModule,
+    MatIconModule,
     NgxMatTimepickerModule,
     NgxMatMomentModule,
     CKEditorModule,

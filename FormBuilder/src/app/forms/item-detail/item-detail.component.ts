@@ -10,6 +10,7 @@ import { FormItem, ItemType } from '../forms.entities';
 })
 export class ItemDetailComponent implements OnInit {
   @Input() item: FormItem | null = null;
+  @Input() editMode = true;
   ItemType = ItemType;
 
   control = new FormControl();
