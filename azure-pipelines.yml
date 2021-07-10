@@ -28,8 +28,10 @@ steps:
 
 - script: |
     cd FormBuilder
+    npm install -g npm@latest
     npm install -g @angular/cli
     npm install
+    ng --version
     ng build --prod
   displayName: 'npm install and build'
 
