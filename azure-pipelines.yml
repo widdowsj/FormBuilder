@@ -32,7 +32,7 @@ steps:
     npm install -g @angular/cli
     npm install
     ng --version
-    ng build --prod
+    ng build --configuration production
   displayName: 'npm install and build'
 
 - task: AzureRmWebAppDeployment@4
