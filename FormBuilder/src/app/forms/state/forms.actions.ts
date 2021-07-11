@@ -19,3 +19,8 @@ export const getFormDetailSuccess = createAction(
   '[Form State] Get Selected Form Success',
   props<{ form: FormDetail }>()
 );
+
+export const deleteItem = createAction(
+  '[Form State] Delete an item from the current form',
+  props<{ itemId: string }>()
+);

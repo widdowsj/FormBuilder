@@ -1,9 +1,9 @@
 <div *ngIf="item" [class.edit-mode]="editMode">
     <div *ngIf="editMode" class="edit-controls">
-        <button color="primary" mat-mini-fab type="button">
+        <button color="primary" mat-mini-fab type="button" (click)="editItem()">
             <mat-icon>edit</mat-icon>
         </button>
-        <button color="primary" mat-mini-fab type="button">
+        <button color="primary" mat-mini-fab type="button" (click)="deleteItem()">
             <mat-icon>delete</mat-icon>
         </button>
         <button color="primary" mat-mini-fab type="button">

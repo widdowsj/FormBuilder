@@ -20,6 +20,7 @@ export interface Page {
 }
 
 export interface FormItem {
+  itemId: string;
   pageId: string;
   description: string;
   text: string;
