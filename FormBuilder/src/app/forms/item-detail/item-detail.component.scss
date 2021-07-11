@@ -23,20 +23,23 @@
 }
 
 .edit-mode {
-    position: absolute;
-    opacity: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 1000;
     &:hover {
         border: black solid 1px;
         border-radius: 5px;
         opacity: 1;
+        .edit-controls {
+            visibility: inherit;
+        }
     }
 }
 
 .edit-controls {
     position: absolute;
     right: 0px;
-    top: -1em;
+    top: -1rem;
+    visibility: hidden;
+    z-index: 100;
+    button {
+        margin-right: 0.25rem;
+    }
 }

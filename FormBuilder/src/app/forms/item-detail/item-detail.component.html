@@ -1,10 +1,14 @@
-<div *ngIf="item">
-    <div *ngIf="editMode" class="edit-mode">
-        <div class="edit-controls">
+<div *ngIf="item" [class.edit-mode]="editMode">
+    <div *ngIf="editMode" class="edit-controls">
+        <button color="primary" mat-mini-fab type="button">
             <mat-icon>edit</mat-icon>
+        </button>
+        <button color="primary" mat-mini-fab type="button">
             <mat-icon>delete</mat-icon>
+        </button>
+        <button color="primary" mat-mini-fab type="button">
             <mat-icon>drag_indicator</mat-icon>
-        </div>
+        </button>
     </div>
     <div *ngIf="item.isFormField">
         <mat-form-field [ngSwitch]="item.questionType" appearance="fill">
