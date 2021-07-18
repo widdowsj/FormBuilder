@@ -25,6 +25,7 @@ import { FormsRoutingModule } from './forms-routing.module';
 import { InputTableComponent } from './input-table/input-table.component';
 import { ItemDetailComponent } from './item-detail/item-detail.component';
 import { NumericRangeComponent } from './numeric-range/numeric-range.component';
+import { PageDetailShellComponent } from './page-detail/page-detail-shell.component';
 import { PageDetailComponent } from './page-detail/page-detail.component';
 import { RichTextEditorComponent } from './rich-text-editor/rich-text-editor.component';
 import { FormsEffects } from './state/forms.effects';
@@ -37,6 +38,7 @@ import { formsStateKey } from './state/forms.selectors';
     FormDetailComponent,
     FormDetailShellComponent,
     PageDetailComponent,
+    PageDetailShellComponent,
     ItemDetailComponent,
     NumericRangeComponent,
     InputTableComponent,

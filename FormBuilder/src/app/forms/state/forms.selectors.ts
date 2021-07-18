@@ -11,10 +11,20 @@ export const selectFormsState = createFeatureSelector<FormsFeature, FormsState>(
 
 export const getFormList = createSelector(
   selectFormsState,
-  (state: FormsState) => state.forms
+  (state) => state.forms
 );
 
 export const getCurrentForm = createSelector(
   selectFormsState,
-  (state: FormsState) => state.currentForm
+  (state) => state.currentForm
+);
+
+export const getCurrentFormItems = createSelector(
+  getCurrentForm,
+  (state) => state?.itemList,
+);
+
+export const getPageItems = (props: { pageId: string | undefined }) => createSelector(
+  getCurrentFormItems,
+  (formItems) => formItems?.filter(x => x.pageId === props.pageId),
 );

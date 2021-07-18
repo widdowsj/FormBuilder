@@ -12,10 +12,10 @@ import { FormsFeature, getCurrentForm } from '../state/forms.selectors';
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class FormDetailShellComponent implements OnInit {
-  form$: Observable<FormDetail | null>;
+  form$: Observable<FormDetail | undefined>;
 
   constructor(route: ActivatedRoute, store: Store<FormsFeature>) {
-    const id = route.snapshot.params['id'];
+    const id = route.snapshot.params.id;
     store.dispatch(setSelectedForm({ selectedFormId: id }));
     this.form$ = store.select(getCurrentForm);
   }

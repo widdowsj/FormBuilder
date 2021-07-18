@@ -5,13 +5,13 @@ import { deleteItem, getFormDetailSuccess, getFormsSuccess, setSelectedForm } fr
 export interface FormsState {
   forms: FormMetaData[];
   selectedFormId: string;
-  currentForm: FormDetail | null;
+  currentForm: FormDetail | undefined;
 }
 
 export const initialState: FormsState = {
   forms: [],
   selectedFormId: '',
-  currentForm: null,
+  currentForm: undefined,
 };
 
 export const formsReducer = createReducer(
@@ -20,14 +20,15 @@ export const formsReducer = createReducer(
     return { ...state, forms };
   }),
   on(setSelectedForm, (state, { selectedFormId }) => {
-    return { ...state, selectedFormId, currentForm: null };
+    return { ...state, selectedFormId, currentForm: undefined };
   }),
   on(getFormDetailSuccess, (state, { form }) => {
     return { ...state, currentForm: form };
   }),
   on(deleteItem, (state, { itemId }) => {
     console.log('deleting item...');
-    const currentForm = state.currentForm!;
+    const currentForm = state.currentForm;
+    if (currentForm === undefined) { return { ...state }; }
     return {
       ...state,
       currentForm: {
