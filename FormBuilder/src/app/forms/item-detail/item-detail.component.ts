@@ -13,7 +13,8 @@ export class ItemDetailComponent implements OnInit {
   @Input() editMode = true;
   ItemType = ItemType;
 
-  @Output() deleteItemEvent = new EventEmitter<FormItem>();
+  @Output() editItemEvent = new EventEmitter();
+  @Output() deleteItemEvent = new EventEmitter();
 
   control = new FormControl();
 
@@ -29,10 +30,10 @@ export class ItemDetailComponent implements OnInit {
   }
 
   editItem(): void {
-
+    this.editItemEvent.emit();
   }
 
   deleteItem(): void {
-    this.deleteItemEvent.emit(this.item);
+    this.deleteItemEvent.emit();
   }
 }

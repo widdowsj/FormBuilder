@@ -20,7 +20,12 @@ export const getFormDetailSuccess = createAction(
   props<{ form: FormDetail }>()
 );
 
+export const editItem = createAction(
+  '[Form State] Edit an item\'s properties',
+  props<{ itemId: string | undefined }>()
+);
+
 export const deleteItem = createAction(
   '[Form State] Delete an item from the current form',
-  props<{ itemId: string }>()
+  props<{ itemId: string | undefined }>()
 );

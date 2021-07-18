@@ -23,6 +23,7 @@ import { FormDetailComponent } from './form-detail/form-detail.component';
 import { FormListComponent } from './form-list/form-list.component';
 import { FormsRoutingModule } from './forms-routing.module';
 import { InputTableComponent } from './input-table/input-table.component';
+import { ItemDetailShellComponent } from './item-detail/item-detail-shell.component';
 import { ItemDetailComponent } from './item-detail/item-detail.component';
 import { NumericRangeComponent } from './numeric-range/numeric-range.component';
 import { PageDetailShellComponent } from './page-detail/page-detail-shell.component';
@@ -40,6 +41,7 @@ import { formsStateKey } from './state/forms.selectors';
     PageDetailComponent,
     PageDetailShellComponent,
     ItemDetailComponent,
+    ItemDetailShellComponent,
     NumericRangeComponent,
     InputTableComponent,
     RichTextEditorComponent

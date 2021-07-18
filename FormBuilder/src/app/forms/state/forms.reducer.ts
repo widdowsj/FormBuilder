@@ -26,7 +26,6 @@ export const formsReducer = createReducer(
     return { ...state, currentForm: form };
   }),
   on(deleteItem, (state, { itemId }) => {
-    console.log('deleting item...');
     const currentForm = state.currentForm;
     if (currentForm === undefined) { return { ...state }; }
     return {

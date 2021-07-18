@@ -28,3 +28,8 @@ export const getPageItems = (props: { pageId: string | undefined }) => createSel
   getCurrentFormItems,
   (formItems) => formItems?.filter(x => x.pageId === props.pageId),
 );
+
+export const getItem = (props: { itemId: string | undefined }) => createSelector(
+  getCurrentFormItems,
+  (formItems) => formItems?.find(x => x.itemId === props.itemId),
+);
