@@ -28,6 +28,7 @@ export interface FormItem {
   isFormField: boolean;
   options: FormOption[];
   fields: FormField[];
+  order: number;
 }
 
 export interface FormOption {

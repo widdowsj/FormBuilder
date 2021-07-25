@@ -6,12 +6,14 @@ export interface FormsState {
   forms: FormMetaData[];
   selectedFormId: string;
   currentForm: FormDetail | undefined;
+  editMode: boolean;
 }
 
 export const initialState: FormsState = {
   forms: [],
   selectedFormId: '',
   currentForm: undefined,
+  editMode: true,
 };
 
 export const formsReducer = createReducer(

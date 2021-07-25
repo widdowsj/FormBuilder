@@ -4,10 +4,15 @@ import { of } from 'rxjs';
 import { catchError, map, mergeMap } from 'rxjs/operators';
 import { setError } from 'src/app/state/app.actions';
 import { FormsService } from '../forms.service';
-import { getFormDetailSuccess, getForms, getFormsSuccess, setSelectedForm } from './forms.actions';
+import { addItem, addItemSuccess, editItem, getFormDetailSuccess, getForms, getFormsSuccess, setSelectedForm } from './forms.actions';
 
 @Injectable()
 export class FormsEffects {
+
+  constructor(
+    private actions$: Actions,
+    private formsService: FormsService
+  ) { }
 
   getForms$ = createEffect(() =>
     this.actions$.pipe(
@@ -33,8 +38,27 @@ export class FormsEffects {
     )
   );
 
-  constructor(
-    private actions$: Actions,
-    private formsService: FormsService
-  ) { }
+  addItem$ = createEffect(() =>
+    this.actions$.pipe(
+      ofType(addItem),
+      mergeMap(x => this.formsService.showItemDialog(null, x.order)
+        .pipe(
+          map(() => addItemSuccess()),
+          catchError((error) => of(setError({ error })))
+        )
+      )
+    )
+  );
+
+  editItem$ = createEffect(() =>
+    this.actions$.pipe(
+      ofType(editItem),
+      mergeMap(x => this.formsService.showItemDialog(x.itemId, null)
+        .pipe(
+          map(() => addItemSuccess()),
+          catchError((error) => of(setError({ error })))
+        )
+      )
+    )
+  );
 }

@@ -1,16 +1,18 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
+import { MatDialog } from '@angular/material/dialog';
 import { Router } from '@angular/router';
-import { Observable } from 'rxjs';
+import { Observable, of } from 'rxjs';
 import { map } from 'rxjs/operators';
 import { FormDetail, formFields, FormMetaData } from './forms.entities';
+import { ItemEditorComponent } from './item-editor/item-editor.component';
 
 @Injectable({
   providedIn: 'root'
 })
 export class FormsService {
 
-  constructor(private http: HttpClient, private router: Router) { }
+  constructor(private http: HttpClient, private router: Router, private dialog: MatDialog) { }
 
   getForms(): Observable<FormMetaData[]> {
     return this.http.get<FormMetaData[]>('/assets/form-list.json');
@@ -34,5 +36,14 @@ export class FormsService {
       });
       return x;
     }));
+  }
+
+  showItemDialog(id: string | null, order: number | null): Observable<void> {
+    this.dialog.open(ItemEditorComponent, {
+      height: '400px',
+      width: '600px',
+      data: { id, order }
+    });
+    return of();
   }
 }

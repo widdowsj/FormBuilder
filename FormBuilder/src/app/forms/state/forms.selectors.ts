@@ -26,10 +26,15 @@ export const getCurrentFormItems = createSelector(
 
 export const getPageItems = (props: { pageId: string | undefined }) => createSelector(
   getCurrentFormItems,
-  (formItems) => formItems?.filter(x => x.pageId === props.pageId),
+  (formItems) => formItems?.filter(x => x.pageId === props.pageId).sort(x => x.order),
 );
 
 export const getItem = (props: { itemId: string | undefined }) => createSelector(
   getCurrentFormItems,
   (formItems) => formItems?.find(x => x.itemId === props.itemId),
+);
+
+export const getEditMode = createSelector(
+  selectFormsState,
+  (state) => state.editMode
 );

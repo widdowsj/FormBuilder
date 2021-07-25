@@ -1,1 +1,2 @@
-<app-page-detail *ngIf="pageItems$ | async as pageItems" [pageItems]="pageItems">
+<app-page-detail *ngIf="pageItems$ | async as pageItems" [pageItems]="pageItems" [editMode]="editMode$ | async"
+    (addItemEvent)="itemAdded($event)">

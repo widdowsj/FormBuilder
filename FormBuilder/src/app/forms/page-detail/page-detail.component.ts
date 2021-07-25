@@ -1,7 +1,5 @@
-import { ChangeDetectionStrategy, Component, Input, OnInit } from '@angular/core';
-import { Store } from '@ngrx/store';
+import { ChangeDetectionStrategy, Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 import { FormItem } from '../forms.entities';
-import { FormsFeature } from '../state/forms.selectors';
 
 @Component({
   selector: 'app-page-detail',
@@ -11,9 +9,16 @@ import { FormsFeature } from '../state/forms.selectors';
 })
 export class PageDetailComponent implements OnInit {
   @Input() pageItems: FormItem[] | undefined;
+  @Input() editMode: boolean | null = null;
 
-  constructor(private store: Store<FormsFeature>) { }
+  @Output() addItemEvent = new EventEmitter<number>();
+
+  constructor() { }
 
   ngOnInit(): void {
+  }
+
+  addItemClicked(order: number): void {
+    this.addItemEvent.emit(order);
   }
 }

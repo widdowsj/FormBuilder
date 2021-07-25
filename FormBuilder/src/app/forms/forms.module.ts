@@ -7,6 +7,7 @@ import { MatMomentDateModule } from '@angular/material-moment-adapter';
 import { MatButtonModule } from '@angular/material/button';
 import { MatCheckboxModule } from '@angular/material/checkbox';
 import { MatDatepickerModule } from '@angular/material/datepicker';
+import { MatDialogModule } from '@angular/material/dialog';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatIconModule } from '@angular/material/icon';
 import { MatInputModule } from '@angular/material/input';
@@ -25,6 +26,7 @@ import { FormsRoutingModule } from './forms-routing.module';
 import { InputTableComponent } from './input-table/input-table.component';
 import { ItemDetailShellComponent } from './item-detail/item-detail-shell.component';
 import { ItemDetailComponent } from './item-detail/item-detail.component';
+import { ItemEditorComponent } from './item-editor/item-editor.component';
 import { NumericRangeComponent } from './numeric-range/numeric-range.component';
 import { PageDetailShellComponent } from './page-detail/page-detail-shell.component';
 import { PageDetailComponent } from './page-detail/page-detail.component';
@@ -44,7 +46,8 @@ import { formsStateKey } from './state/forms.selectors';
     ItemDetailShellComponent,
     NumericRangeComponent,
     InputTableComponent,
-    RichTextEditorComponent
+    RichTextEditorComponent,
+    ItemEditorComponent
   ],
   imports: [
     CommonModule,
@@ -64,9 +67,10 @@ import { formsStateKey } from './state/forms.selectors';
     MatButtonModule,
     NgxMatTimepickerModule,
     NgxMatMomentModule,
+    MatDialogModule,
     CKEditorModule,
     StoreModule.forFeature(formsStateKey, formsReducer),
     EffectsModule.forFeature([FormsEffects]),
-  ]
+  ],
 })
 export class FormsModule { }

@@ -10,7 +10,7 @@ import { FormItem, ItemType } from '../forms.entities';
 })
 export class ItemDetailComponent implements OnInit {
   @Input() item: FormItem | undefined;
-  @Input() editMode = true;
+  @Input() editMode: boolean | null = null;
   ItemType = ItemType;
 
   @Output() editItemEvent = new EventEmitter();
