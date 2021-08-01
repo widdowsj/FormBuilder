@@ -47,7 +47,7 @@ export class RichTextEditorComponent implements OnInit {
   };
 
   @Input() labelText = '';
-  data = '';
+  @Input() data = '';
 
   constructor() {
 

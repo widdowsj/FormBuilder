@@ -1,4 +1,3 @@
-
 export interface FormMetaData {
   id: number;
   name: string;
@@ -68,3 +67,15 @@ export enum FieldType {
   date = 'Date',
   time = 'Time',
 }
+
+export const initialItem: FormItem = {
+  itemId: '',
+  pageId: '',
+  description: '',
+  text: '',
+  questionType: ItemType.text,
+  isFormField: true,
+  options: [],
+  fields: [],
+  order: 0,
+};

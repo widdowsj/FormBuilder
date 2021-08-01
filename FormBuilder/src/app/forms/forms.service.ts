@@ -4,7 +4,7 @@ import { MatDialog } from '@angular/material/dialog';
 import { Router } from '@angular/router';
 import { Observable, of } from 'rxjs';
 import { map } from 'rxjs/operators';
-import { FormDetail, formFields, FormMetaData } from './forms.entities';
+import { FormDetail, formFields, FormItem, FormMetaData } from './forms.entities';
 import { ItemEditorComponent } from './item-editor/item-editor.component';
 
 @Injectable({
@@ -38,11 +38,9 @@ export class FormsService {
     }));
   }
 
-  showItemDialog(id: string | null, order: number | null): Observable<void> {
+  showItemDialog(item: FormItem | undefined): Observable<void> {
     this.dialog.open(ItemEditorComponent, {
-      height: '400px',
-      width: '600px',
-      data: { id, order }
+      data: { item }
     });
     return of();
   }

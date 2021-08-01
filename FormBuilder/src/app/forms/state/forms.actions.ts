@@ -22,20 +22,12 @@ export const getFormDetailSuccess = createAction(
 
 export const addItem = createAction(
   '[Form State] Add an item',
-  props<{ order: number }>()
-);
-
-export const addItemSuccess = createAction(
-  '[Form State] Add Item Success',
+  props<{ pageId: string, order: number }>()
 );
 
 export const editItem = createAction(
   '[Form State] Edit an item\'s properties',
   props<{ itemId: string }>()
-);
-
-export const editItemSuccess = createAction(
-  '[Form State] Edit Item Success',
 );
 
 export const deleteItem = createAction(

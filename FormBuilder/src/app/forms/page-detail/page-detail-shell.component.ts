@@ -24,6 +24,6 @@ export class PageDetailShellComponent implements OnInit {
   }
 
   itemAdded(order: number): void {
-    this.store.dispatch(addItem({ order }));
+    this.store.dispatch(addItem({ pageId: this.pageId ?? '', order }));
   }
 }
