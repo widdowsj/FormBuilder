@@ -26,7 +26,7 @@ export const getCurrentFormItems = createSelector(
 
 export const getPageItems = (props: { pageId: string | undefined }) => createSelector(
   getCurrentFormItems,
-  (formItems) => formItems?.filter(x => x.pageId === props.pageId).sort(x => x.order),
+  (formItems) => formItems?.filter(x => x.pageId === props.pageId).sort((a, b) => a.order - b.order),
 );
 
 export const getItem = (props: { itemId: string | undefined }) => createSelector(

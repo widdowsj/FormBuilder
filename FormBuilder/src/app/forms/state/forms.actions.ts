@@ -1,5 +1,5 @@
 import { createAction, props } from '@ngrx/store';
-import { FormDetail, FormMetaData } from '../forms.entities';
+import { FormDetail, FormItem, FormMetaData } from '../forms.entities';
 
 export const getForms = createAction(
   '[Form State] Get list of Forms',
@@ -33,4 +33,9 @@ export const editItem = createAction(
 export const deleteItem = createAction(
   '[Form State] Delete an item from the current form',
   props<{ itemId: string | undefined }>()
+);
+
+export const saveItem = createAction(
+  '[Form State] Save an item in the current form',
+  props<{ itemId: string, item: FormItem }>()
 );

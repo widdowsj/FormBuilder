@@ -1,5 +1,6 @@
 import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
+import { ReactiveFormsModule } from '@angular/forms';
 import { MAT_DATE_LOCALE } from '@angular/material/core';
 import { MatDialog, MatDialogModule, MAT_DIALOG_DATA } from '@angular/material/dialog';
 import { MatSelectModule } from '@angular/material/select';
@@ -24,6 +25,7 @@ import { appReducer } from './state/app.reducer';
     AppRoutingModule,
     CoreModule,
     BrowserAnimationsModule,
+    ReactiveFormsModule,
     MatDialogModule,
     MatSelectModule,
     StoreModule.forRoot({ appState: appReducer }),

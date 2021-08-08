@@ -1,6 +1,6 @@
 import { createReducer, on } from '@ngrx/store';
 import { FormDetail, FormMetaData } from '../forms.entities';
-import { deleteItem, getFormDetailSuccess, getFormsSuccess, setSelectedForm } from './forms.actions';
+import { deleteItem, getFormDetailSuccess, getFormsSuccess, saveItem, setSelectedForm } from './forms.actions';
 
 export interface FormsState {
   forms: FormMetaData[];
@@ -26,6 +26,17 @@ export const formsReducer = createReducer(
   }),
   on(getFormDetailSuccess, (state, { form }) => {
     return { ...state, currentForm: form };
+  }),
+  on(saveItem, (state, { itemId, item }) => {
+    const currentForm = state.currentForm;
+    if (currentForm === undefined) { return { ...state }; }
+    return {
+      ...state,
+      currentForm: {
+        ...currentForm,
+        itemList: [...currentForm.itemList.filter(x => x.itemId !== itemId), item],
+      }
+    };
   }),
   on(deleteItem, (state, { itemId }) => {
     const currentForm = state.currentForm;
