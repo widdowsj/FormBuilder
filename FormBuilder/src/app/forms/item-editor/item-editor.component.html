@@ -9,16 +9,18 @@
         <!-- TODO: Drop down of page IDs -->
         <mat-form-field appearance="fill">
             <mat-label>Page ID</mat-label>
-            <input matInput [value]="item.pageId">
+            <input matInput formControlName="pageId">
+            <mat-error *ngIf="form.controls.pageId.errors?.required">Required</mat-error>
         </mat-form-field>
         <mat-form-field appearance="fill">
             <mat-label>Description</mat-label>
-            <input matInput [value]="item.description">
+            <input matInput formControlName="description">
+            <mat-error *ngIf="form.controls.description.errors?.required">Required</mat-error>
         </mat-form-field>
         <app-rich-text-editor labelText='Text' [data]='item.text'></app-rich-text-editor>
         <mat-form-field appearance="fill">
             <mat-label>Question Type</mat-label>
-            <mat-select [value]='item.questionType'>
+            <mat-select formControlName='questionType'>
                 <mat-option *ngFor="let typeName of questionTypes" [value]="typeName">
                     {{typeName}}
                 </mat-option>
@@ -26,8 +28,10 @@
         </mat-form-field>
         <mat-form-field appearance="fill">
             <mat-label>Order</mat-label>
-            <input matInput type="number" [value]="item.order">
+            <input matInput type="number" formControlName="order">
+            <mat-error *ngIf="form.controls.order.errors?.required">Required</mat-error>
         </mat-form-field>
+        <p>{{form.value | json}}</p>
     </mat-dialog-content>
     <mat-dialog-actions>
         <button mat-button type="submit" (click)="save()">Save</button>
