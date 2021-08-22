@@ -1,2 +1,3 @@
-<p [innerHtml]="labelText"></p>
-<ckeditor [config]="editorConfig" [editor]="Editor" [data]="data"></ckeditor>
+<ckeditor #editor [config]="editorConfig" [editor]="Editor" [data]="value" [disabled]="disabled"
+    (change)="onChange($event)" (focus)="onFocus()" (blur)="onBlur()">
+</ckeditor>

@@ -23,6 +23,9 @@
             <!-- Multiline Text -->
             <textarea *ngSwitchCase="ItemType.multilineText" matInput rows="5" [formControl]="control"></textarea>
 
+            <!-- Rich Text -->
+            <app-rich-text-editor *ngSwitchCase="ItemType.richText"></app-rich-text-editor>
+
             <!-- Date picker -->
             <input *ngSwitchCase="ItemType.date" matInput [matDatepicker]="picker" [formControl]="control">
             <mat-datepicker-toggle *ngSwitchCase="ItemType.date" matSuffix [for]="picker"></mat-datepicker-toggle>
@@ -71,9 +74,6 @@
 
             <!-- Number Range -->
             <app-numeric-range *ngSwitchCase="ItemType.numberRange" [labelText]="item.text"></app-numeric-range>
-
-            <!-- Rich Text -->
-            <app-rich-text-editor *ngSwitchCase="ItemType.richText" [labelText]="item.text"></app-rich-text-editor>
 
             <!-- Input Table -->
             <app-input-table *ngSwitchCase="ItemType.inputTable" [labelText]="item.text" [fields]="item.fields">

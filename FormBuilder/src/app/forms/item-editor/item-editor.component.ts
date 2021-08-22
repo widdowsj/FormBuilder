@@ -28,6 +28,7 @@ export class ItemEditorComponent implements OnInit {
       id: [this.item.itemId, [Validators.required]],
       pageId: [this.item.pageId, [Validators.required]],
       description: [this.item.description, [Validators.required]],
+      text: [this.item.text, [Validators.required]],
       questionType: [this.item.questionType],
       order: [this.item.order],
     });

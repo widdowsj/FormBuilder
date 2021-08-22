@@ -17,7 +17,11 @@
             <input matInput formControlName="description">
             <mat-error *ngIf="form.controls.description.errors?.required">Required</mat-error>
         </mat-form-field>
-        <app-rich-text-editor labelText='Text' [data]='item.text'></app-rich-text-editor>
+        <mat-form-field appearance="fill">
+            <mat-label>Text</mat-label>
+            <app-rich-text-editor formControlName='text'></app-rich-text-editor>
+            <mat-error *ngIf="form.controls.text.errors?.required">Required</mat-error>
+        </mat-form-field>
         <mat-form-field appearance="fill">
             <mat-label>Question Type</mat-label>
             <mat-select formControlName='questionType'>

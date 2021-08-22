@@ -57,7 +57,7 @@ export enum ItemType {
   inputTable = 'Input Table',
 }
 
-export const formFields = [ItemType.text, ItemType.numeric, ItemType.multilineText, ItemType.date, ItemType.dropdown];
+export const formFields = [ItemType.text, ItemType.numeric, ItemType.multilineText, ItemType.richText, ItemType.date, ItemType.dropdown];
 
 export enum FieldType {
   text = 'Text',
