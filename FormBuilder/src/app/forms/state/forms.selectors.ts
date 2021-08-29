@@ -24,6 +24,12 @@ export const getCurrentFormItems = createSelector(
   (state) => state?.itemList,
 );
 
+export const getPageList = createSelector(
+  getCurrentForm,
+  // filter to create a copy of the array
+  (state) => state?.pageList.filter(_ => true).sort((a, b) => a.order - b.order),
+);
+
 export const getPageItems = (props: { pageId: string | undefined }) => createSelector(
   getCurrentFormItems,
   (formItems) => formItems?.filter(x => x.pageId === props.pageId).sort((a, b) => a.order - b.order),

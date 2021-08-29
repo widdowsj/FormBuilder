@@ -40,6 +40,8 @@ export class FormsService {
 
   showItemDialog(item: FormItem | undefined): Observable<void> {
     this.dialog.open(ItemEditorComponent, {
+      // height: '600px',
+      // width: '800px',
       data: { item }
     });
     return of();

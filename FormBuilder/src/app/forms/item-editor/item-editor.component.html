@@ -6,11 +6,13 @@
             <input matInput formControlName="id">
             <mat-error *ngIf="form.controls.id.errors?.required">Required</mat-error>
         </mat-form-field>
-        <!-- TODO: Drop down of page IDs -->
-        <mat-form-field appearance="fill">
-            <mat-label>Page ID</mat-label>
-            <input matInput formControlName="pageId">
-            <mat-error *ngIf="form.controls.pageId.errors?.required">Required</mat-error>
+        <mat-form-field appearance="fill" *ngIf="pageList$ | async as pageList">
+            <mat-label>Page</mat-label>
+            <mat-select formControlName='pageId'>
+                <mat-option *ngFor="let page of pageList" [value]="page.pageId">
+                    {{page.text}}
+                </mat-option>
+            </mat-select>
         </mat-form-field>
         <mat-form-field appearance="fill">
             <mat-label>Description</mat-label>
@@ -35,7 +37,6 @@
             <input matInput type="number" formControlName="order">
             <mat-error *ngIf="form.controls.order.errors?.required">Required</mat-error>
         </mat-form-field>
-        <p>{{form.value | json}}</p>
     </mat-dialog-content>
     <mat-dialog-actions>
         <button mat-button type="submit" (click)="save()">Save</button>

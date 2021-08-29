@@ -1,10 +1,13 @@
-<mat-vertical-stepper *ngIf="form">
-  <mat-step *ngFor="let page of form.pageList">
-    <ng-template matStepLabel>{{page.text}}</ng-template>
-    <app-page-detail-shell [pageId]='page.pageId'></app-page-detail-shell>
-  </mat-step>
-</mat-vertical-stepper>
-<mat-spinner *ngIf="!form"></mat-spinner>
+<div *ngIf="form">
+  <h2>{{form.name}}</h2>
+  <mat-vertical-stepper>
+    <mat-step *ngFor="let page of pageList">
+      <ng-template matStepLabel>{{page.text}}</ng-template>
+      <app-page-detail-shell [pageId]='page.pageId'></app-page-detail-shell>
+    </mat-step>
+  </mat-vertical-stepper>
+  <mat-spinner *ngIf="!form"></mat-spinner>
 
-<p>Form: </p>
-<textarea readonly rows="50" cols="160">{{form | json}}</textarea>
+  <p>Form: </p>
+  <textarea readonly rows="50" cols="160">{{form | json}}</textarea>
+</div>

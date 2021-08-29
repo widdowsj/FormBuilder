@@ -2,9 +2,10 @@ import { Component, Inject, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { MatDialogRef, MAT_DIALOG_DATA } from '@angular/material/dialog';
 import { Store } from '@ngrx/store';
-import { formFields, FormItem, ItemType } from '../forms.entities';
+import { Observable } from 'rxjs';
+import { formFields, FormItem, ItemType, Page } from '../forms.entities';
 import { saveItem } from '../state/forms.actions';
-import { FormsFeature } from '../state/forms.selectors';
+import { FormsFeature, getPageList } from '../state/forms.selectors';
 
 @Component({
   selector: 'app-item-editor',
@@ -16,11 +17,15 @@ export class ItemEditorComponent implements OnInit {
   item: FormItem;
   originalId: string;
   form: FormGroup;
+  pageList$: Observable<Page[] | undefined>;
 
   constructor(fb: FormBuilder,
     public dialogRef: MatDialogRef<ItemEditorComponent>,
     @Inject(MAT_DIALOG_DATA) data: { item: FormItem },
     private store: Store<FormsFeature>) {
+
+    this.pageList$ = store.select(getPageList);
+
     this.item = data.item;
     this.originalId = this.item.itemId;
 

@@ -1,1 +1,1 @@
-<app-form-detail *ngIf="form$ | async as form" [form]="form">
+<app-form-detail *ngIf="combined$ | async as combined" [form]="combined.form" [pageList]="combined.pageList">
