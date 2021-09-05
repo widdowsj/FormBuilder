@@ -1,0 +1,9 @@
+Options:
+<table mat-table [dataSource]="options" class="mat-elevation-z8">
+    <mat-text-column name="value"></mat-text-column>
+    <mat-text-column name="text"></mat-text-column>
+    <mat-text-column name="order"></mat-text-column>
+
+    <tr mat-header-row *matHeaderRowDef="optionColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: optionColumns;"></tr>
+</table>

@@ -18,6 +18,7 @@ export class ItemEditorComponent implements OnInit {
   originalId: string;
   form: FormGroup;
   pageList$: Observable<Page[] | undefined>;
+  ItemType = ItemType;
 
   constructor(fb: FormBuilder,
     public dialogRef: MatDialogRef<ItemEditorComponent>,

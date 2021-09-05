@@ -34,6 +34,7 @@ import { RichTextEditorComponent } from './rich-text-editor/rich-text-editor.com
 import { FormsEffects } from './state/forms.effects';
 import { formsReducer } from './state/forms.reducer';
 import { formsStateKey } from './state/forms.selectors';
+import { OptionsEditorComponent } from './options-editor/options-editor.component';
 
 @NgModule({
   declarations: [
@@ -47,7 +48,8 @@ import { formsStateKey } from './state/forms.selectors';
     NumericRangeComponent,
     InputTableComponent,
     RichTextEditorComponent,
-    ItemEditorComponent
+    ItemEditorComponent,
+    OptionsEditorComponent
   ],
   imports: [
     CommonModule,

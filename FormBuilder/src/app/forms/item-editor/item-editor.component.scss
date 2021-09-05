@@ -1,3 +1,8 @@
 .mat-form-field {
     width: 100%;
 }
+
+app-options-editor {
+    //padding-bottom: $wrapper-padding-bottom; // @angular/material/form-field/_form-field-theme.scss
+    padding-bottom: 1.34em;
+}
