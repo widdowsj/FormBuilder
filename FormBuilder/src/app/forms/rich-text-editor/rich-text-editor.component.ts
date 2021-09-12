@@ -50,6 +50,21 @@ export class RichTextEditorComponent implements OnInit, OnDestroy, MatFormFieldC
         'redo'
       ]
     },
+    image: {
+      toolbar: [
+        'toggleImageCaption',
+        'imageTextAlternative',
+        '|',
+        'imageStyle:inline',
+        'imageStyle:block',
+        'imageStyle:side',
+        // 'imageStyle:wrapText',
+        // 'imageStyle:breakText'
+      ]
+    },
+    mediaEmbed: {
+      toolbar: ['mediaEmbed']
+    },
     language: 'en-au',
     placeholder: 'Enter some text'
   };
@@ -126,6 +141,14 @@ export class RichTextEditorComponent implements OnInit, OnDestroy, MatFormFieldC
   }
 
   ngOnInit(): void {
+    // const editor = this.editorComponent as any;
+    // console.groupCollapsed('buttons');
+    // Array.from(editor.ui.componentFactory.names()).map(plugin => console.log(plugin));
+    // console.groupEnd();
+    // console.log('defaultConfig', this.Editor.defaultConfig);
+    // console.groupCollapsed('plugins');
+    // this.Editor.builtinPlugins.map((plugin: { pluginName: string; }) => console.log(plugin.pluginName));
+    // console.groupEnd();
   }
 
   ngOnDestroy(): void {
