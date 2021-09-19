@@ -1,8 +1,28 @@
 Options:
 <table mat-table [dataSource]="options" class="mat-elevation-z8">
-    <mat-text-column name="value"></mat-text-column>
-    <mat-text-column name="text"></mat-text-column>
-    <mat-text-column name="order"></mat-text-column>
+    <ng-container matColumnDef="value">
+        <th mat-header-cell *matHeaderCellDef>Value</th>
+        <td mat-cell *matCellDef="let option">
+            <mat-form-field appearance="fill"><input matInput [value]="option.value"></mat-form-field>
+        </td>
+    </ng-container>
+    <ng-container matColumnDef="text">
+        <th mat-header-cell *matHeaderCellDef>Text</th>
+        <td mat-cell *matCellDef="let option">
+            <mat-form-field appearance="fill"><input matInput [value]="option.text"></mat-form-field>
+        </td>
+    </ng-container>
+    <ng-container matColumnDef="editButtons">
+        <th mat-header-cell *matHeaderCellDef></th>
+        <td mat-cell *matCellDef="let option">
+            <button color="primary" mat-mini-fab type="button" (click)="deleteItem(option.value)">
+                <mat-icon>delete</mat-icon>
+            </button>
+            <button color="primary" mat-mini-fab type="button">
+                <mat-icon>drag_indicator</mat-icon>
+            </button>
+        </td>
+    </ng-container>
 
     <tr mat-header-row *matHeaderRowDef="optionColumns"></tr>
     <tr mat-row *matRowDef="let row; columns: optionColumns;"></tr>

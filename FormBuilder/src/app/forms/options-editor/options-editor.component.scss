@@ -6,3 +6,23 @@ table {
     width: 100%;
 }
   
+button {
+    margin-right: 0.25rem;
+}
+
+.mat-column-value {
+    width: 50%;
+}
+
+.mat-column-text {
+    width: 50%;
+}
+
+.mat-column-editButtons {
+    white-space: nowrap;
+}
+
+.mat-form-field {
+    width: 100%;
+    padding-right: 0.5em;
+}

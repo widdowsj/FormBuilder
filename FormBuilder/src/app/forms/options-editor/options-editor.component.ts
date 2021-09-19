@@ -7,7 +7,7 @@ import { FormOption } from '../forms.entities';
   styleUrls: ['./options-editor.component.scss']
 })
 export class OptionsEditorComponent implements OnInit {
-  optionColumns = ['value', 'text', 'order'];
+  optionColumns = ['value', 'text', 'editButtons'];
 
   @Input() options: FormOption[] = [];
 
@@ -16,4 +16,7 @@ export class OptionsEditorComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  deleteItem(value: string): void {
+    this.options = this.options.filter(x => x.value !== value);
+  }
 }
