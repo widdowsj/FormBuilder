@@ -16,56 +16,6 @@ export class RichTextEditorComponent implements OnInit, OnDestroy, MatFormFieldC
   static nextId = 0;
   public Editor = Editor;
   editorConfig = {
-    toolbar: {
-      items: [
-        'heading',
-        '|',
-        'fontFamily',
-        'fontSize',
-        '|',
-        'fontColor',
-        'fontBackgroundColor',
-        'highlight',
-        '|',
-        'bold',
-        'italic',
-        'underline',
-        'strikethrough',
-        'removeFormat',
-        'horizontalLine',
-        '|',
-        'bulletedList',
-        'numberedList',
-        '|',
-        'alignment',
-        'outdent',
-        'indent',
-        '|',
-        'link',
-        'imageUpload',
-        'blockQuote',
-        'insertTable',
-        'mediaEmbed',
-        'undo',
-        'redo'
-      ]
-    },
-    image: {
-      toolbar: [
-        'toggleImageCaption',
-        'imageTextAlternative',
-        '|',
-        'imageStyle:inline',
-        'imageStyle:block',
-        'imageStyle:side',
-        // 'imageStyle:wrapText',
-        // 'imageStyle:breakText'
-      ]
-    },
-    mediaEmbed: {
-      toolbar: ['mediaEmbed']
-    },
-    language: 'en-au',
     placeholder: 'Enter some text'
   };
 
