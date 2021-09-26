@@ -37,7 +37,7 @@
             <input matInput type="number" formControlName="order">
             <mat-error *ngIf="form.controls.order.errors?.required">Required</mat-error>
         </mat-form-field>
-        <app-options-editor *ngIf="form.controls.questionType.value == ItemType.dropdown" [options]="item.options">
+        <app-options-editor *ngIf="form.controls.questionType.value == ItemType.dropdown" formControlName="options">
         </app-options-editor>
     </mat-dialog-content>
     <mat-dialog-actions>

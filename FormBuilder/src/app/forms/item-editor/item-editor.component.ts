@@ -37,6 +37,7 @@ export class ItemEditorComponent implements OnInit {
       text: [this.item.text, [Validators.required]],
       questionType: [this.item.questionType],
       order: [this.item.order],
+      options: [this.item.options],
     });
   }
 
