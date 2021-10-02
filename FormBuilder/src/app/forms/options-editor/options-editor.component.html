@@ -1,5 +1,6 @@
 Options:
-<table mat-table [dataSource]="options" class="mat-elevation-z8">
+<table cdkDropList mat-table [dataSource]="options" [cdkDropListDisabled]="dragDisabled"
+    (cdkDropListDropped)="drop($event)" class="mat-elevation-z8 drag-boundary">
     <ng-container matColumnDef="value">
         <th mat-header-cell *matHeaderCellDef>Value</th>
         <td mat-cell *matCellDef="let option">
@@ -21,14 +22,15 @@ Options:
             <button color="primary" mat-mini-fab type="button" (click)="deleteItem(option.value)">
                 <mat-icon>delete</mat-icon>
             </button>
-            <button color="primary" mat-mini-fab type="button">
+            <button color="primary" mat-mini-fab type="button" (mousedown)="dragDisabled = false;">
                 <mat-icon>drag_indicator</mat-icon>
             </button>
         </td>
     </ng-container>
 
     <tr mat-header-row *matHeaderRowDef="optionColumns"></tr>
-    <tr mat-row *matRowDef="let row; columns: optionColumns;"></tr>
+    <tr mat-row *matRowDef="let row; columns: optionColumns;" cdkDrag cdkDragLockAxis="y"
+        cdkDragBoundary=".drag-boundary"></tr>
 </table>
 <button color="primary" mat-mini-fab type="button" style="float: right;" (click)="addItem()">
     <mat-icon>add_circle_outline</mat-icon>

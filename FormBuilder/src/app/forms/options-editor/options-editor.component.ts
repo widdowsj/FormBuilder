@@ -1,3 +1,4 @@
+import { CdkDragDrop, moveItemInArray } from '@angular/cdk/drag-drop';
 import { Component, forwardRef, Input, OnInit } from '@angular/core';
 import { ControlValueAccessor, NG_VALUE_ACCESSOR } from '@angular/forms';
 import { v4 as uuidv4 } from 'uuid';
@@ -18,6 +19,7 @@ export class OptionsEditorComponent implements OnInit, ControlValueAccessor {
   optionColumns = ['value', 'text', 'editButtons'];
 
   options: EditableFormOption[] = [];
+  dragDisabled = true;
 
   private onChange: ((_: any) => void) = () => { };
   private onTouched: any;
@@ -74,6 +76,14 @@ export class OptionsEditorComponent implements OnInit, ControlValueAccessor {
 
   deleteItem(value: string): void {
     this.value = this.options.filter(x => x.value !== value);
+  }
+
+  drop(event: CdkDragDrop<any[]>) {
+    // Return the drag container to disabled.
+    this.dragDisabled = true;
+
+    moveItemInArray(this.options, event.previousIndex, event.currentIndex);
+    this.value = this.options;
   }
 }
 

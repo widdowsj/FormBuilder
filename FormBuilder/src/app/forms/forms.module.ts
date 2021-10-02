@@ -1,5 +1,6 @@
 import { NgxMatTimepickerModule } from '@angular-material-components/datetime-picker';
 import { NgxMatMomentModule } from '@angular-material-components/moment-adapter';
+import { DragDropModule } from '@angular/cdk/drag-drop';
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { ReactiveFormsModule } from '@angular/forms';
@@ -28,14 +29,13 @@ import { ItemDetailShellComponent } from './item-detail/item-detail-shell.compon
 import { ItemDetailComponent } from './item-detail/item-detail.component';
 import { ItemEditorComponent } from './item-editor/item-editor.component';
 import { NumericRangeComponent } from './numeric-range/numeric-range.component';
+import { OptionsEditorComponent } from './options-editor/options-editor.component';
 import { PageDetailShellComponent } from './page-detail/page-detail-shell.component';
 import { PageDetailComponent } from './page-detail/page-detail.component';
 import { RichTextEditorComponent } from './rich-text-editor/rich-text-editor.component';
 import { FormsEffects } from './state/forms.effects';
 import { formsReducer } from './state/forms.reducer';
 import { formsStateKey } from './state/forms.selectors';
-import { OptionsEditorComponent } from './options-editor/options-editor.component';
-
 @NgModule({
   declarations: [
     FormListComponent,
@@ -70,6 +70,7 @@ import { OptionsEditorComponent } from './options-editor/options-editor.componen
     NgxMatTimepickerModule,
     NgxMatMomentModule,
     MatDialogModule,
+    DragDropModule,
     CKEditorModule,
     StoreModule.forFeature(formsStateKey, formsReducer),
     EffectsModule.forFeature([FormsEffects]),
