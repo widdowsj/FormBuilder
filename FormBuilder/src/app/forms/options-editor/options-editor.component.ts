@@ -29,7 +29,7 @@ export class OptionsEditorComponent implements OnInit, ControlValueAccessor {
     return this.options;
   }
   set value(val: FormOption[]) {
-    this.options = val.map(x => ({ ...x, id: uuidv4() }));
+    this.options = val.map((x, i) => ({ ...x, id: uuidv4(), order: i }));
     this.onChange(val);
   }
 
@@ -66,6 +66,10 @@ export class OptionsEditorComponent implements OnInit, ControlValueAccessor {
       }
       return x;
     });
+  }
+
+  addItem(): void {
+    this.value = [...this.options, { value: '', text: '', order: 0 }];
   }
 
   deleteItem(value: string): void {
