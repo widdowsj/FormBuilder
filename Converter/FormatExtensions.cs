@@ -48,6 +48,7 @@ namespace Converter
                     Order = order++,
                     QuestionType = x.GetQuestionType(),
                     RelatedFormItemId = (x.ParentConditionalValue ?? x.RelatedConditionalValue) != null ? x.ParentQuestionThreadId ?? x.RelatedQuestionThreadId : null,
+                    RelatedConditionalValue = x.ParentConditionalValue ?? x.RelatedConditionalValue,
                     Options = x.Options.OrderBy(o => o.Order).Select((o, i) => new NewFormat.Option { Text = o.Text, Value = o.Value, Order = o.Order ?? i }).ToList(),
                     Fields = x.Fields.OrderBy(o => o.Order).Select(x => new NewFormat.Field { Text = x.Text, Type = x.Type, Order = x.Order }).ToList(),
                 });

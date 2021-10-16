@@ -121,6 +121,7 @@
       "questionType": "Text",
       "text": "<b>Please enter the correct Legal Name</b>",
       "relatedFormItemId": "dbf8446c-a6c2-4dad-9108-259069d15da4",
+      "relatedConditionalValue": "2",
       "attributes": [],
       "fields": [],
       "options": []
@@ -264,6 +265,7 @@
       "questionType": "Dropdown",
       "text": "<b>Please select the correct entity type</b>",
       "relatedFormItemId": "a3bbc64a-854e-4a6f-8746-1a25a5d0b44b",
+      "relatedConditionalValue": "2",
       "attributes": [],
       "fields": [],
       "options": [
@@ -1164,6 +1166,7 @@
       "questionType": "Info",
       "text": "<b>What is the Entity's trading address?</b>",
       "relatedFormItemId": "507ed2b3-2918-435b-9bfa-4649f17b5d0c",
+      "relatedConditionalValue": "2",
       "attributes": [],
       "fields": [],
       "options": []
@@ -1187,6 +1190,7 @@
       "questionType": "Text",
       "text": "<b>Street</b>",
       "relatedFormItemId": "e172806e-bff7-499b-ac32-780368c38a55",
+      "relatedConditionalValue": "2",
       "attributes": [],
       "fields": [],
       "options": []
@@ -1199,6 +1203,7 @@
       "questionType": "Text",
       "text": "<b>Suburb/City</b>",
       "relatedFormItemId": "e172806e-bff7-499b-ac32-780368c38a55",
+      "relatedConditionalValue": "2",
       "attributes": [],
       "fields": [],
       "options": []
@@ -1211,6 +1216,7 @@
       "questionType": "Dropdown",
       "text": "<b>State</b>",
       "relatedFormItemId": "e172806e-bff7-499b-ac32-780368c38a55",
+      "relatedConditionalValue": "2",
       "attributes": [],
       "fields": [],
       "options": [
@@ -1264,6 +1270,7 @@
       "questionType": "Text",
       "text": "<b>Postcode</b>",
       "relatedFormItemId": "e172806e-bff7-499b-ac32-780368c38a55",
+      "relatedConditionalValue": "2",
       "attributes": [],
       "fields": [],
       "options": []
@@ -1298,6 +1305,7 @@
       "questionType": "Dropdown",
       "text": "<b>Is the Entity's postal address the same as the trading address?</b>",
       "relatedFormItemId": "d844c893-7bc2-4bbc-a61d-5d422d5fcc0a",
+      "relatedConditionalValue": "2",
       "attributes": [],
       "fields": [],
       "options": [
@@ -1321,6 +1329,7 @@
       "questionType": "Info",
       "text": "<b>What is the Entity's postal adress?</b>",
       "relatedFormItemId": "216ac538-b702-4ed2-b353-664cc9a40310",
+      "relatedConditionalValue": "2",
       "attributes": [],
       "fields": [
         {
@@ -1365,6 +1374,7 @@
       "questionType": "Text",
       "text": "<b>Street</b>",
       "relatedFormItemId": "e3f6fbd5-ea1a-455b-b57e-46aa46dee0e9",
+      "relatedConditionalValue": "2",
       "attributes": [],
       "fields": [],
       "options": []
@@ -1377,6 +1387,7 @@
       "questionType": "Text",
       "text": "<b>Suburb/City</b>",
       "relatedFormItemId": "e3f6fbd5-ea1a-455b-b57e-46aa46dee0e9",
+      "relatedConditionalValue": "2",
       "attributes": [],
       "fields": [],
       "options": []
@@ -1389,6 +1400,7 @@
       "questionType": "Dropdown",
       "text": "<b>State</b>",
       "relatedFormItemId": "e3f6fbd5-ea1a-455b-b57e-46aa46dee0e9",
+      "relatedConditionalValue": "2",
       "attributes": [],
       "fields": [],
       "options": [
@@ -1442,6 +1454,7 @@
       "questionType": "Text",
       "text": "<b>Postcode</b>",
       "relatedFormItemId": "e3f6fbd5-ea1a-455b-b57e-46aa46dee0e9",
+      "relatedConditionalValue": "2",
       "attributes": [],
       "fields": [],
       "options": []
@@ -1518,6 +1531,7 @@
       "questionType": "Input Table",
       "text": "Please provide details",
       "relatedFormItemId": "c797748f-1b1e-4fe2-8b9e-530eca8a61a6",
+      "relatedConditionalValue": "1",
       "attributes": [],
       "fields": [
         {
@@ -1651,6 +1665,7 @@
       "questionType": "MultilineText",
       "text": "<b>For Accommodation sector, please provide locations.</b><br><br>\r\n<i>NB: Only available in Western Australia, Northern Territory, Tropical North Queensland or Kangaroo Island.</i> ",
       "relatedFormItemId": "4b9af36b-03f4-44eb-96cc-9a1cbcedbb75",
+      "relatedConditionalValue": "2",
       "attributes": [],
       "fields": [],
       "options": []
@@ -1775,6 +1790,7 @@
       "questionType": "Info",
       "text": "<br>\r\n<b><i>For contractors</i></b></br>\r\nNote that the department will apply a recruitment cap of between 10 and 40 for a first recruitment, at the department’s sole discretion.\r\n",
       "relatedFormItemId": "35361fda-498c-4995-a493-42c20e972d5d",
+      "relatedConditionalValue": "Contractor",
       "attributes": [],
       "fields": [],
       "options": []
@@ -1787,6 +1803,7 @@
       "questionType": "Info",
       "text": "<br><b><i>For direct employers</i></b></br>\r\nNote that the department will apply a recruitment cap of between 10 and 20 for a first recruitment, at the department’s sole discretion. \r\n",
       "relatedFormItemId": "35361fda-498c-4995-a493-42c20e972d5d",
+      "relatedConditionalValue": "Direct Employer",
       "attributes": [],
       "fields": [],
       "options": []
@@ -1799,6 +1816,7 @@
       "questionType": "Info",
       "text": "<br>\r\n<b><i>For labour hire</i></b></br>\r\nNote that the department will apply a recruitment cap of between 10 and 40 for a first recruitment, at the department’s sole discretion.\r\n",
       "relatedFormItemId": "35361fda-498c-4995-a493-42c20e972d5d",
+      "relatedConditionalValue": "Labour Hire",
       "attributes": [],
       "fields": [],
       "options": []
@@ -1888,6 +1906,7 @@
       "questionType": "RichText",
       "text": "Please provide the name of the Approved Employer(s), how many times you hosted seasonal workers, the length of time and relevant dates",
       "relatedFormItemId": "2da94313-89de-4e54-b0c7-3075acacabc5",
+      "relatedConditionalValue": "1",
       "attributes": [],
       "fields": [],
       "options": []
@@ -2198,6 +2217,7 @@
       "questionType": "RichText",
       "text": "<b>Please provide details</b>",
       "relatedFormItemId": "6f9e8e2e-aca8-497c-a168-71bdf00b0ceb",
+      "relatedConditionalValue": "1",
       "attributes": [],
       "fields": [],
       "options": []
@@ -2232,6 +2252,7 @@
       "questionType": "RichText",
       "text": "<b>Please provide details</b>",
       "relatedFormItemId": "bc8b623b-e90d-4439-a548-ff23259c0142",
+      "relatedConditionalValue": "1",
       "attributes": [],
       "fields": [],
       "options": []
@@ -2266,6 +2287,7 @@
       "questionType": "RichText",
       "text": "<b>Please provide details of those other Entities</b>",
       "relatedFormItemId": "713ece35-ed56-4051-8107-f6bdca846f17",
+      "relatedConditionalValue": "1",
       "attributes": [],
       "fields": [
         {
@@ -2316,6 +2338,7 @@
       "questionType": "RichText",
       "text": "<b>Please provide details</b>",
       "relatedFormItemId": "0de17657-8229-4ed7-9c81-440b7ee569ef",
+      "relatedConditionalValue": "1",
       "attributes": [],
       "fields": [],
       "options": []
@@ -2350,6 +2373,7 @@
       "questionType": "Input Table",
       "text": "<br><b>Please provide details</b>",
       "relatedFormItemId": "8a5f4e08-589e-4f1b-9a3a-05cdc20cc5a0",
+      "relatedConditionalValue": "1",
       "attributes": [],
       "fields": [
         {
@@ -2554,6 +2578,7 @@
       "questionType": "RichText",
       "text": "<br><b>Please provide details</b>",
       "relatedFormItemId": "eb9d9bfc-6b18-4efb-a037-9f48fdce06da",
+      "relatedConditionalValue": "1",
       "attributes": [],
       "fields": [],
       "options": []
