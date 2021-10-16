@@ -28,6 +28,9 @@ export interface FormItem {
   options: FormOption[];
   fields: FormField[];
   order: number;
+  relatedFormItemId?: string;
+  relatedConditionalValue?: string;
+  isDisplayed: boolean;
 }
 
 export interface FormOption {
@@ -78,4 +81,5 @@ export const initialItem: FormItem = {
   options: [],
   fields: [],
   order: 0,
+  isDisplayed: true,
 };

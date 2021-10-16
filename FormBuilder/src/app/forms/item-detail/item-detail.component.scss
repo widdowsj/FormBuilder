@@ -22,6 +22,10 @@
     margin-left: 16px;
 }
 
+.ghost {
+    opacity: 20%;
+}
+
 .edit-mode {
     &:hover {
         border: black solid 1px;
