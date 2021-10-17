@@ -83,3 +83,8 @@ export const initialItem: FormItem = {
   order: 0,
   isDisplayed: true,
 };
+
+export interface Answer {
+  itemId: string;
+  answer: string;
+}

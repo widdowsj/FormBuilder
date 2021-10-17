@@ -2,7 +2,7 @@ import { ChangeDetectionStrategy, Component, Input, OnInit } from '@angular/core
 import { Store } from '@ngrx/store';
 import { Observable } from 'rxjs';
 import { FormItem } from '../forms.entities';
-import { deleteItem, editItem } from '../state/forms.actions';
+import { deleteItem, editItem, recordAnswer } from '../state/forms.actions';
 import { FormsFeature, getEditMode, getItem } from '../state/forms.selectors';
 
 @Component({
@@ -29,5 +29,9 @@ export class ItemDetailShellComponent implements OnInit {
 
   itemDeleted(): void {
     this.store.dispatch(deleteItem({ itemId: this.itemId }));
+  }
+
+  valueChanged(value: any): void {
+    this.store.dispatch(recordAnswer({ itemId: this.itemId, value }));
   }
 }

@@ -1,2 +1,3 @@
 <app-item-detail *ngIf="item$ | async as item" [item]="item" [editMode]="editMode$ | async"
-    (editItemEvent)="itemEdited()" (deleteItemEvent)="itemDeleted()"></app-item-detail>
+    (editItemEvent)="itemEdited()" (deleteItemEvent)="itemDeleted()" (valueChangeEvent)="valueChanged($event)">
+</app-item-detail>

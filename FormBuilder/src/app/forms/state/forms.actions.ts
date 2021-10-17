@@ -39,3 +39,8 @@ export const saveItem = createAction(
   '[Form State] Save an item in the current form',
   props<{ itemId: string, item: FormItem }>()
 );
+
+export const recordAnswer = createAction(
+  '[Form State] Record an answer',
+  props<{ itemId: string | undefined, value: string | undefined }>()
+);

@@ -24,7 +24,7 @@
             <textarea *ngSwitchCase="ItemType.multilineText" matInput rows="5" [formControl]="control"></textarea>
 
             <!-- Rich Text -->
-            <app-rich-text-editor *ngSwitchCase="ItemType.richText"></app-rich-text-editor>
+            <app-rich-text-editor *ngSwitchCase="ItemType.richText" [formControl]="control"></app-rich-text-editor>
 
             <!-- Date picker -->
             <input *ngSwitchCase="ItemType.date" matInput [matDatepicker]="picker" [formControl]="control">
