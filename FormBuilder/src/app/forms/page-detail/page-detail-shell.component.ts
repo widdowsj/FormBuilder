@@ -1,7 +1,6 @@
 import { ChangeDetectionStrategy, Component, Input, OnInit } from '@angular/core';
 import { Store } from '@ngrx/store';
 import { Observable } from 'rxjs';
-import { FormItem } from '../forms.entities';
 import { addItem } from '../state/forms.actions';
 import { FormsFeature, getEditMode, getPageItems } from '../state/forms.selectors';
 
@@ -12,7 +11,7 @@ import { FormsFeature, getEditMode, getPageItems } from '../state/forms.selector
 })
 export class PageDetailShellComponent implements OnInit {
   @Input() pageId: string | undefined;
-  pageItems$: Observable<FormItem[] | undefined> | undefined;
+  pageItems$: Observable<string[] | undefined> | undefined;
   editMode$: Observable<boolean> | undefined;
 
   constructor(private store: Store<FormsFeature>) {
@@ -20,6 +19,7 @@ export class PageDetailShellComponent implements OnInit {
 
   ngOnInit(): void {
     this.pageItems$ = this.store.select(getPageItems({ pageId: this.pageId }));
+    this.pageItems$.subscribe(x => console.log('page change', x));
     this.editMode$ = this.store.select(getEditMode);
   }
 

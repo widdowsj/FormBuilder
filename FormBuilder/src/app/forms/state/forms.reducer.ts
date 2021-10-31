@@ -52,17 +52,18 @@ export const formsReducer = createReducer(
     };
   }),
   on(recordAnswer, (state, { itemId, value }) => {
-    console.log('recordAnswer');
+    console.log(`recordAnswer: ${itemId}, ${value}`);
     const currentForm = state.currentForm;
     if (currentForm === undefined) { return { ...state }; }
+    const answerSet = [...state.answerSet.filter(x => x.itemId !== itemId), { itemId: itemId ?? '', answer: value ?? '' }];
     return {
       ...state,
-      answerSet: [...state.answerSet.filter(x => x.itemId !== itemId), { itemId: itemId ?? '', answer: value ?? '' }],
-      // currentForm: {
-      //   ...currentForm,
-      //   itemList: currentForm.itemList
-      //     .map(x => ({ ...x, isDisplayed: x.relatedFormItemId !== itemId || x.relatedConditionalValue === value })),
-      // }
+      answerSet,
+      currentForm: {
+        ...currentForm,
+        itemList: currentForm.itemList
+          .map(x => ({ ...x, isDisplayed: x.relatedFormItemId === null || x.relatedConditionalValue === answerSet.find(a => a.itemId === x.relatedFormItemId)?.answer })),
+      }
     };
   }),
 );

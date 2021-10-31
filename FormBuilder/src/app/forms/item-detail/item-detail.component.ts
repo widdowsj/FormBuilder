@@ -16,13 +16,13 @@ export class ItemDetailComponent implements OnInit, OnDestroy {
 
   @Output() editItemEvent = new EventEmitter();
   @Output() deleteItemEvent = new EventEmitter();
-  @Output() valueChangeEvent = new EventEmitter<any>();
+  @Output() valueChangeEvent = new EventEmitter<string>();
 
   control = new FormControl();
   changeSubscription: Subscription;
 
   constructor() {
-    this.changeSubscription = this.control.valueChanges.subscribe(x => this.valueChangeEvent.emit(x));
+    this.changeSubscription = this.control.valueChanges.subscribe(x => this.onChange(x));
   }
 
   ngOnInit(): void {
@@ -44,5 +44,19 @@ export class ItemDetailComponent implements OnInit, OnDestroy {
 
   deleteItem(): void {
     this.deleteItemEvent.emit();
+  }
+
+  onChange(value: any): void {
+    if (this.item === undefined) {
+      return;
+    }
+    let serialisedValue = value.toString();
+    if (this.item.questionType === ItemType.date) {
+      serialisedValue = value.toISOString();
+    } else if (this.item.questionType === ItemType.time) {
+      return;
+      serialisedValue = value.format('HH:mm');
+    }
+    this.valueChangeEvent.emit(serialisedValue);
   }
 }

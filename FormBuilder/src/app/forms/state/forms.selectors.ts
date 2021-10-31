@@ -7,40 +7,40 @@ export interface FormsFeature extends AppState {
 }
 
 export const formsStateKey = 'formsState';
-export const selectFormsState = createFeatureSelector<FormsFeature, FormsState>(formsStateKey);
+export const selectFormsState = createFeatureSelector<FormsState>(formsStateKey);
 
 export const getFormList = createSelector(
   selectFormsState,
-  (state) => state.forms
+  state => state.forms
 );
 
 export const getCurrentForm = createSelector(
   selectFormsState,
-  (state) => state.currentForm
+  state => state.currentForm
 );
 
 export const getCurrentFormItems = createSelector(
   getCurrentForm,
-  (state) => state?.itemList,
+  state => state?.itemList ?? [],
 );
 
 export const getPageList = createSelector(
   getCurrentForm,
   // filter to create a copy of the array
-  (state) => state?.pageList.filter(_ => true).sort((a, b) => a.order - b.order),
+  state => state?.pageList.filter(_ => true).sort((a, b) => a.order - b.order),
 );
 
 export const getPageItems = (props: { pageId: string | undefined }) => createSelector(
   getCurrentFormItems,
-  (formItems) => formItems?.filter(x => x.pageId === props.pageId).sort((a, b) => a.order - b.order),
+  formItems => formItems.filter(x => x.pageId === props.pageId).sort((a, b) => a.order - b.order).map(x => x.itemId),
 );
 
 export const getItem = (props: { itemId: string | undefined }) => createSelector(
   getCurrentFormItems,
-  (formItems) => formItems?.find(x => x.itemId === props.itemId),
+  formItems => formItems.find(x => x.itemId === props.itemId),
 );
 
 export const getEditMode = createSelector(
   selectFormsState,
-  (state) => state.editMode
+  state => state.editMode
 );

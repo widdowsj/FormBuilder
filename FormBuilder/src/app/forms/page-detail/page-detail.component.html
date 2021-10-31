@@ -1,12 +1,12 @@
 <div class="pt-3">
 </div>
-<div *ngFor="let item of pageItems">
+<div *ngFor="let item of pageItems, index as i">
     <div *ngIf="editMode">
-        <button color="primary" mat-mini-fab type="button" (click)="addItemClicked(item.order)">
+        <button color="primary" mat-mini-fab type="button" (click)="addItemClicked(i)">
             <mat-icon>add_circle_outline</mat-icon>
         </button>
     </div>
-    <app-item-detail-shell [itemId]="item.itemId"></app-item-detail-shell>
+    <app-item-detail-shell [itemId]="item"></app-item-detail-shell>
 </div>
 <div *ngIf="editMode && pageItems">
     <button color="primary" mat-mini-fab type="button" (click)="addItemClicked(pageItems.length)">

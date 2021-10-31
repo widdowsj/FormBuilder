@@ -1,5 +1,4 @@
 import { ChangeDetectionStrategy, Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
-import { FormItem } from '../forms.entities';
 
 @Component({
   selector: 'app-page-detail',
@@ -8,7 +7,7 @@ import { FormItem } from '../forms.entities';
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class PageDetailComponent implements OnInit {
-  @Input() pageItems: FormItem[] | undefined;
+  @Input() pageItems: string[] | undefined;
   @Input() editMode: boolean | null = null;
 
   @Output() addItemEvent = new EventEmitter<number>();
