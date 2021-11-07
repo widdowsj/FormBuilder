@@ -18,7 +18,7 @@ export class PageDetailShellComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    this.pageItems$ = this.store.select(getPageItems({ pageId: this.pageId }));
+    this.pageItems$ = this.store.select(getPageItems({ pageId: this.pageId ?? '' }));
     this.pageItems$.subscribe(x => console.log('page change', x));
     this.editMode$ = this.store.select(getEditMode);
   }

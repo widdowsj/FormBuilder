@@ -3,7 +3,7 @@ import { Store } from '@ngrx/store';
 import { Observable } from 'rxjs';
 import { FormItem } from '../forms.entities';
 import { deleteItem, editItem, recordAnswer } from '../state/forms.actions';
-import { FormsFeature, getEditMode, getItem } from '../state/forms.selectors';
+import { FormsFeature, getEditMode, getItem, getItemDisplayState } from '../state/forms.selectors';
 
 @Component({
   selector: 'app-item-detail-shell',
@@ -13,13 +13,15 @@ import { FormsFeature, getEditMode, getItem } from '../state/forms.selectors';
 export class ItemDetailShellComponent implements OnInit {
   @Input() itemId: string | undefined;
   item$: Observable<FormItem | undefined> | undefined;
+  isDisplayed$: Observable<boolean> | undefined;
   editMode$: Observable<boolean> | undefined;
 
   constructor(private store: Store<FormsFeature>) {
   }
 
   ngOnInit(): void {
-    this.item$ = this.store.select(getItem({ itemId: this.itemId }));
+    this.item$ = this.store.select(getItem({ itemId: this.itemId ?? '' }));
+    this.isDisplayed$ = this.store.select(getItemDisplayState({ itemId: this.itemId ?? '' }));
     this.editMode$ = this.store.select(getEditMode);
   }
 

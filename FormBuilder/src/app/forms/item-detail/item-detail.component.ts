@@ -11,6 +11,7 @@ import { FormItem, ItemType } from '../forms.entities';
 })
 export class ItemDetailComponent implements OnInit, OnDestroy {
   @Input() item: FormItem | undefined;
+  @Input() isDisplayed: boolean | null = null;
   @Input() editMode: boolean | null = null;
   ItemType = ItemType;
 

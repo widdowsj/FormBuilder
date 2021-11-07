@@ -33,7 +33,6 @@ export class FormsService {
     return this.http.get<FormDetail>(`/assets/${formName}`).pipe(map(x => {
       x.itemList.map(item => {
         item.isFormField = formFields.includes(item.questionType);
-        item.isDisplayed = item.relatedFormItemId === undefined;
       });
       return x;
     }));

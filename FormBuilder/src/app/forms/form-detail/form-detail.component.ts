@@ -1,5 +1,5 @@
 import { ChangeDetectionStrategy, Component, Input, OnInit } from '@angular/core';
-import { FormDetail, Page } from '../forms.entities';
+import { Page } from '../forms.entities';
 
 @Component({
   selector: 'app-form-detail',
@@ -8,13 +8,13 @@ import { FormDetail, Page } from '../forms.entities';
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class FormDetailComponent implements OnInit {
-  @Input() form: FormDetail | undefined;
+  @Input() formName: string | undefined;
   @Input() pageList: Page[] | undefined;
 
   constructor() {
   }
 
   ngOnInit(): void {
-    console.log(`Rendering form: ${this.form?.name}`);
+    console.log(`Rendering form: ${this.formName}`);
   }
 }

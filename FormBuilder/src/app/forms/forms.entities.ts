@@ -30,7 +30,6 @@ export interface FormItem {
   order: number;
   relatedFormItemId?: string;
   relatedConditionalValue?: string;
-  isDisplayed: boolean;
 }
 
 export interface FormOption {
@@ -81,7 +80,6 @@ export const initialItem: FormItem = {
   options: [],
   fields: [],
   order: 0,
-  isDisplayed: true,
 };
 
 export interface Answer {

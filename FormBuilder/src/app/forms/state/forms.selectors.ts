@@ -14,30 +14,35 @@ export const getFormList = createSelector(
   state => state.forms
 );
 
-export const getCurrentForm = createSelector(
+export const getCurrentFormName = createSelector(
   selectFormsState,
-  state => state.currentForm
+  state => state.currentFormName
 );
 
 export const getCurrentFormItems = createSelector(
-  getCurrentForm,
-  state => state?.itemList ?? [],
+  selectFormsState,
+  state => state.currentFormItems,
 );
 
 export const getPageList = createSelector(
-  getCurrentForm,
+  selectFormsState,
   // filter to create a copy of the array
-  state => state?.pageList.filter(_ => true).sort((a, b) => a.order - b.order),
+  state => state.currentFormPages.filter(_ => true).sort((a, b) => a.order - b.order),
 );
 
-export const getPageItems = (props: { pageId: string | undefined }) => createSelector(
+export const getPageItems = (props: { pageId: string }) => createSelector(
   getCurrentFormItems,
   formItems => formItems.filter(x => x.pageId === props.pageId).sort((a, b) => a.order - b.order).map(x => x.itemId),
 );
 
-export const getItem = (props: { itemId: string | undefined }) => createSelector(
+export const getItem = (props: { itemId: string }) => createSelector(
   getCurrentFormItems,
   formItems => formItems.find(x => x.itemId === props.itemId),
+);
+
+export const getItemDisplayState = (props: { itemId: string }) => createSelector(
+  selectFormsState,
+  state => state.itemDisplayState.find(x => x.itemId === props.itemId)?.isDisplayed ?? true,
 );
 
 export const getEditMode = createSelector(

@@ -3,9 +3,9 @@ import { ActivatedRoute } from '@angular/router';
 import { Store } from '@ngrx/store';
 import { combineLatest, Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
-import { FormDetail, Page } from '../forms.entities';
+import { Page } from '../forms.entities';
 import { setSelectedForm } from '../state/forms.actions';
-import { FormsFeature, getCurrentForm, getPageList } from '../state/forms.selectors';
+import { FormsFeature, getCurrentFormName, getPageList } from '../state/forms.selectors';
 
 @Component({
   selector: 'app-form-detail-shell',
@@ -13,19 +13,19 @@ import { FormsFeature, getCurrentForm, getPageList } from '../state/forms.select
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class FormDetailShellComponent implements OnInit {
-  form$: Observable<FormDetail | undefined>;
-  pageList$: Observable<Page[] | undefined>;
-  combined$: Observable<{ form: FormDetail, pageList: Page[] } | undefined>;
+  formName$: Observable<string>;
+  pageList$: Observable<Page[]>;
+  combined$: Observable<{ formName: string, pageList: Page[] } | undefined>;
 
   constructor(route: ActivatedRoute, store: Store<FormsFeature>) {
     const id = route.snapshot.params.id;
     store.dispatch(setSelectedForm({ selectedFormId: id }));
-    this.form$ = store.select(getCurrentForm);
+    this.formName$ = store.select(getCurrentFormName);
     this.pageList$ = store.select(getPageList);
-    this.combined$ = combineLatest([this.form$, this.pageList$])
-      .pipe(map(([formDetail, pageList]) => {
-        if (formDetail && pageList) {
-          return { form: formDetail, pageList };
+    this.combined$ = combineLatest([this.formName$, this.pageList$])
+      .pipe(map(([formName, pageList]) => {
+        if (formName && pageList) {
+          return { formName, pageList };
         }
         return undefined;
       }));

@@ -1,3 +1,4 @@
-<app-item-detail *ngIf="item$ | async as item" [item]="item" [editMode]="editMode$ | async"
-    (editItemEvent)="itemEdited()" (deleteItemEvent)="itemDeleted()" (valueChangeEvent)="valueChanged($event)">
+<app-item-detail *ngIf="item$ | async as item" [item]="item" [isDisplayed]="isDisplayed$ | async"
+    [editMode]="editMode$ | async" (editItemEvent)="itemEdited()" (deleteItemEvent)="itemDeleted()"
+    (valueChangeEvent)="valueChanged($event)">
 </app-item-detail>

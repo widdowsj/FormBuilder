@@ -1,11 +1,19 @@
 import { createReducer, on } from '@ngrx/store';
-import { Answer, FormDetail, FormMetaData } from '../forms.entities';
+import { Answer, FormItem, FormMetaData, Page } from '../forms.entities';
 import { deleteItem, getFormDetailSuccess, getFormsSuccess, recordAnswer, saveItem, setSelectedForm } from './forms.actions';
+
+export interface ItemDisplayState {
+  itemId: string;
+  isDisplayed: boolean;
+}
 
 export interface FormsState {
   forms: FormMetaData[];
   selectedFormId: string;
-  currentForm: FormDetail | undefined;
+  currentFormName: string;
+  currentFormPages: Page[];
+  currentFormItems: FormItem[];
+  itemDisplayState: ItemDisplayState[];
   editMode: boolean;
   answerSet: Answer[];
 }
@@ -13,7 +21,10 @@ export interface FormsState {
 export const initialState: FormsState = {
   forms: [],
   selectedFormId: '',
-  currentForm: undefined,
+  currentFormName: '',
+  currentFormPages: [],
+  currentFormItems: [],
+  itemDisplayState: [],
   editMode: true,
   answerSet: [],
 };
@@ -24,46 +35,44 @@ export const formsReducer = createReducer(
     return { ...state, forms };
   }),
   on(setSelectedForm, (state, { selectedFormId }) => {
-    return { ...state, selectedFormId, currentForm: undefined };
+    return { ...state, selectedFormId, currentFormName: '', currentFormPages: [], currentFormItems: [] };
   }),
   on(getFormDetailSuccess, (state, { form }) => {
-    return { ...state, currentForm: form };
-  }),
-  on(saveItem, (state, { itemId, item }) => {
-    const currentForm = state.currentForm;
-    if (currentForm === undefined) { return { ...state }; }
     return {
       ...state,
-      currentForm: {
-        ...currentForm,
-        itemList: [...currentForm.itemList.filter(x => x.itemId !== itemId), item],
-      }
+      currentFormName: form.name,
+      currentFormPages: form.pageList,
+      currentFormItems: form.itemList,
+      itemDisplayState: getItemDisplayState(form.itemList, state.answerSet),
+    };
+  }),
+  on(saveItem, (state, { itemId, item }) => {
+    return {
+      ...state,
+      currentFormItems: [...state.currentFormItems.filter(x => x.itemId !== itemId), item],
     };
   }),
   on(deleteItem, (state, { itemId }) => {
-    const currentForm = state.currentForm;
-    if (currentForm === undefined) { return { ...state }; }
     return {
       ...state,
-      currentForm: {
-        ...currentForm,
-        itemList: currentForm.itemList.filter(x => x.itemId !== itemId),
-      }
+      currentFormItems: state.currentFormItems.filter(x => x.itemId !== itemId),
     };
   }),
   on(recordAnswer, (state, { itemId, value }) => {
     console.log(`recordAnswer: ${itemId}, ${value}`);
-    const currentForm = state.currentForm;
-    if (currentForm === undefined) { return { ...state }; }
     const answerSet = [...state.answerSet.filter(x => x.itemId !== itemId), { itemId: itemId ?? '', answer: value ?? '' }];
     return {
       ...state,
       answerSet,
-      currentForm: {
-        ...currentForm,
-        itemList: currentForm.itemList
-          .map(x => ({ ...x, isDisplayed: x.relatedFormItemId === null || x.relatedConditionalValue === answerSet.find(a => a.itemId === x.relatedFormItemId)?.answer })),
-      }
+      itemDisplayState: getItemDisplayState(state.currentFormItems, answerSet),
     };
   }),
 );
+
+function getItemDisplayState(itemList: FormItem[], answerSet: Answer[]): ItemDisplayState[] {
+  return itemList.map(x => ({
+    itemId: x.itemId,
+    isDisplayed: x.relatedFormItemId === null
+      || x.relatedConditionalValue === answerSet.find(a => a.itemId === x.relatedFormItemId)?.answer
+  }));
+}
