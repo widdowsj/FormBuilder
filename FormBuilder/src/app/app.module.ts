@@ -13,6 +13,7 @@ import { environment } from '../environments/environment';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CoreModule } from './core/core.module';
+import { metaReducers } from './state/app.meta-reducers';
 import { appReducer } from './state/app.reducer';
 
 @NgModule({
@@ -28,7 +29,7 @@ import { appReducer } from './state/app.reducer';
     ReactiveFormsModule,
     MatDialogModule,
     MatSelectModule,
-    StoreModule.forRoot({ appState: appReducer }),
+    StoreModule.forRoot({ appState: appReducer }, { metaReducers }),
     EffectsModule.forRoot([]),
     StoreDevtoolsModule.instrument({ maxAge: 25, logOnly: environment.production }),
   ],
