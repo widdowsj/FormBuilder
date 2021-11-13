@@ -17,9 +17,9 @@ import { MatRadioModule } from '@angular/material/radio';
 import { MatSelectModule } from '@angular/material/select';
 import { MatStepperModule } from '@angular/material/stepper';
 import { MatTableModule } from '@angular/material/table';
-import { CKEditorModule } from '@ckeditor/ckeditor5-angular';
 import { EffectsModule } from '@ngrx/effects';
 import { StoreModule } from '@ngrx/store';
+import { ControlsModule } from '../controls/controls.module';
 import { FormDetailShellComponent } from './form-detail/form-detail-shell.component';
 import { FormDetailComponent } from './form-detail/form-detail.component';
 import { FormListComponent } from './form-list/form-list.component';
@@ -28,14 +28,13 @@ import { InputTableComponent } from './input-table/input-table.component';
 import { ItemDetailShellComponent } from './item-detail/item-detail-shell.component';
 import { ItemDetailComponent } from './item-detail/item-detail.component';
 import { ItemEditorComponent } from './item-editor/item-editor.component';
-import { NumericRangeComponent } from './numeric-range/numeric-range.component';
 import { OptionsEditorComponent } from './options-editor/options-editor.component';
 import { PageDetailShellComponent } from './page-detail/page-detail-shell.component';
 import { PageDetailComponent } from './page-detail/page-detail.component';
-import { RichTextEditorComponent } from './rich-text-editor/rich-text-editor.component';
 import { FormsEffects } from './state/forms.effects';
 import { formsReducer } from './state/forms.reducer';
 import { formsStateKey } from './state/forms.selectors';
+
 @NgModule({
   declarations: [
     FormListComponent,
@@ -45,14 +44,13 @@ import { formsStateKey } from './state/forms.selectors';
     PageDetailShellComponent,
     ItemDetailComponent,
     ItemDetailShellComponent,
-    NumericRangeComponent,
-    InputTableComponent,
-    RichTextEditorComponent,
     ItemEditorComponent,
+    InputTableComponent,
     OptionsEditorComponent
   ],
   imports: [
     CommonModule,
+    ControlsModule,
     FormsRoutingModule,
     ReactiveFormsModule,
     MatTableModule,
@@ -71,7 +69,6 @@ import { formsStateKey } from './state/forms.selectors';
     NgxMatMomentModule,
     MatDialogModule,
     DragDropModule,
-    CKEditorModule,
     StoreModule.forFeature(formsStateKey, formsReducer),
     EffectsModule.forFeature([FormsEffects]),
   ],
