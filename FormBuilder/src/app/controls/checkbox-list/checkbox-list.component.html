@@ -1,0 +1,5 @@
+<p [innerHtml]="labelText"></p>
+<mat-checkbox *ngFor="let option of controlOptions" [value]="option.value" [disabled]="disabled"
+    [formControl]="option.control">
+    {{option.text}}
+</mat-checkbox>

@@ -1,3 +1,5 @@
+import { ControlOption } from '../controls/controls.entities';
+
 export interface FormMetaData {
   id: number;
   name: string;
@@ -32,10 +34,7 @@ export interface FormItem {
   relatedConditionalValue?: string;
 }
 
-export interface FormOption {
-  value: string;
-  text: string;
-  order: number;
+export interface FormOption extends ControlOption {
 }
 
 export interface FormField {

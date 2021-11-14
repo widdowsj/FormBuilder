@@ -28,7 +28,6 @@ export class RichTextEditorComponent implements OnInit, OnDestroy, MatFormFieldC
 
   stateChanges = new Subject<void>();
   focused = false;
-  controlType = 'app-rich-text-editor';
   autofilled?: boolean | undefined;
 
   @ViewChild('editor') editorComponent: CKEditorComponent | undefined;

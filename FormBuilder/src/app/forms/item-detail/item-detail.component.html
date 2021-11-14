@@ -59,12 +59,9 @@
             </mat-radio-group>
 
             <!-- Checkboxes -->
-            <ng-container *ngSwitchCase="ItemType.multiselect">
-                <p [innerHtml]="item.text"></p>
-                <mat-checkbox *ngFor="let option of item.options" [value]="option.value" [formControl]="control">
-                    {{option.text}}
-                </mat-checkbox>
-            </ng-container>
+            <app-checkbox-list *ngSwitchCase="ItemType.multiselect" [labelText]="item.text" [options]="item.options"
+                [formControl]="control">
+            </app-checkbox-list>
 
             <!-- Time picker -->
             <ng-container *ngSwitchCase="ItemType.time">
