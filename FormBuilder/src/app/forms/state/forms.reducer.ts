@@ -70,9 +70,20 @@ export const formsReducer = createReducer(
 );
 
 function getItemDisplayState(itemList: FormItem[], answerSet: Answer[]): ItemDisplayState[] {
-  return itemList.map(x => ({
-    itemId: x.itemId,
-    isDisplayed: x.relatedFormItemId === null
-      || x.relatedConditionalValue === answerSet.find(a => a.itemId === x.relatedFormItemId)?.answer
-  }));
+  return itemList.map(x => {
+    let isDisplayed = true;
+    if (x.relatedFormItemId !== undefined) {
+      const answer = x.relatedFormItemId === null ? undefined : answerSet.find(a => a.itemId === x.relatedFormItemId)?.answer;
+      const obj = JSON.parse(answer ?? '{}');
+      if (Array.isArray(obj)) {
+        isDisplayed = obj.some(a => a === x.relatedConditionalValue);
+      } else {
+        isDisplayed = x.relatedConditionalValue === obj.toString();
+      }
+    }
+    return {
+      itemId: x.itemId,
+      isDisplayed
+    };
+  });
 }

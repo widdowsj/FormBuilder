@@ -1,6 +1,7 @@
 import { coerceBooleanProperty } from '@angular/cdk/coercion';
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, Input, OnDestroy, OnInit } from '@angular/core';
 import { ControlValueAccessor, FormControl, NG_VALUE_ACCESSOR } from '@angular/forms';
+import { Subscription } from 'rxjs';
 import { ControlOption } from '../controls.entities';
 
 @Component({
@@ -14,17 +15,28 @@ import { ControlOption } from '../controls.entities';
       multi: true
     }]
 })
-export class CheckboxListComponent implements OnInit, ControlValueAccessor {
+export class CheckboxListComponent implements OnInit, OnDestroy, ControlValueAccessor {
   @Input() labelText = '';
-  changeSubscription: any;
+  changeSubscription: Subscription | undefined;
   @Input()
   get options(): ControlOption[] {
     return this.controlOptions;
   }
   set options(val: ControlOption[]) {
     this.controlOptions = val.map((x, i) => ({ ...x, control: new FormControl(), order: i }));
+    if (this.changeSubscription) {
+      this.changeSubscription.unsubscribe();
+    }
+    this.changeSubscription = new Subscription();
     this.controlOptions.forEach(controlOption => {
-      controlOption.control.valueChanges.subscribe(x => console.log(controlOption, x));
+      this.changeSubscription?.add(
+        controlOption.control.valueChanges.subscribe(x => {
+          this.value = this.value.filter(y => y !== controlOption.value);
+          if (x) {
+            this.value.push(controlOption.value);
+          }
+          this.onChange(this.value);
+        }));
     });
   }
   @Input()
@@ -43,6 +55,10 @@ export class CheckboxListComponent implements OnInit, ControlValueAccessor {
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  ngOnDestroy(): void {
+    this.changeSubscription?.unsubscribe();
   }
 
   writeValue(obj: any): void {

@@ -51,12 +51,11 @@ export class ItemDetailComponent implements OnInit, OnDestroy {
     if (this.item === undefined) {
       return;
     }
-    let serialisedValue = value.toString();
+    let serialisedValue = JSON.stringify(value);
     if (this.item.questionType === ItemType.date) {
-      serialisedValue = value.toISOString();
+      serialisedValue = JSON.stringify(value.toISOString());
     } else if (this.item.questionType === ItemType.time) {
-      return;
-      serialisedValue = value.format('HH:mm');
+      serialisedValue = JSON.stringify(value.format('HH:mm'));
     }
     this.valueChangeEvent.emit(serialisedValue);
   }
