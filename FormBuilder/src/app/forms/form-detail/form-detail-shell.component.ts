@@ -18,7 +18,7 @@ export class FormDetailShellComponent implements OnInit {
   combined$: Observable<{ formName: string, pageList: Page[] } | undefined>;
 
   constructor(route: ActivatedRoute, store: Store<FormsFeature>) {
-    const id = route.snapshot.params.id;
+    const id = route.snapshot.params['id'];
     store.dispatch(setSelectedForm({ selectedFormId: id }));
     this.formName$ = store.select(getCurrentFormName);
     this.pageList$ = store.select(getPageList);

@@ -22,7 +22,6 @@ speed-measure-plugin*.json
 *.launch
 .settings/
 *.sublime-workspace
-.angular
 
 # IDE - Visual Studio
 .vs
@@ -40,6 +39,7 @@ bin/
 .history/*
 
 # misc
+**/.angular/cache
 /.sass-cache
 /connect.lock
 /coverage

@@ -4,7 +4,7 @@
         <mat-form-field appearance="fill">
             <mat-label>ID</mat-label>
             <input matInput formControlName="id">
-            <mat-error *ngIf="form.controls.id.errors?.required">Required</mat-error>
+            <mat-error *ngIf="form.get('id')?.hasError('required')">Required</mat-error>
         </mat-form-field>
         <mat-form-field appearance="fill" *ngIf="pageList$ | async as pageList">
             <mat-label>Page</mat-label>
@@ -17,12 +17,12 @@
         <mat-form-field appearance="fill">
             <mat-label>Description</mat-label>
             <input matInput formControlName="description">
-            <mat-error *ngIf="form.controls.description.errors?.required">Required</mat-error>
+            <mat-error *ngIf="form.get('description')?.hasError('required')">Required</mat-error>
         </mat-form-field>
         <mat-form-field appearance="fill">
             <mat-label>Text</mat-label>
             <app-rich-text-editor formControlName='text'></app-rich-text-editor>
-            <mat-error *ngIf="form.controls.text.errors?.required">Required</mat-error>
+            <mat-error *ngIf="form.get('text')?.hasError('required')">Required</mat-error>
         </mat-form-field>
         <mat-form-field appearance="fill">
             <mat-label>Question Type</mat-label>
@@ -35,9 +35,9 @@
         <mat-form-field appearance="fill">
             <mat-label>Order</mat-label>
             <input matInput type="number" formControlName="order">
-            <mat-error *ngIf="form.controls.order.errors?.required">Required</mat-error>
+            <mat-error *ngIf="form.get('order')?.hasError('required')">Required</mat-error>
         </mat-form-field>
-        <app-options-editor *ngIf="form.controls.questionType.value == ItemType.dropdown" formControlName="options">
+        <app-options-editor *ngIf="form.get('questionType')?.value == ItemType.dropdown" formControlName="options">
         </app-options-editor>
     </mat-dialog-content>
     <mat-dialog-actions>
