@@ -59,7 +59,7 @@ export const formsReducer = createReducer(
     };
   }),
   on(recordAnswer, (state, { itemId, value }) => {
-    console.log(`recordAnswer: ${itemId}, ${value}`);
+    console.log('recordAnswer:', itemId, value);
     const answerSet = [...state.answerSet.filter(x => x.itemId !== itemId), { itemId: itemId ?? '', answer: value ?? '' }];
     return {
       ...state,

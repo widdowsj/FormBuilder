@@ -13,16 +13,14 @@ import { FormsFeature, getCurrentFormName, getPageList } from '../state/forms.se
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class FormDetailShellComponent implements OnInit {
-  formName$: Observable<string>;
-  pageList$: Observable<Page[]>;
   combined$: Observable<{ formName: string, pageList: Page[] } | undefined>;
 
   constructor(route: ActivatedRoute, store: Store<FormsFeature>) {
     const id = route.snapshot.params['id'];
     store.dispatch(setSelectedForm({ selectedFormId: id }));
-    this.formName$ = store.select(getCurrentFormName);
-    this.pageList$ = store.select(getPageList);
-    this.combined$ = combineLatest([this.formName$, this.pageList$])
+    const formName$ = store.select(getCurrentFormName);
+    const pageList$ = store.select(getPageList);
+    this.combined$ = combineLatest([formName$, pageList$])
       .pipe(map(([formName, pageList]) => {
         if (formName && pageList) {
           return { formName, pageList };

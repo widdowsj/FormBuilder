@@ -1,1 +1,5 @@
-<app-form-detail *ngIf="combined$ | async as combined" [formName]="combined.formName" [pageList]="combined.pageList">
+<app-form-detail *ngIf="combined$ | async as combined; else notLoaded" [formName]="combined.formName"
+    [pageList]="combined.pageList"></app-form-detail>
+<ng-template #notLoaded>
+    <mat-spinner></mat-spinner>
+</ng-template>
