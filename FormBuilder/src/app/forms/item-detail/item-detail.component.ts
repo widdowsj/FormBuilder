@@ -23,7 +23,7 @@ export class ItemDetailComponent implements OnInit, OnDestroy {
   changeSubscription: Subscription;
 
   constructor() {
-    this.changeSubscription = this.control.valueChanges.subscribe(x => this.onChange(x));
+    this.changeSubscription = this.control.valueChanges.subscribe((x: any) => this.onChange(x));
   }
 
   ngOnInit(): void {
@@ -51,11 +51,11 @@ export class ItemDetailComponent implements OnInit, OnDestroy {
     if (this.item === undefined) {
       return;
     }
-    let serialisedValue = JSON.stringify(value);
+    let serialisedValue = value;
     if (this.item.questionType === ItemType.date) {
-      serialisedValue = JSON.stringify(value.toISOString());
+      serialisedValue = value.toISOString();
     } else if (this.item.questionType === ItemType.time) {
-      serialisedValue = JSON.stringify(value.format('HH:mm'));
+      serialisedValue = value.format('HH:mm');
     }
     this.valueChangeEvent.emit(serialisedValue);
   }

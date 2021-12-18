@@ -74,11 +74,10 @@ function getItemDisplayState(itemList: FormItem[], answerSet: Answer[]): ItemDis
     let isDisplayed = true;
     if (x.relatedFormItemId !== undefined) {
       const answer = x.relatedFormItemId === null ? undefined : answerSet.find(a => a.itemId === x.relatedFormItemId)?.answer;
-      const obj = JSON.parse(answer ?? '{}');
-      if (Array.isArray(obj)) {
-        isDisplayed = obj.some(a => a === x.relatedConditionalValue);
+      if (Array.isArray(answer)) {
+        isDisplayed = answer.some(a => a === x.relatedConditionalValue);
       } else {
-        isDisplayed = x.relatedConditionalValue === obj.toString();
+        isDisplayed = x.relatedConditionalValue === answer?.toString();
       }
     }
     return {
