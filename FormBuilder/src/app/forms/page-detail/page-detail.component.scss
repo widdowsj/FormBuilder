@@ -1,0 +1,28 @@
+.edit-mode {
+    position: relative;
+    &:hover {
+        opacity: 1;
+        .edit-controls {
+            visibility: inherit;
+        }
+    }
+}
+
+.edit-controls {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: -2rem;
+    visibility: hidden;
+    z-index: 100;
+    button {
+        margin-right: 0.25rem;
+    }
+    .line {
+        border: blue solid 1px;
+        width: 93%;
+        position: absolute;
+        right: 0px;
+        top: 1.1rem;
+    }
+}

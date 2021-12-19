@@ -1,10 +1,13 @@
 <div class="pt-3">
 </div>
-<div *ngFor="let item of pageItems, index as i">
-    <div *ngIf="editMode">
-        <button color="primary" mat-mini-fab type="button" (click)="addItemClicked(i)">
-            <mat-icon>add_circle_outline</mat-icon>
-        </button>
+<div *ngFor="let item of pageItems, index as i" [class.edit-mode]="editMode">
+    <div *ngIf="editMode" class="edit-controls">
+        <div style="position: relative;">
+            <button color="primary" mat-mini-fab type="button" (click)="addItemClicked(i)">
+                <mat-icon>add_circle_outline</mat-icon>
+            </button>
+            <span class="line"></span>
+        </div>
     </div>
     <app-item-detail-shell [itemId]="item"></app-item-detail-shell>
 </div>
